@@ -25,7 +25,7 @@ $(PDF_DIR)/%.pdf : $(TUNES_DIR)/%.ly
 	lilypond -s -o ./pdf $^
 
 $(BOOK_FILEPATH): $(OUTPUTS_SETS) $(OUTPUTS_TUNES)
-	rm $(BOOK_FILEPATH)
+	rm -f $(BOOK_FILEPATH)
 	pdfunite $(PDF_DIR)/*.pdf $(BOOK_FILEPATH)
 
 clean:
