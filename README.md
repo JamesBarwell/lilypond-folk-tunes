@@ -25,5 +25,9 @@ See the examples directory for the following:
 ## Todo
 
 - use tags to output bespoke books
-- output formats (smaller page size, etc)
--- can change paper size on CLI, but it is just paper and not note/font/spacing size. Is it possible with an env var?
+-- files can be tagged using "keywords" in the header
+-- create book files that contain any info, then a token which names the tags to pull in
+-- create a script to substitute those tokens for: \include <file> \pageBreak, using a list of grepped files
+-- add to makefile to auto-generate these
+-- could it create a contents too?
+- compile on CI
