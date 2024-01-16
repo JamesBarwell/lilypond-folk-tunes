@@ -19,10 +19,10 @@ tunes: $(OUTPUTS_TUNES)
 book: $(BOOK_FILEPATH)
 
 $(PDF_DIR)/%.pdf : $(SETS_DIR)/%.ly
-	lilypond -s -o ./pdf $^
+	lilypond --loglevel=WARNING -o ./pdf $^
 
 $(PDF_DIR)/%.pdf : $(TUNES_DIR)/%.ly
-	lilypond -s -o ./pdf $^
+	lilypond --loglevel=WARNING -o ./pdf $^
 
 $(BOOK_FILEPATH): $(OUTPUTS_SETS) $(OUTPUTS_TUNES)
 	rm -f $(BOOK_FILEPATH)
