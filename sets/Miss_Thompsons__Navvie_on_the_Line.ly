@@ -48,7 +48,7 @@
 
 \score {
   \header {
-  	book = "Köhler's Violin Repository, Book One (1881, p. 48)"
+  	arranger = "Köhler's Violin Repository, Book One (1881, p. 48)"
   	composer = "James Hill"
   	meter = "Hornpipe"
   	tagline = "Lily was here 2.22.1 -- automatically converted from ABC"

@@ -9,12 +9,12 @@
 
 \score {
   \header {
-  	arranger = "AK/Fiddler’s Companion"
-  	book = "Stewart-Robertson – The Athole Collection  (1884)"
+  	arranger = "Stewart-Robertson – The Athole Collection  (1884)"
     keywords = "cape breton,scottish"
-  	subtitle = "Reel"
+  	meter = "Reel"
   	tagline = "Lily was here 2.22.1 -- automatically converted from ABC"
   	title = "St. Kilda Wedding, The"
+  	transcription = "AK/Fiddler’s Companion"
   }
 
   \absolute {
@@ -38,6 +38,7 @@
 
 \score {
   \header {
+    meter = "Barn Dance"
 	title = "Johnny Will You Marry Me?"
   }
 
@@ -102,6 +103,14 @@ b'4    d''4    \bar "|"     fs''4 ^"A7"   e''4    fs''8    a''4.
 ST. KILDA WEDDING, THE (A' bhanais Irteach). Scottish (originally), Canadian; Strathspey, March, Reel and Air. Canada; Cape Breton, Prince Edward Island. A Major (most versions): G Major (Johnson). Standard tuning (fiddle). AB (Perlman): AA'B (Kerr): AABB (Athole, Hunter, Martin, Skye): AA'BB' (Johnson). The song, says Fraser, humorously told of the marriage ritual on St. Kilda before a permanent church was established there. According to the notes on Ossian's album, the last wedding that took place in St. Kilda was in 1926, for the remote island was evacuated in 1930. Fraser sneers that the tune is "murdered" in Macdonald's collection, while his father's set corresponds "with that of Miss Macleod of St. Kilda, now in Edinburgh." Christine Martin (2002) says the strathspey “St. Kilda Wedding” is often played as a reel, but it has also been played as a march and as a song tune.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/St._Kilda_Wedding_(The) }
+
+\markup \vspace #1
+
+\markup \bold { Johnny, Won't You Marry Me? }
+\markup \smaller \wordwrap {
+JOHNNY WILL/WON'T YOU MARRY ME? AKA - "Love Won't You Marry Me?" AKA and see "Braes of Arranmore," "Braes of Mar (1) (The)," "Down the Meadows (2)," "Lasses of Donnybrook," "Some Say the Devil's Dead." Scottish, Strathspey; Irish, Barn Dance (4/4 time). G Major. Standard tuning (fiddle). AB. Ireland, western Ireland. Used for the dances the Highland Fling and the Shottische. Robin Morton (1976) says that in Ireland the tune has been "straightened out," losing its dotted note accents "as is often the case with strathspeys. It is particularly popular in the West of Ireland for a dance called 'the Fling.'"
+}
+\markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Annotation:Johnny_Will_You_Marry_Me%3F }
 
 \markup \vspace #1
 
