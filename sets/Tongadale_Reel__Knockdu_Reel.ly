@@ -16,28 +16,32 @@
   	title = "Tongadale Reel, The"
   }
 
-  % TODO fix b-part to match how I play. also small bit at the end of A part
-
   \absolute {
     \time 4/4
     \key a \minor
-    a'8    b'8    \repeat volta 2 {     c''8    b'8
-    c''8    b'8    a'8    e'8    a'8    b'8    \bar "|"   c''8    b'8    c''8
-    b'8    a'8    f'8    a'8    c''8    \bar "|"   b'8    g'8    d'8    g'8    e'8
-      d'8    e'8    g'8    \bar "|"   d'8    e'8    g'8    b'8   ~    b'4    a'8
-    b'8    \bar "|"     c''8    b'8    c''8    b'8    a'8    e'8    a'8    b'8
-    \bar "|"   c''8    b'8    c''8    b'8    a'8    f'8    a'8    c''8    \bar "|"
-     b'8    g'8    d'8    g'8    e'8    d'8    e'8    g'8    } \alternative{{   e'8
-       d'8    c'8    b8    a4    a'8    b'8    } {   e'8    d'8    c'8    b8    a4
-      a8    b8    \bar "||"     \repeat volta 2 {     c'8    a8    e'8    a8    f'8
-       a8    e'8    a8    \bar "|"   g'8    a8    e'8    a8    f'8    a8    d'8
-    c'8    \bar "|"   b8    g8    d'8    g8    e'8    g8    d'8    g8    \bar "|"
-    f'4    e'8    d'8    d'8    c'8    a8    b8    \bar "|"     c'8    a8    e'8
-    a8    f'8    a8    e'8    a8    \bar "|"   g'8    a8    e'8    a8    f'8    a8
-      d'8    c'8    \bar "|"   b8    g8    d'8    g8    e'8    g8    c'8    b8
-    } \alternative{{   c'8    a8    a8    g8    a4.    b8    } {   c'8    a8    a8
-      g8    a4    a'8    b'8    \bar "|."   }}
+
+    \repeat volta 2 {
+      \partial 4 { a'8    b'8  } |
+      c''8  b'8    c''8    b'8    a'8    e'8    a'8    b'8  |
+      c''8    b'8    c''8    b'8    a'8    f'8    a'8    c''8  |
+      b'8    g'8    d'8    g'8    e'8    d'8    e'8    g'8  |
+      d'8    e'8    g'8    a'8    b'8    a'8    g'8    b'8  |
+      c''8   b'8    c''8    b'8    a'8    e'8   a'8    b'8  |
+      c''8   b'8    c''8    b'8    a'8    f'8    a'8   c''8 |
+      b'8   g'8    d'8    g'8    e'8    d'8    e'8    g'8  |
+      \partial 2. { d'8    c'8    b8    a8   g4 } |
     }
+
+    \repeat volta 2 {
+      \partial 4 { g8   b8 } |
+      c'8   a8    e'8    a8    f'8    a8    e'8    a8  |
+      g'8    a8    e'8    a8    f'8    e'8    d'8    c'8  |
+      b8   g8   d'8    g8    e'8    g8    d'8    g8  |
+      f'8    g8    e'8    g8    d'8  c'8    g8    b8  |
+      c'8    a8    e'8    a8    f'8    a8    e'8    a8  |
+      g'8    a8    e'8    a8    f'8    e'8    d'8    c'8  |
+      b8   g8    d'8    g8    e'8    g8    d'8    g8  |
+      \partial 2. { c'8   a8    a8    g8    a4 } |
     }
   }
 }

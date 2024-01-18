@@ -39,7 +39,7 @@
         d''8    d''8
       \override NoteHead.color = #black
       ds''8    d''4  |
-      d''8    (d''8    d''8 -)    d''8    d''8    ds''8    d''4  |
+      d''8    ^"D" (d''8    d''8 -)    d''8    d''8 ^"D\#m"    ds''8    d''4  |
       \partial 2. g'2. |
     }
     \alternative {

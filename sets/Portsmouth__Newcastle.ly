@@ -16,11 +16,11 @@
     \time 2/2
     \key g \major
 
-    \partial 4 d'4
 
     % A section
     \repeat volta 2
     {
+      \partial 4 d'4
       g'4.    a'8    b'8 (   a'8  -)   g'8 (   fs'8  -) |
       e'2    e''2  |
       d''4    b'4    c''8 (   b'8 -)   a'8    g'8  |
@@ -59,10 +59,9 @@
     \key g \major
 
     % A section
-    \partial 4 d'4 |
-
     \repeat volta 2
     {
+      \partial 4 d'4 |
       b'4    d''4    g'4    a'4  |
       g'4.    a'8    g'4    d'4  |
       b'4    d''4    g'4    d''4 |

@@ -106,7 +106,7 @@ ST. KILDA WEDDING, THE (A' bhanais Irteach). Scottish (originally), Canadian; St
 
 \markup \vspace #1
 
-\markup \bold { Johnny, Won't You Marry Me? }
+\markup \bold { Johnny, Will You Marry Me? }
 \markup \smaller \wordwrap {
 JOHNNY WILL/WON'T YOU MARRY ME? AKA - "Love Won't You Marry Me?" AKA and see "Braes of Arranmore," "Braes of Mar (1) (The)," "Down the Meadows (2)," "Lasses of Donnybrook," "Some Say the Devil's Dead." Scottish, Strathspey; Irish, Barn Dance (4/4 time). G Major. Standard tuning (fiddle). AB. Ireland, western Ireland. Used for the dances the Highland Fling and the Shottische. Robin Morton (1976) says that in Ireland the tune has been "straightened out," losing its dotted note accents "as is often the case with strathspeys. It is particularly popular in the West of Ireland for a dance called 'the Fling.'"
 }

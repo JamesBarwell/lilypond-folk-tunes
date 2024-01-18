@@ -18,9 +18,8 @@
     \time 2/2
     \key d \major
 
-    \partial 4 \tuplet 3/2 {   a'8    b'8    cs''8  } |
-
     \repeat volta 2 {
+      \partial 4 \tuplet 3/2 {   a'8    b'8    cs''8  } |
       d''4    d''8    fs''8    e''8    d''8    cs''8    b'8  |
       a'4    a'8  b'8    a'8    g'8    fs'8    e'8  |
       d'8    fs'8    a'8    d'8    d'8    g'8    b'8    g'8  |
@@ -31,9 +30,8 @@
       \partial 2. { d''4    d''4    d''4 } |
     }
 
-    \partial 4 { cs''8    d''8 } |
-
     \repeat volta 2 {
+      \partial 4 { cs''8    d''8 } |
       e''8    cs''8    e''8    cs''8    a'8    cs''8    e''8    cs''8 |
       fs''8    d''8    fs''8    d''8    a'8    d''8    fs''8    d''8 |
       g''8    e''8    g''8    e''8    fs''8    d''8    fs''8    d''8 |
