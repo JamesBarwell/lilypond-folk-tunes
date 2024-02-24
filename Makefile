@@ -30,3 +30,6 @@ $(BOOK_FILEPATH): $(OUTPUTS_SETS) $(OUTPUTS_TUNES)
 
 clean:
 	rm -f $(PDF_DIR)/*
+
+cibook:
+	./bin/book.sh
