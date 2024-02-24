@@ -1,0 +1,20 @@
+name: build
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: jeandeaual/lilypond:latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build tunebook PDF
+        run: ./bin/book.sh
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jb-tunebook-${{ steps.date.outputs.date }}
+          path: ./pdf/book.pdf
