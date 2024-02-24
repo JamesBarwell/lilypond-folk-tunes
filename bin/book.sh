@@ -24,6 +24,3 @@ cat <<EOT >> ${TEMP_PATH}
 }
 EOT
 done
-
-lilypond --loglevel=WARNING -o ./pdf/ ${TEMP_PATH}
-rm -f ${TEMP_PATH}

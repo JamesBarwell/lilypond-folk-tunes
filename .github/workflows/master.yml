@@ -1,20 +1,21 @@
-name: build
+name: master
 
 on:
   push:
-    branches:
-      - master
+    tags:
+    - '*'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: jeandeaual/lilypond:latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
-      - name: Build tunebook PDF
+      - name: Build tunebook lilypond definition
         run: ./bin/book.sh
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Build tunebook PDF
+        run: docker run --rm -v $(pwd):/app -w /app iskaron/lilypond lilypond ./book.ly
+      - uses: ncipollo/release-action@v1
         with:
-          name: jb-tunebook-${{ steps.date.outputs.date }}
-          path: ./pdf/book.pdf
+          artifacts: "./book.pdf"
