@@ -108,7 +108,7 @@
 
 \markup \bold { Ronas Voe }
 \markup \smaller \wordwrap {
-RONAS VOE. Shetland, Waltz. G Major. Standard tuning (fiddle). One part. Composed in the 1950's by Lerwick, Shetland, accordion and piano player Ronnie Cooper (1934-1982), who composed some 46 tunes in the Scottish idom. "Ronas Voe" was recorded with the group "Hamefarers," which included Scottish fiddler Willie Hunter. Ronas Voe is a fijord-like inlet within Shetland Islands and is nearby to Ketligill Head, The Cleiver and Ronas Hill. It is one of the longest voes in the islands.
+Shetland, Waltz. G Major. Standard tuning (fiddle). One part. Composed in the 1950's by Lerwick, Shetland, accordion and piano player Ronnie Cooper (1934-1982), who composed some 46 tunes in the Scottish idom. "Ronas Voe" was recorded with the group "Hamefarers," which included Scottish fiddler Willie Hunter. Ronas Voe is a fijord-like inlet within Shetland Islands and is nearby to Ketligill Head, The Cleiver and Ronas Hill. It is one of the longest voes in the islands.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Ronas_Voe }
 
@@ -116,6 +116,6 @@ RONAS VOE. Shetland, Waltz. G Major. Standard tuning (fiddle). One part. Compose
 
 \markup \bold { Sunset Over Foula }
 \markup \smaller \wordwrap {
-SUNSET OVER FOULA. Shetland, Waltz (3/4 time). D Major. Standard tuning (fiddle). One part. Composed in the 1950's by Shetland accordion and piano player Ronnie Cooper, and recorded by him with the band "The Hamefarers" (which also included Scottish fiddle player Willie Hunter and accordion player Jim Halcrow).
+Shetland, Waltz (3/4 time). D Major. Standard tuning (fiddle). One part. Composed in the 1950's by Shetland accordion and piano player Ronnie Cooper, and recorded by him with the band "The Hamefarers" (which also included Scottish fiddle player Willie Hunter and accordion player Jim Halcrow).
 }
 \markup \smaller \wordwrap { Source: http://trillian.mit.edu/~jc/music/abc/mirror/MosheBraner/SunsetOverFoula.abc }
