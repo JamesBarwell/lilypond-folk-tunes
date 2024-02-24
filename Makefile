@@ -24,12 +24,10 @@ $(PDF_DIR)/%.pdf : $(SETS_DIR)/%.ly
 $(PDF_DIR)/%.pdf : $(TUNES_DIR)/%.ly
 	lilypond --loglevel=WARNING -o ./pdf $^
 
-$(BOOK_FILEPATH): $(OUTPUTS_SETS) $(OUTPUTS_TUNES)
-	rm -f $(BOOK_FILEPATH)
-	pdfunite $(PDF_DIR)/*.pdf $(BOOK_FILEPATH)
+$(BOOK_FILEPATH):
+	./bin/book.sh
+	lilypond --loglevel=WARNING -o ./pdf ./book.ly
+	rm -f ./book.ly
 
 clean:
 	rm -f $(PDF_DIR)/*
-
-cibook:
-	./bin/book.sh
