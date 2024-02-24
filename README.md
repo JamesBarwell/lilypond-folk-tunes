@@ -1,7 +1,7 @@
 lilypond-tunes
 ---
 
-Traditional folk music in Lilypond format.
+My collection of traditional folk music, as I play it, in Lilypond format.
 
 Tune sets are in `sets`.
 Individual tunes are in `tunes`.
