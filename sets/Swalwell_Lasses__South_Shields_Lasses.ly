@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     composer = "Traditional"
@@ -23,25 +21,25 @@
     \key g \major
 
     \repeat volta 2 {
-      \partial 8 d8  |
+      \partial 4 \tuplet 3/2 { d8  e8  fs8 } |
       g4    g8    b8    a8    g8  a8    b8  |
-      g4    e'4    e8    d8    b8    d8  |
-      d8    c8    a8    c8    c8    b8    a8    g8  |
-      e8    a8    a8    g8    g8    fs8    e8    d8  |
+      g4    e'4    e8    d8    b8    c8  |
+      d8    c8    a8    b8    c8    b8    a8    g8  |
+      e8    a8    a8    fs8    g8    fs8    e8    d8  |
       g4    g8    b8    a8    g8    a8    b8  |
-      g4    e'4    e8    d8    b8    d8  |
-      d8    c8    a8    d8    c8    b8    a8    g8  |
+      g4    e'4    e8    d8    b8    c8  |
+      d8    c8    a8    b8    c8    b8    a8    g8  |
       \partial 2. e8    g8    fs8    a8    g4 |
     }
 
     \repeat volta 2 {
-      \partial 8 d8  |
+      \partial 4 \tuplet 3/2 { g8  fs8  e8 } |
       d8    g8  g8    a8    b4    a8    g8  |
-      e16    a8.    a8    b8    c8    b8    a8    g8  |
+      e16    a8.    a8    b8    c4   b8   a8  |
       b8    d8    e8    g8    b,8    d8    e8    g8  |
       b,8    d8    d8    b8    c8    b8    a8    g8  |
       d8    g8    g8    a8    b4 a8    g8  |
-      e8    a8    a8    b8    c8    b8    a8    g8  |
+      e16    a8.    a8    b8    c4   b8    a8  |
       b8    d8    e8    g8    b,8    d8    e8    g8  |
       \partial 2. e,8    g8    fs8    a8    g4 |
     }
@@ -59,32 +57,32 @@
     transcription = "Wosika"
   }
 
-  \relative c'' {
+  \relative c' {
     \time 4/4
     \key g \major
 
     \repeat volta 2 {
-      \partial 4 d4  |
-      g,8    fs8    g8    a8    g8    b8    d8    b8  |
+      \partial 4 \tuplet 3/2 { d8  e8  fs8 } |
+      g8    fs8    g8    a8    g8    b8    d8    b8  |
       c8    b8  c8    d8    e8    fs8    g8    e8  |
       d8    b8  g8    b8    d8    b8    g8    b8  |
       a8    b8    c8    a8      g8    fs8    e8    d8  |
       g8    fs8    g8    a8    g8    b8    d8    b8  |
       c8   b8    c8    d8    e8    fs8    g8    e8  |
       d8   b8    g8    b8      e8    c8    a8    fs8  |
-      \partial 2. g4    g4    g4 |
+      \partial 2. g8  fs8  g8  a8  g4 |
     }
 
     \repeat volta 2 {
       \partial 4  cs4  |
-      d8    cs8    d8    e8    d8    e8    fs8    d8  |
+      d8    cs8    d8    e8    d8    fs8    a8    fs8  |
       g8    fs8    g8    a8    b8    g8    d8    b8  |
       e8    fs8    g8    e8      fs8   g8    a8    fs8  |
       g8    fs8    e8    ds8    e8    ds8  e8  fs8  |
       g8    fs8    g8    fs8   g8    d8    b8    g8  |
       e'8    ds8    e8    e8   fs8    e8    c8    a8  |
-      g8    b8    d8    g8     e8    c8    a8    fs8  |
-      \partial 2.  g4    g4    g4 |
+      g8    b8    d8    b8     e8    c8    a8    fs8  |
+      \partial 2.  g8  fs8  g8  a8  g4 |
     }
   }
 }
@@ -106,5 +104,5 @@
 
 \markup \vspace #1
 
-\markup \wordwrap { This set from The High Level Ranter's - Four in a Bar, track 9 }
+\markup \smaller \wordwrap { This set from The High Level Ranter's - Four in a Bar, track 9. Both tunes amended to match their recording. }
 
