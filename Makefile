@@ -24,7 +24,7 @@ $(PDF_DIR)/%.pdf : $(SETS_DIR)/%.ly
 $(PDF_DIR)/%.pdf : $(TUNES_DIR)/%.ly
 	lilypond --loglevel=WARNING -o ./pdf $^
 
-$(BOOK_FILEPATH):
+$(BOOK_FILEPATH) : sets tunes
 	./bin/book.sh
 	lilypond --loglevel=WARNING -o ./pdf ./book.ly
 	rm -f ./book.ly
