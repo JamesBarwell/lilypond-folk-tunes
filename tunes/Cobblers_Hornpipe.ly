@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-
 \score {
   \header {
     arranger = "Playford, Dancing Master, 11th Ed., 1701"

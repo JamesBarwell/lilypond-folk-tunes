@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -19,7 +20,7 @@
   \relative c'' {
     \time 4/4
     \key e \dorian
-    
+
     \repeat volta 2 {
       \partial 4 g16    a8.  |
       b4    e,4    e4    a16      g8.  |
@@ -41,7 +42,7 @@
         fs8.    e16    d16    b8.    d8.    b16      a16    fs8.  |
         \partial 2. b4    e,4    e4   |
       }
-    }      
+    }
     fs'8.    a16    g8.    fs16    e8.    g16    fs8.    e16  |
     d8.    e16    d16    b8.    a4    \times 2/3 {   a8    d8    e8  }    |
     fs8.    e16    d16    b8.    d8.    b16    a16    fs8.   |
