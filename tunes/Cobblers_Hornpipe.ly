@@ -24,14 +24,14 @@
       f2    d4    e8    f8    g8    f8    e8    d8 |
       e4    c2    g'4    f4    e4 |
       f4.    g8    a4    g8    f8  d8    e8    f4 |
-      a,4    d2    f4    e4    d4
+      a,4    d2    f4    e4    d4  |
     }
 
     \repeat volta 2 {
       d'2    d8    e8    f4    e4    d4  |
       e4    c2    g'4    f4    e4  |
       f4.    g8    a4    g8  f8    e8    f8    e8    d8  |
-      a4    d2    f,4    e4  d4
+      a4    d2    f,4    e4  d4  |
     }
   }
 }
