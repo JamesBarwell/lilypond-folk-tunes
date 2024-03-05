@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     meter = "Hornpipe"
