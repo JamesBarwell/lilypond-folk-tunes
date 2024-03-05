@@ -15,6 +15,12 @@ Run `make` to create individual pdf files of the sets, tunes and all combined as
 Run `make clean` to delete all pdfs.
 
 
+## Conventions and opinions
+
+- Partial lead-in and lead-out bars are incorporated into repeats (voltas) where possible to avoid using alternative 1 and 2 repeat bars
+- Hornpipes are written 'straight' (un-dotted), because dotted notation is not only an incorrect duration but extremely visually distracting
+
+
 ## Development approach
 
 Lilypond uses a text format so I use my standard text editor to make changes.
@@ -35,3 +41,4 @@ See the `examples` directory for handy Lilypond code snippets.
 - Better use of analysis brackets to add contextual information, e.g. repeated transposed segments
 - Automatic colouring to aid readability, e.g. intervals, scotch-snaps
 - How to best add variations
+- Show additional key signature details such as mode
