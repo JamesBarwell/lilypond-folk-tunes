@@ -18,7 +18,7 @@
   \relative c' {
     \time 3/2
     \tempo  2=100
-    \key g \dorian
+    \key d \minor
 
     \repeat volta 2 {
       f2    d4    e8    f8    g8    f8    e8    d8 |
