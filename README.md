@@ -18,6 +18,7 @@ Run `make clean` to delete all pdfs.
 ## Conventions and opinions
 
 - Partial lead-in and lead-out bars are incorporated into repeats (voltas) where possible to avoid using alternative 1 and 2 repeat bars
+- Ornamentation is sparse unless integral to the tune
 - Hornpipes are written 'straight' (un-dotted), because dotted notation is not only an incorrect duration but extremely visually distracting
 
 
