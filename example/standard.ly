@@ -1,6 +1,9 @@
 \version "2.20.0"
 \language "english"
 
+% Force first repeat bar - available in newer versions of Lilypond
+\set Score.printInitialRepeatBar = ##t
+
 \paper {
   print-all-headers = ##t
 }
@@ -33,6 +36,7 @@
 
     \repeat volta 2 {
       d''8    d''8    d''8    d''8    d''8    ds''8    d''4  |
+      % Analysis brackets, see: http://lilypond.org/doc/v2.25/Documentation/notation/analysis-brackets
       d''8    d''8    d''8\startGroup   d''8    d''8\stopGroup    ds''8    d''4  |
       d''8    d''8    d''8
       \override NoteHead.color = #red
