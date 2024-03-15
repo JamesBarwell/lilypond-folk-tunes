@@ -5,48 +5,37 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
-    arranger = "Natalie MacMaster"
+    arranger = "Natalie MacMaster / Mari Black"
     composer = "Traditional"
     meter = "Air"
     title = "Te Daunton Me"
-    transcription = "Jürgen Gier"
+    transcription = "James Barwell"
     keywords = "scottish"
   }
 
   \relative c'' {
     \time 4/4
-    \key e \dorian
+    \key e \minor
 
     \repeat volta 2 {
-      \partial 4 g16    a8.  |
-      b4    e,4    e4    a16      g8.  |
-      fs8.    g16    e16    fs8.    d4    d'16    e8.      |
-      fs8.    e16    d16    b8.    d8.    b16    a16    fs8.      |
-      \partial 2. b4    e,4    e4  |
+      \partial 4 g8.(\upbow a16) |
+      b4\downbow e,8.(\upbow fs16 )  e4\downbow a8. g16 |
+      fs8. g16 e16 fs8. d4 d'8. e16 |
+      fs8. e16 d16 b8. d8. b16 a16 fs8. |
+      \partial 2. b4 e,4 e4 |
     }
-
-    \repeat volta 2 {
-      \partial 4 fs16    e8.      |
-      d4    d'4    d4    b16    cs8.  |
-      d8.    e16      d16    b8.    a4.    d8  |
-      b4    e4    e4    e16      fs8.  |
-      g8.    fs16    e16    d8.    b4    d16    e8.      |
-    } \alternative{
-      {
-        fs8.    g16    fs8.    e16    d8.     e16    d16    b8.  |
-        a8.    b16    a8.    fs16    a4     d16    e8.  |
-        fs8.    e16    d16    b8.    d8.    b16      a16    fs8.  |
-        \partial 2. b4    e,4    e4   |
-      }
-    }
-    fs'8.    a16    g8.    fs16    e8.    g16    fs8.    e16  |
-    d8.    e16    d16    b8.    a4    \times 2/3 {   a8    d8    e8  }    |
-    fs8.    e16    d16    b8.    d8.    b16    a16    fs8.   |
-    \partial 2. b4    e,4    e4  |
+    
+    \partial 4 fs8. e16 |
+    d4 d'8. e16 d4. e8 |
+    fs8. e16 d16 b8. a4 d8. cs16 |
+    b4 e8. fs16 e4 e8. fs16 |
+    g8. fs16 e16 d8. b4 d8. e16 |
+    fs4 g8. fs16 e4 fs8. e16 |
+    d8. e16  d16 b8. a8. b16 d16 e8. |
+    fs8. e16 d16 b8. d8. b16 a16 fs8. |
+    \partial 2. b4 e,4 e4 |    
   }
 }
 
@@ -55,4 +44,4 @@
 
   Instrumental versions of the melody were similarly popular. The tune appears in James Oswald’s Curious Collection of Scots Tunes for Violin, Bass Viol or German Flute (1740), dedicated to the Duke of Perth, and later in his Caledonian Pocket Companion (book 1, 1743). It also appears in William McGibbon’s Second Collection of Scots Tunes (1746), and in Bremner’s 1762 reprint of McGibbon’s collection.
 }
-\markup \smaller \wordwrap { Source: https://tunearch.org/wiki/To_Danton_Me }
+\markup \smaller \wordwrap { Source: this version from Mari Black's handwritten notes, which she based on Natalie MacMaster's recording. See: https://www.youtube.com/watch?v=_-IzXGZrFGY }
