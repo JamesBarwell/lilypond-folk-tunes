@@ -22,7 +22,7 @@
       d4    d8.    e16    f8.    g16  |
       a4    a8.    cs16    d8.    e16  |
       f4    f8.    e16    d4   |
-      c8.    c16   d16    c8    a16  f8.    a16  |
+      c8.    d16    c8.    a16  f8.    a16 |
       bf4    bf8.    a16    g8.  bf16  |
       a4     a8.    g16    f8.    f16  |
       e4     e8.    d16    cs8.    e16  |
@@ -42,7 +42,7 @@
       a8.    g16    f8.  e16    f8.    a16  |
       g4     g8.    e16    c8.  e16  |
       f8.    e16    d8.    cs16    d8.    f16  |
-      e8.    e16  f16    e8    cs16    a4  |
+      e8.    f16    e8.    cs16    a4  |
       d8.  c16    bf8.    a16    bf8.    d16  |
       c4   c8.  a16    f8.    f16  |
       e8.    f16    e8.    d16    cs8.  e16  |
