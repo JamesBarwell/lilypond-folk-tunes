@@ -42,4 +42,3 @@ See the `examples` directory for handy Lilypond code snippets.
 - Better use of analysis brackets to add contextual information, e.g. repeated transposed segments
 - Automatic colouring to aid readability, e.g. intervals, scotch-snaps
 - How to best add variations
-- Show additional key signature details such as mode
