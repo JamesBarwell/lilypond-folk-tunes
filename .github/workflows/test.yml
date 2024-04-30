@@ -21,4 +21,4 @@ jobs:
           artifacts: "./book.pdf"
           artifactContentType: "application/pdf"
           commit: test
-          tag: "v${GITHUB_RUN_NUMBER}"
+          tag: "${{ github.run_number }}"
