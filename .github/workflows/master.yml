@@ -2,8 +2,8 @@ name: master
 
 on:
   push:
-    tags:
-    - '*'
+    branches:
+      - 'master'
 
 jobs:
   build:
@@ -20,3 +20,5 @@ jobs:
         with:
           artifacts: "./book.pdf"
           artifactContentType: "application/pdf"
+          commit: master
+          tag: "v${{ github.run_number }}"
