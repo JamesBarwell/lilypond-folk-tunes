@@ -51,7 +51,7 @@
 
     % D section
     \repeat volta 2 {
-      d'8 b8 b8 g8 fs8 fs8 |
+      d'8 b8 b8 g8 g8 e8 |
       cs'8 a8 a8 fs8 fs8 d8 |
       b'8 g8 g8 e8 fs8 d8 |
       e4 fs4 b,4 |
