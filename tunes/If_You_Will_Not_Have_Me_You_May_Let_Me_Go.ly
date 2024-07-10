@@ -8,7 +8,7 @@
 
 \score {
   \header {
-    arranger = "William Vickers MS, 1770"
+    arranger = "William Vickers MS, 1770 (modern version in Bm)"
     composer = "Traditional"
     keywords = "northumbrian"
     meter = "Old Hornpipe"
@@ -21,40 +21,40 @@
 
     % A section
     \repeat volta 2 {
-      fs8 b8 b8 d8 cs8 b8 |
-      a8 cs8 cs8 e8 d8 cs8 |
-      d8 fs8 fs8 e8 d8 cs8 |
-      e16[ d16 cs16 b16] a16[ b16 cs16 a16] b4 |
+      fs8^"Bm" b8 b8 d8 cs8 b8 |
+      a8^"A" cs8 cs8 e8 d8 cs8 |
+      d8^"Bm" fs8 fs8 e8 d8 cs8 |
+      e16^"A"[ d16 cs16 b16] a16[ b16 cs16 a16] b4^"Bm" |
     }
 
     \break
 
     % B section
     \repeat volta 2 {
-      fs'8 b,8 b8 g'8 fs8 b,8 |
-      b'16[ a16 g16 fs16] e16[ d16 cs16 b16] a4 |
-      g8 b8 a16[ b16 cs16 a16] e'16 d16 cs16 b16 |
-      fs8 b8 a16[ b16 cs16 a16] b4 |
+      fs'8^"Bm" b,8 b8 g'8 fs8 b,8 |
+      b'16[^"Bm" a16 g16 fs16] e16[ d16 cs16 b16] a4^"A" |
+      g8^"Em" b8 a16[^"A" b16 cs16 a16] e'16^"A#" d16 cs16 b16 |
+      fs8^"Bm" b8 a16[^"A" b16 cs16 a16] b4^"Bm" |
     }
 
     \break
 
     % C section
     \repeat volta 2 {
-      b,8 d8 d8 fs8 fs8 d8 |
-      e8 g8 g8 cs8 cs8 a8 |
-      b8 d8 d8 fs,8 fs8 d8 |
-      e4 fs4 b,4 |
+      b,8^"Bm" d8 d8 fs8 fs8 d8 |
+      e8^"Em6" g8 g8 cs8 cs8^"A" a8 |
+      b8^"Bm" d8 d8 fs,8 fs8^"D" d8 |
+      e4^"Em6/C#" fs4^"F#7" b,4^"Bm" |
     }
 
     \break
 
     % D section
     \repeat volta 2 {
-      d'8 b8 b8 g8 g8 e8 |
-      cs'8 a8 a8 fs8 fs8 d8 |
-      b'8 g8 g8 e8 fs8 d8 |
-      e4 fs4 b,4 |
+      d'8^"Bm" b8 b8^"G" g8 g8^"Em" e8 |
+      cs'8^"A" a8 a8^"D" fs8 fs8^"Bm" d8 |
+      b'8^"G" g8 g8^"Em" e8 fs8^"D" d8 |
+      e4^"Em6" fs4^"F#7" b,4^"Bm" |
     }
   }
 }
@@ -65,3 +65,4 @@
   The title, "If you will not have me, you may let me go," is a line from a song, originally Scots, but sung in London under the title "Wallackum Doodle Do."
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/If_You_Will_Not_Have_Me_You_May_Let_Me_Go }
+\markup \smaller \wordwrap { Chords: Hugh Barwell }
