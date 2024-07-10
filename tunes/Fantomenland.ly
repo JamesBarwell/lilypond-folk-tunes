@@ -47,6 +47,6 @@
 }
 
 \markup \smaller \wordwrap {
-  The name comes from 1930s American superhero The Phantom, which was popular in Scandinavia and known as Phantomen. Phantomenland probably refers to a Phantom-themed zone of a theme park/zoo, Parken Zoo in the town of Eskilstuna, Sweden. The composer Daniel Carlsson is Swedish and was a modern-day writer of the comic book. The tune seems to be an "Uneven polska (ojämn polska)", which is a dance tune with a down/heavy emphasis on the 1st and 3rd beats.
+  The name comes from 1930s American superhero The Phantom, which was popular in Scandinavia and known as Fantomen. Fantomenland probably refers to a Phantom-themed zone of a theme park/zoo, Parken Zoo in the town of Eskilstuna, Sweden. The composer Daniel Carlsson is Swedish and was a modern-day writer of the comic book. The tune seems to be an "Uneven polska (ojämn polska)", which is a dance tune with a down/heavy emphasis on the 1st and 3rd beats.
 }
 \markup \smaller \wordwrap { Source: originally learnt from Meg, who got this from a Danish workshop. }
