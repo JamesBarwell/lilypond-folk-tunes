@@ -46,6 +46,35 @@
   }
 }
 
+\score {
+  \relative c' {
+    \time 3/4
+    \key d \minor
+
+    \repeat volta 2 {
+      d4. a4. |
+      bf4. d4. |
+      c4. e4. |
+      f8. e16 d8. c16 d8. e16 |
+      f4. d4. |
+      g4. e4. |
+      e4. c4. |
+      f4 a4 g4 |
+    }
+
+    \repeat volta 2 {
+      d4. a4. |
+      bf4. d4. |
+      c4. e8 ( e8. ) c16 |
+      d4 r2 |
+      f4. d4. |
+      g4. f4. |
+      e4. c4. |
+      d4 r2 |
+    }
+  }
+}
+
 \markup \smaller \wordwrap {
   The name comes from 1930s American superhero The Phantom, which was popular in Scandinavia and known as Fantomen. Fantomenland probably refers to a Phantom-themed zone of a theme park/zoo, Parken Zoo in the town of Eskilstuna, Sweden. The composer Daniel Carlsson is Swedish and was a modern-day writer of the comic book. The tune seems to be an "Uneven polska (ojämn polska)", which is a dance tune with a down/heavy emphasis on the 1st and 3rd beats.
 }
