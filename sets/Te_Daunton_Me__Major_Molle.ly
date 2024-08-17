@@ -26,7 +26,7 @@
       fs8. e16 d16 b8. d8. b16 a16 fs8. |
       \partial 2. b4 e,4 e4 |
     }
-    
+
     \partial 4 fs8. e16 |
     d4 d'8. e16 d4. e8 |
     fs8. e16 d16 b8. a4 d8. cs16 |
@@ -35,7 +35,7 @@
     fs4 g8. fs16 e4 fs8. e16 |
     d8. e16  d16 b8. a8. b16 d16 e8. |
     fs8. e16 d16 b8. d8. b16 a16 fs8. |
-    \partial 2. b4 e,4 e4 |    
+    \partial 2. b4 e,4 e4 |
   }
 }
 

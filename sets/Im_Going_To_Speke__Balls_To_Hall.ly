@@ -77,16 +77,16 @@
       b8. e16 e8 e4 fs8 |
     }
     \alternative {
-     {
-       gs4. gs4 a8 |
-      b8 e,8 e8 a8 e8 e8 |
-      gs8 a8 gs8 fs8 e8 cs8 |
-     }
-     {
-      g'4. g4 g8 | 
-      a8 e8 fs8 d8 a8 b8 |
-      fs8 e8 fs8 d8 e8 fs8 |
-     }
+      {
+        gs4. gs4 a8 |
+        b8 e,8 e8 a8 e8 e8 |
+        gs8 a8 gs8 fs8 e8 cs8 |
+      }
+      {
+        g'4. g4 g8 |
+        a8 e8 fs8 d8 a8 b8 |
+        fs8 e8 fs8 d8 e8 fs8 |
+      }
     }
   }
 
