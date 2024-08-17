@@ -30,4 +30,4 @@ $(BOOK_FILEPATH) : sets tunes
 	rm -f ./book.ly
 
 clean:
-	rm -f $(PDF_DIR)/*
+	rm -f $(PDF_DIR)/* $(SETS_DIR)/*.pdf $(TUNES_DIR)/*.pdf
