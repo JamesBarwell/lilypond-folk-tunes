@@ -22,14 +22,14 @@
       f4 d4 d4 e8 f8 |
       g4 c,4 c4. c8 |
       d8 e8 f4 e4 d4 |
-      
+
     }
     \alternative {
       {
-        cs4 a4 a2 | 
+        cs4 a4 a2 |
       }
       {
-        \partial 2. cs4 a4 a4 | 
+        \partial 2. cs4 a4 a4 |
       }
     }
 
@@ -74,19 +74,19 @@
       e'4 e4 e4 d8 c8 |
       b8 a8 b8 c8 a2 |
     }
-    
+
     \repeat volta 2 {
-       d4 b8 c8 d4 b8 c8 |
-       d8 c8 b8 a8 b4 g4 |
-       d'4 b8 c8 d8 e8 d8 c8 |
-       b4 a4 g2 |
+      d4 b8 c8 d4 b8 c8 |
+      d8 c8 b8 a8 b4 g4 |
+      d'4 b8 c8 d8 e8 d8 c8 |
+      b4 a4 g2 |
     }
   }
 }
 
 \markup \bold { The Parson's Farewell }
 \markup \smaller \wordwrap {
-  English, Country Dance Tune (2/2 time). D Minor. Standard tuning (fiddle). ABB. The tune and country dance directions ("For four") were first published under this title by John Playford in the first edition of his The English Dancing Master [1] (1651), however, the melody clearly predates Playford’s volume. Sam Bayard (in his article “A Miscellany of Tune Notes”) found an earlier version of the melody in the Skene Manuscript (c. 1615, No. 14) under the title “Ostend.” Early versions also appear in Adriaen Valerius Nederlandtsche Gedenck-Clanck (1626, as “La Boree”), the Starter’s Friesche Lust-Hof (1621), and the Thysius Lute book (c. 1600); the first two works refer to the tune as a bourrée. It has been sourced to France, where, for example, it appears in a lute collection by Nicolas Vallet entitled Secret des Muses (1615), as “Bouree d’avignon.” The late 17th century Philidor Collection also contains the melody with the same title. As “La Bourée” it was included in Michael Praetorius’s (1571-1621) Terpsichore (1612, No. 32), and as “Stil, stile en reys” (Hush, hush a moment) in Jacob van Eyck’s Der Fluyten Lust-hof. The title in the van Eyck volume refers to a song by Jan Starter that was printed in his aforementioned Friesche Lust-Hof, although it had earlier been published in Boudewijn Hansen Wellens’ ‘t Vermaeck der Jeught (1616)--both volumes give “De nieuwe Laboré” (The New Bourrée) as the indicated melody for the song. 
+  English, Country Dance Tune (2/2 time). D Minor. Standard tuning (fiddle). ABB. The tune and country dance directions ("For four") were first published under this title by John Playford in the first edition of his The English Dancing Master [1] (1651), however, the melody clearly predates Playford’s volume. Sam Bayard (in his article “A Miscellany of Tune Notes”) found an earlier version of the melody in the Skene Manuscript (c. 1615, No. 14) under the title “Ostend.” Early versions also appear in Adriaen Valerius Nederlandtsche Gedenck-Clanck (1626, as “La Boree”), the Starter’s Friesche Lust-Hof (1621), and the Thysius Lute book (c. 1600); the first two works refer to the tune as a bourrée. It has been sourced to France, where, for example, it appears in a lute collection by Nicolas Vallet entitled Secret des Muses (1615), as “Bouree d’avignon.” The late 17th century Philidor Collection also contains the melody with the same title. As “La Bourée” it was included in Michael Praetorius’s (1571-1621) Terpsichore (1612, No. 32), and as “Stil, stile en reys” (Hush, hush a moment) in Jacob van Eyck’s Der Fluyten Lust-hof. The title in the van Eyck volume refers to a song by Jan Starter that was printed in his aforementioned Friesche Lust-Hof, although it had earlier been published in Boudewijn Hansen Wellens’ ‘t Vermaeck der Jeught (1616)--both volumes give “De nieuwe Laboré” (The New Bourrée) as the indicated melody for the song.
 }
 \markup \smaller \wordwrap {
   Source: http://playforddances.com/dances/parsons-farewell/

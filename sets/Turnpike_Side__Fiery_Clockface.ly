@@ -87,7 +87,7 @@
 
 \markup \bold { The Turnpike Side}
 \markup \smaller \wordwrap {
-   English, Jig (6/8 time). England, Northumberland. D Major. Standard tuning (fiddle). AABB. "Turnpike Side" is sourced to the c. 1812 music manuscript collection of John Bell, entitled "Collection of local tunes as played in Northumberland." Someone has scribbled "Petticoat Loose" and "Not Northumbrian" on the page, however, the tune is not any of the "Petticoat Loose" tunes in this index, and its source, if "not Northumbrian," is unknown.
+  English, Jig (6/8 time). England, Northumberland. D Major. Standard tuning (fiddle). AABB. "Turnpike Side" is sourced to the c. 1812 music manuscript collection of John Bell, entitled "Collection of local tunes as played in Northumberland." Someone has scribbled "Petticoat Loose" and "Not Northumbrian" on the page, however, the tune is not any of the "Petticoat Loose" tunes in this index, and its source, if "not Northumbrian," is unknown.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Turnpike_Side
