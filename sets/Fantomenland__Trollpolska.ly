@@ -5,6 +5,8 @@
   print-all-headers = ##t
 }
 
+
+
 \score {
   \header {
     composer = "Daniel Carlsson"
@@ -14,39 +16,72 @@
     transcription = "Hugh Barwell"
   }
 
-  \relative c'' {
-    \time 3/4
-    \key d \minor
+  <<
+    \relative c'' {
+      \time 3/4
+      \key d \minor
 
-    \repeat volta 2 {
-      a8. d16 a8. g16 f8. e16 |
-      d4 d8. c16 d8. f16 |
-      e4 e8. c16 e8. g16 |
-      f8. g16 a8. bf16 a8. g16 |
-      a8. d16 a8. g16 f8. e16 |
-      d4 d8. c16 d8. f16 |
-      e4 e8. d16 c4 |
-      d4 r2 |
+      \repeat volta 2 {
+        a8. d16 a8. g16 f8. e16 |
+        d4 d8. c16 d8. f16 |
+        e4 e8. c16 e8. g16 |
+        f8. g16 a8. bf16 a8. g16 |
+        a8. d16 a8. g16 f8. e16 |
+        d4 d8. c16 d8. f16 |
+        e4 e8. d16 c4 |
+        d4 r2 |
+      }
+
+      \repeat volta 2 {
+        e4 e8. c16 e8. g16 |
+        f4 f8. d16 f8. a16 |
+        g4 g8. e16 g8. bf16 |
+        a8. d16 a8. g16 f8. d16 |
+        e4 e8. c16 e8. g16 |
+        f4 f8. d16 f8. a16 |
+        g8. a16 bf4 d4 |
+        cs8. d16 e4 a,4 |
+        f'8. e16 d4 a4 |
+        c8. bf16 a4 g4 |
+        f8. e16 d4 f4 |
+        \tuplet 3/2 { e8 d8 c8 } d4 r4 |
+      }
     }
 
-    \repeat volta 2 {
-      e4 e8. c16 e8. g16 |
-      f4 f8. d16 f8. a16 |
-      g4 g8. e16 g8. bf16 |
-      a8. d16 a8. g16 f8. d16 |
-      e4 e8. c16 e8. g16 |
-      f4 f8. d16 f8. a16 |
-      g8. a16 bf4 d4 |
-      cs8. d16 e4 a,4 |
-      f'8. e16 d4 a4 |
-      c8. bf16 a4 g4 |
-      f8. e16 d4 f4 |
-      \tuplet 3/2 { e8 d8 c8 } d4 r4 |
+    \chords {
+      % A section
+      d2.:m |
+      d2.:m |
+      c2. |
+      d2.:m |
+      d2.:m |
+      d2.:m |
+      c2. |
+      d2.:m |
+
+      % B section
+      c2. |
+      d2.:m |
+      c2./e |
+      d2.:m/f |
+      c2. |
+      d2.:m |
+      g2.:m6/e |
+      a2. |
+      d2.:m |
+      g2.:m |
+      d2.:m/a |
+      c4 d2:m |
     }
-  }
+  >>
 }
 
+
 \score {
+  \header {
+    piece = Interlude
+  }
+
   \relative c' {
     \time 3/4
     \key d \minor
@@ -73,6 +108,7 @@
       d4 r2 |
     }
   }
+
 }
 
 \score {
@@ -83,35 +119,63 @@
     title = "Trollpolska"
   }
 
-  \relative c' {
-    \time 3/4
-    \key d \minor
+  <<
+    \relative c' {
+      \time 3/4
+      \key d \minor
 
 
-    \repeat volta 2 {
-      \partial 8 a8  |
-      d4    d8.    e16    f8.    g16  |
-      a4    a8.    cs16    d8.    e16  |
-      f4    f8.    e16    d4   |
-      c8.    d16    c8.    a16  f8.    a16 |
-      bf4    bf8.    a16    g8.  bf16  |
-      a4     a8.    g16    f8.    f16  |
-      e4     e8.    d16    cs8.    e16  |
-      \partial 4. d8   d4  |
+      \repeat volta 2 {
+        \partial 8 a8  |
+        d4    d8.    e16    f8.    g16  |
+        a4    a8.    cs16    d8.    e16  |
+        f4    f8.    e16    d4   |
+        c8.    d16    c8.    a16  f8.    a16 |
+        bf4    bf8.    a16    g8.  bf16  |
+        a4     a8.    g16    f8.    f16  |
+        e4     e8.    d16    cs8.    e16  |
+        \partial 4. d8   d4  |
+      }
+
+      \repeat volta 2 {
+        \partial 8 f'8 |
+        a8.    g16    f8.  e16    f8.    a16  |
+        g4     g8.    e16    c8.  e16  |
+        f8.    e16    d8.    cs16    d8.    f16  |
+        e8.    f16    e8.    cs16    a4  |
+        d8.  c16    bf8.    a16    bf8.    d16  |
+        c4   c8.  a16    f8.    f16  |
+        e8.    f16    e8.    d16    cs8.  e16  |
+        \partial 4. d8   d4  |
+      }
     }
 
-    \repeat volta 2 {
-      \partial 8 f'8 |
-      a8.    g16    f8.  e16    f8.    a16  |
-      g4     g8.    e16    c8.  e16  |
-      f8.    e16    d8.    cs16    d8.    f16  |
-      e8.    f16    e8.    cs16    a4  |
-      d8.  c16    bf8.    a16    bf8.    d16  |
-      c4   c8.  a16    f8.    f16  |
-      e8.    f16    e8.    d16    cs8.  e16  |
-      \partial 4. d8   d4  |
+    \chords {
+      \set noChordSymbol = ""
+
+      % A section
+      r8 |
+      d2.:m |
+      a2.:7 |
+      d2:m bf4 |
+      f2. |
+      g2:m c4:7 |
+      f2 d4:m |
+      a2.:7 |
+      d4.:m |
+
+      % B section
+      r8 |
+      f2. |
+      c2.:7 |
+      d2.:m |
+      a2.:7 |
+      bf2. |
+      f2. |
+      a2.:7 |
+      d4.:m |
     }
-  }
+  >>
 }
 
 
