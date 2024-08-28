@@ -34,7 +34,7 @@
     }
 
     \repeat volta 2 {
-      \partial 8 a'8
+      \partial 4 a'4
       f2 f4 a4 |
       f2 f4 a4 |
       f8 g8 a4 f8 g8 a4 |
