@@ -42,3 +42,7 @@ See the `examples` directory for handy Lilypond code snippets.
 - Better use of analysis brackets to add contextual information, e.g. repeated transposed segments
 - Automatic colouring to aid readability, e.g. intervals, scotch-snaps
 - How to best add variations
+  * tried using tags, but breaks sets because doesn't seem possible to specify exports
+  * try putting all variations at end, and find a way to link to the variation point, either text or something proper (bar number?). Still need to filter out though.
+  * tried ossias. They work, but default to below. You'd have to name the main staff to then put them above. Also probably can't filter out of sets.
+- Improve the book generation script
