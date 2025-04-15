@@ -102,6 +102,9 @@
   }
 }
 
+\markup \smaller \wordwrap { This set as played by Kristen Harvey, https://www.youtube.com/watch?v=XA_WWN39Wg4 }
+
+\markup \vspace #1
 
 \markup \bold { Flett From Flotta}
 \markup \smaller \wordwrap {
