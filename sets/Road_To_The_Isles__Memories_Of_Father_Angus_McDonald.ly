@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 
 \score {
   \header {
@@ -35,21 +33,14 @@
     }
 
     \partial 4 b8. c16 |
-
-    \repeat volta 2 {
-      e16 e,8. e8. e16 e'16 e,8. e8. e16 |
-      g8. a16 g8. fs16 e4 g8. fs16 |
-    }
-    \alternative {
-      {
-        e16 c8. e8. fs16 g8. a16 b16 d8. |
-        a2( a4) b8. c16 |
-      }
-      {
-        b16 d8. b8. g16 d8. fs16 a8. fs16 |
-        \partial 2. g2. |
-      }
-    }
+    d16 d,8. d8. d16 d'16 d,8. d8. d16 |
+    g8. a16 g8. fs16 e4 g8. fs16 |
+    e16 c8. e8. fs16 g8. a16 b16 d8. |
+    a2( a4) b8. c16 |
+    d16 d,8. d8. d16 d'16 d,8. d8. d16 |
+    g8. a16 g8. fs16 e4 c'4 |
+    b16 d8. b8. g16 d8. fs16 a8. fs16 |
+    \partial 2. g2. |
   }
 }
 
