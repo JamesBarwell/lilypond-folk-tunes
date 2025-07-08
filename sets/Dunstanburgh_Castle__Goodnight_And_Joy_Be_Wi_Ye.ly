@@ -76,14 +76,14 @@
     }
 
     \partial 4 fs4 |
-    e8 d e fs e4 d8 b |
+    e8 fs e d b4 d8 b |
     a8 b d e fs4 e8 d |
     e8 d e fs g fs g a |
     b4 e,4 e4 e8 fs |
 
     g8 fs g a b4 a8 g |
     fs8 e fs g a4 g8 fs |
-    e8 fs g b a fs e fs |
+    e8 fs g a fs g e fs |
     \partial 2. d4 b4 b4 |
 
 
@@ -92,7 +92,7 @@
 
 \markup \bold { Dunstanburgh Castle }
 \markup \wordwrap {
-  Composed by Willy Miller, a founding member of the group the Cheviot Ranters (1953-1996), based in Alnwick, Northumberland. The group used the tune for the dance Corn Rigs. Dunstanburgh castle lies on the Northumbrian coast between the villages of Craster and Low Newton-by-the-Sea.
+  Composed by Willy Miller, a founding member of the group the Cheviot Ranters (1953-1996), based in Alnwick, Northumberland. The group used the tune for the dance Corn Rigs. Dunstanburgh Castle lies on the Northumbrian coast between the villages of Craster and Low Newton-by-the-Sea.
 }
 \markup \smaller \wordwrap { Source: https://www.stewarthardy.co.uk/the-tune-vault }
 
@@ -100,6 +100,6 @@
 
 \markup \bold { Good Night and Joy be wi' ye a' }
 \markup \wordwrap {
-Orignally a Scottish air and dance tune. This version similar to that played by The Cheviot Ranters on their album Sound Of The Cheviots (1972), in the key of D. It also appears as a reel in this key in The Fiddler's Tunebook. As an air, appears in Gow, 1802 - 'This tune is played at the conclusion of every Convivial Dancing Meeting Throughout Scotland'. A prototypical melody appears under the title "Good night and God be with you" in Henry Playford's collection of Scottish dance tunes printed in London in 1700. The title variation now familiar to us, "Good night and joy be with you all," comes from Robert Burns' lyrics. Burns wrote it on what he imagined was to be his last day on Scottish soil, before setting sail in the morning for Jamaica.
+Orignally a Scottish air and dance tune. This version based on that played by The Cheviot Ranters on their album Sound Of The Cheviots (1972), in the key of D, which has a few note changes compared to the historical sources. It also appears as a reel in this key in The Fiddler's Tunebook. As an air, appears in Gow, 1802 - 'This tune is played at the conclusion of every Convivial Dancing Meeting Throughout Scotland'. A prototypical melody appears under the title "Good night and God be with you" in Henry Playford's collection of Scottish dance tunes printed in London in 1700. The title variation now familiar to us, "Good night and joy be with you all," comes from Robert Burns' lyrics. Burns wrote it on what he imagined was to be his last day on Scottish soil, before setting sail in the morning for Jamaica.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Annotation:Good_Night_and_Joy_be_with_Ye_a%27_(3) }
