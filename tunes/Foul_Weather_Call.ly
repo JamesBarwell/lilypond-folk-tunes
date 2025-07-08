@@ -26,7 +26,7 @@
       g'8    fs8    e4    |
       g16    fs16    e16    d16    e8    a8    |
       g16    fs16    e16    d16    d16    cs16    b16    a16   |
-      d8.    b16    b16    cs16    d16   g,16    |
+      d8.    a16    b16    cs16    d16   g,16    |
       fs8    e8    d4  |
     }
 
