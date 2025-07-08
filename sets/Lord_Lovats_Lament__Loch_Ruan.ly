@@ -18,31 +18,24 @@
     \time 4/4
     \key a \major
 
+    \partial 4 a8 b |
+    cs4 cs8 e d cs b a |
+    cs16 e8. e8. fs16 e4 fs8 gs |
+    a4 e8 a fs e cs a |
+    cs16 b8. b8. cs16 b4 a8 b |
+
     \repeat segno 2 {
-      \repeat volta 2 {
-        \partial 4 a8 b |
-        cs4 cs8 e d cs b a |
-        \partial 2. cs16 e8. e8. fs16 e4 |
-      }
-      \alternative {
-        {
-          \partial 4 fs8 gs |
-          a4 e8 a fs e cs a |
-          \partial 2. cs16 b8. b8. cs16 b4 |
-        }
-        {
-          \partial 4 cs8 a |
-          d8. e16 fs8 e16 d cs16 e8. d8 b |
-          \partial 2. a4 a4 b16 a8. |
-          \volta 2 \fine
-        }
-      }
+      cs4 cs8 e d cs b a |
+      cs16 e8. e8. fs16 e4 cs8 a |
+      d8. e16 fs8 e16 d cs16 e8. d8 b |
+      \partial 2. a4 a4 b8 a8 |
+      \volta 2 \fine
 
       \partial 4 fs'8 gs |
       a4 e8 a fs e cs a |
       cs16 e8. e8. fs16 e4 fs8 gs |
       a4 e8 a fs e cs a |
-      \partial 2. cs16 b8. b8. cs16 b4 |
+      cs16 b8. b8. cs16 b4 a8 b |
     }
   }
 }
