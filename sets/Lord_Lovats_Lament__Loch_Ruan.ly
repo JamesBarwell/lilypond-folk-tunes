@@ -24,19 +24,22 @@
     a4 e8 a fs e cs a |
     cs16 b8. b8. cs16 b4 a8 b |
 
-    \repeat segno 2 {
-      cs4 cs8 e d cs b a |
-      cs16 e8. e8. fs16 e4 cs8 a |
-      d8. e16 fs8 e16 d cs16 e8. d8 b |
-      \partial 2. a4 a4 b8 a8 |
-      \volta 2 \fine
+    cs4 cs8 e d cs b a |
+    cs16 e8. e8. fs16 e4 cs8 a |
+    d8. e16 fs8 e16 d cs16 e8. d8 b |
+    \partial 2. a4 a4 b8 a8 |
 
-      \partial 4 fs'8 gs |
-      a4 e8 a fs e cs a |
-      cs16 e8. e8. fs16 e4 fs8 gs |
-      a4 e8 a fs e cs a |
-      cs16 b8. b8. cs16 b4 a8 b |
-    }
+    \partial 4 fs'8 gs |
+    a4 e8 a fs e cs a |
+    cs16 e8. e8. fs16 e4 fs8 gs |
+    a4 e8 a fs e cs a |
+    cs16 b8. b8. cs16 b4 a8 b |
+
+    % Back to A 2nd repeat
+    cs4 cs8 e d cs b a |
+    cs16 e8. e8. fs16 e4 cs8 a |
+    d8. e16 fs8 e16 d cs16 e8. d8 b |
+    \partial 2. a4 a4 b8 a8 |
   }
 }
 
