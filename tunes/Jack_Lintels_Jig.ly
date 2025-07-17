@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -15,31 +16,54 @@
     title = "Jack Lintel's Jig"
   }
 
-  \relative c'' {
-    \time 3/2
-    \key a \minor
+  <<
+    \relative c'' {
+      \time 3/2
+      \key a \minor
 
-    \repeat volta 2 {
-      c4 a a e c'2 |
-      c4 a a c b8 c d b |
-      c4 a a e c'2 |
-      b4 g g c b8 c d b |
+      \repeat volta 2 {
+        c4 a a e c'2 |
+        c4 a a c b8 c d b |
+        c4 a a e c'2 |
+        b4 g g c b8 c d b |
+      }
+
+      \repeat volta 2 {
+        c2 d4 f e2 |
+        e4 a, a c b8 c d b |
+        c2 d4 f e g |
+        b,4 g g c b8 c d b |
+      }
+
+      \repeat volta 2 {
+        e4 g c, e g c, |
+        e4 g c, g' b, g |
+        e'4 g c, e g c, |
+        b4 g g c b8 c d b |
+      }
     }
 
-    \repeat volta 2 {
-      c2 d4 f e2 |
-      e4 a, a c b8 c d b |
-      c2 d4 f e g |
-      b,4 g g c b8 c d b |
+    \chords {
+      % A section
+      a1.:m |
+      f1 g2 |
+      a1:m f2 |
+      g1. |
+
+      % B section
+      f2 d2:m e2:m |
+      a1.:m |
+      f2 d2:m c2 |
+      g1. |
+
+      % C section
+      c1. |
+      a1:m7 g2 |
+      c2 a1:m7 |
+      g1. |
     }
 
-    \repeat volta 2 {
-      e4 g c, e g c, |
-      e4 g c, g' b, g |
-      e'4 g c, e g c, |
-      b4 g g c b8 c d b |
-    }
-  }
+  >>
 }
 
 \markup \wordwrap {
