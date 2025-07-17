@@ -76,6 +76,8 @@
   >>
 }
 
+%{
+The composer's interlude recorded here for posterity.
 
 \score {
   \header {
@@ -110,6 +112,7 @@
   }
 
 }
+%}
 
 \score {
   \header {
