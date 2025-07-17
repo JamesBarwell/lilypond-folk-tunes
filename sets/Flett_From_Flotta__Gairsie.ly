@@ -29,7 +29,7 @@
       cs4 a'8. fs16 e16 cs8. b8 cs |
       \partial 2. a4 a8 b a4 |
     }
-    
+
     \repeat volta 2 {
       \partial 4 a8 cs |
       e4 a,8 cs8 a'4 a,8 cs |
@@ -57,39 +57,45 @@
     \time 4/4
     \key d \major
 
-    \repeat segno 2 {
-      \repeat volta 2 {
-        \partial 2 d4 e |
-        fs4. g8 fs4 e |
-        e4 d fs a |
-        d4. e8 d4 cs |
-        b2 b4 cs |
-        d4. e8 d4 b |
-      }
-      \alternative {
-        {
-          a4 fs fs g |
-          a4. b8 a4 fs |
-          \partial 2 e2 |
-        }
-        {
-          a4 fs fs a |
-          g4 a8 g fs4 e |
-          \partial 2 d2 |
-          \volta 2 \fine
-        }
-      }
-    
-      \partial 2 cs'4 d |
-      e4. fs8 e4 d |
-      cs4 a d e |
+    \repeat volta 2 {
+      \partial 2 d4 e |
       fs4. g8 fs4 e |
-      d2 d4 cs |
-      b4. a8 b4 cs |
+      e4 d fs a |
+      d4. e8 d4 cs |
+      b2 b4 cs |
       d4. e8 d4 b |
-      a4. b8 a4 fs |
-      \partial 2 e2 |
     }
+    \alternative {
+      {
+        a4 fs fs g |
+        a4. b8 a4 fs |
+        \partial 2 e2 |
+      }
+      {
+        a4 fs fs a |
+        g4 a8 g fs4 e |
+        \partial 2 d2 |
+      }
+    }
+
+    \partial 2 cs'4 d |
+    e4. fs8 e4 d |
+    cs4 a d e |
+    fs4. g8 fs4 e |
+    d2 d4 cs |
+    b4. a8 b4 cs |
+    d4. e8 d4 b |
+    a4. b8 a4 fs |
+    e2 d4 e |
+    \textMark "A2 repeat"
+    fs4. g8 fs4 e |
+    e4 d fs a |
+    d4. e8 d4 cs |
+    b2 b4 cs |
+    d4. e8 d4 b |
+    a4 fs fs a |
+    g4 a8 g fs4 e |
+    \partial 2 d2 |
   }
 }
 

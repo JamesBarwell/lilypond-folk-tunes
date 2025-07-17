@@ -32,18 +32,30 @@
       \partial 2. g2. |
     }
 
-    \partial 4 b8. c16 |
-    d16 d,8. d8. d16 d'16 d,8. d8. d16 |
-    g8. a16 g8. fs16 e4 g8. fs16 |
-    e16 c8. e8. fs16 g8. a16 b16 d8. |
-    a2( a4) b8. c16 |
-    d16 d,8. d8. d16 d'16 d,8. d8. d16 |
-    g8. a16 g8. fs16 e4 c'4 |
-    b16 d8. b8. g16 d8. fs16 a8. fs16 |
-    \partial 2. g2. |
+    \repeat volta 2 {
+      \partial 4 b8. c16 |
+      d16 d,8. d8. d16 d'16 d,8. d8. d16 |
+      g8. a16 g8. fs16 e4 g8. fs16 |
+      e16 c8. e8. fs16 g8. a16 b16 d8. |
+    }
+    \alternative {
+      {
+        a2( a4) b8. c16 |
+        d16 d,8. d8. d16 d'16 d,8. d8. d16 |
+        g8. a16 g8. fs16 e4 c'4 |
+        b16 d8. b8. g16 d8. fs16 a8. fs16 |
+        \partial 2. g2. |
+      }
+      {
+        a2( a4) d,8. g16 |
+        b2 d8. b16 a8. b16 |
+        g8. a16 g8. fs16 e4 c'4 |
+        b16 d8. b8. g16 d8. fs16 a8. fs16 |
+        \partial 2. g2. |
+      }
+    }
   }
 }
-
 
 \score {
   \header {
@@ -76,7 +88,8 @@
       e4 e8. fs16 g8. fs16 e16 d8. |
       b16 d8. d8. b16 d4 \times 2/3 { b8 c8 d8 } |
       e8. c16 d8. b16 c8. a16 b16 g8. |
-      e2 e4 \times 2/3 { d8 e8 fs8 } |
+      e2 e4
+      \times 2/3 { d8 e8 fs8 } |
       g4 g8. a16 g8. fs16 e16 d8. |
       b'16 d8. d8. b16 d4 g8. e16 |
       d8. b16 g16 b8. a8. g16 a16 b8. |
@@ -88,7 +101,7 @@
 
 \markup \bold { Road To The Isles }
 \markup \smaller \wordwrap {
-  The tune was composed originally in 1891 by 16-year-old John McLellan (1875–1949), D.C.M., a poet and painter from Dunoon, Scotland, who became Pipe-Major of the 8th Battalion, Argyl and Sutherland Highlanders during World War I. McLellan called his compositino "The Bens of Jura." When McLellan sailed with Highland Light Infantry to Malta in 1894, at the request of his fellow pipers, his tune was re-named "The 71st’s Farewell to Dover." In the new century, about 1902, the melody acquired another name: "The Highland Brigade’s March to Heilbron," and still later it was called "Burning Sands of Egypt (The)." Cape Breton piper Barry Shears insists it was composed in honor of McLellan's mother, nee Darroch, who was originally from Jura. The title "Road to the Isles," certainly the most famous name for the melody, is actually the name of a poem set to McLellan's tune by Kenneth Macleod.
+  Composed in 1891 by 16-year-old John McLellan (1875–1949), D.C.M., a poet and painter from Dunoon, Scotland, who became Pipe-Major of the 8th Battalion, Argyl and Sutherland Highlanders during World War I. McLellan named it "The Bens of Jura." Cape Breton piper Barry Shears insists it was composed in honor of McLellan's mother who was originally from Jura. The title "Road to the Isles," is the name of a poem set to McLellan's tune by Kenneth Macleod. 
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Road_to_the_Isles }
 
