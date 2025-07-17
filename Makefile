@@ -31,3 +31,6 @@ $(BOOK_FILEPATH) : sets tunes
 
 clean:
 	rm -f $(PDF_DIR)/* $(SETS_DIR)/*.pdf $(TUNES_DIR)/*.pdf
+
+clean-previews:
+	rm -f $(SETS_DIR)/*.pdf $(TUNES_DIR)/*.pdf
