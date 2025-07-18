@@ -12,13 +12,14 @@
     arranger = "Bruce & Stokoe – Northumbrian Minstrelsy (1882)"
     composer = "Traditional"
     origin = "Northumberland, England, Scotland"
-    meter = "Hornpipe"
+    meter = "Triple Hornpipe"
     title = "Peacock Followed The Hen"
   }
 
   \relative c'' {
     \time 9/8
     \key a \dorian
+    \mark \markup \normalsize { Ador }
 
     \repeat volta 2 {
       c8. d16 e8 c a a c a a |

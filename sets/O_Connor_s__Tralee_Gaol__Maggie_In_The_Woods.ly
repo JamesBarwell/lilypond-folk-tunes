@@ -50,9 +50,9 @@
 
   <<
     \relative {
-      % e dorian
-      \key d \major
       \time 2/4
+      \key e \dorian
+      \mark \markup \normalsize { Edor }
 
       % A section
       \repeat volta 2
