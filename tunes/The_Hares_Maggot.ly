@@ -32,7 +32,7 @@
     \repeat volta 2 {
       e4 c2 e4 g e |
       d4 b2 d4 g d |
-      c4 e a, c f, a |
+      c4 e a, c e, a |
       gs2. a4 b2 |
       c4 e2 b4 c a |
       fs'4 b2 fs4 gs e |

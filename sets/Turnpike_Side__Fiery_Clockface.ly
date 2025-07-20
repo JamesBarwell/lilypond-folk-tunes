@@ -22,14 +22,11 @@
       c4 c8 b4 g8 |
       a8 c8 a8 g8 f8 e8 |
       f4 d'8 e,4 c'8 |
-    }
-    \alternative {
-      {
-        d,4 c'8 b8 a8 b8 |
-      }
-      {
-        b8 a8 b8 c4 g8 |
-      }
+      d,4 c'8 b8 a8 b8 |
+      c4 c8 b4 g8 |
+      a8 c8 a8 g8 f8 e8 |
+      f4 d'8 e,4 c'8 |
+      b8 a8 b8 c4 g8 |
     }
 
     \repeat volta 2 {
@@ -65,7 +62,7 @@
       c4 c8 e,4 fs8 |
       g4 a8 b4 cs8 |
       d4 d8 d,4 e8 |
-      fs4 g8 a4 b8 |
+      fs4 g8 a4 a8 |
       b8 cs8 d8 e4 cs8 |
       \partial 2 d4. d8 |
 

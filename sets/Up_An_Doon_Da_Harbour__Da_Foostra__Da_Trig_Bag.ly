@@ -85,10 +85,10 @@
     }
     \alternative {
       {
-        e8 fs g a b g g fs |
+        d8 e g a b g g fs |
       }
       {
-        e8 fs g a b g g4 |
+        d8 e g a b g g4 |
       }
     }
 
