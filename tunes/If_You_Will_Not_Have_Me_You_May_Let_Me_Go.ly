@@ -15,48 +15,76 @@
     title = "If You Will Not Have Me, You May Let Me Go"
   }
 
-  \relative c' {
-    \time 6/8
-    \key b \minor
+  <<
+    \relative c' {
+      \time 6/8
+      \key b \minor
 
-    % A section
-    \repeat volta 2 {
-      fs8^"Bm" b8 b8 d8 cs8 b8 |
-      a8^"A" cs8 cs8 e8 d8 cs8 |
-      d8^"Bm" fs8 fs8 e8 d8 cs8 |
-      e16^"A"[ d16 cs16 b16] a16[ b16 cs16 a16] b4^"Bm" |
+      % A section
+      \repeat volta 2 {
+        fs8 b8 b8 d8 cs8 b8 |
+        a8 cs8 cs8 e8 d8 cs8 |
+        d8 fs8 fs8 e8 d8 cs8 |
+        e16[ d16 cs16 b16] a16[ b16 cs16 a16] b4 |
+      }
+
+      \break
+
+      % B section
+      \repeat volta 2 {
+        fs'8 b,8 b8 g'8 fs8 b,8 |
+        b'16[ a16 g16 fs16] e16[ d16 cs16 b16] a4 |
+        g8 b8 a16[ b16 cs16 a16] e'16 d16 cs16 b16 |
+        fs8 b8 a16[ b16 cs16 a16] b4 |
+      }
+
+      \break
+
+      % C section
+      \repeat volta 2 {
+        b,8 d8 d8 fs8 fs8 d8 |
+        e8 g8 g8 cs8 cs8 a8 |
+        b8 d8 d8 fs,8 fs8 d8 |
+        e4 fs4 b,4 |
+      }
+
+      \break
+
+      % D section
+      \repeat volta 2 {
+        d'8 b8 b8 g8 g8 e8 |
+        cs'8 a8 a8 fs8 fs8 d8 |
+        b'8 g8 g8 e8 fs8 d8 |
+        e4 fs4 b,4 |
+      }
     }
 
-    \break
+    \chords {
+      % A section
+      b2.:m |
+      a |
+      b:m |
+      a2 b4:m |
 
-    % B section
-    \repeat volta 2 {
-      fs'8^"Bm" b,8 b8 g'8 fs8 b,8 |
-      b'16[^"Bm" a16 g16 fs16] e16[ d16 cs16 b16] a4^"A" |
-      g8^"Em" b8 a16[^"A" b16 cs16 a16] e'16^"A#" d16 cs16 b16 |
-      fs8^"Bm" b8 a16[^"A" b16 cs16 a16] b4^"Bm" |
+      % B section
+      b2.:m |
+      b2:m a4 |
+      e4:m a as |
+      b4:m a b:m |
+
+      % C section
+      b2.:m |
+      e2:m6 a4 |
+      b2:m d4 |
+      e4:m6/cs fs:7 b:m |
+
+      % D section
+      b4:m g e:m |
+      a4 d b:m |
+      g4 e:m d |
+      e4:m6 fs:7 b:m |
     }
-
-    \break
-
-    % C section
-    \repeat volta 2 {
-      b,8^"Bm" d8 d8 fs8 fs8 d8 |
-      e8^"Em6" g8 g8 cs8 cs8^"A" a8 |
-      b8^"Bm" d8 d8 fs,8 fs8^"D" d8 |
-      e4^"Em6/C#" fs4^"F#7" b,4^"Bm" |
-    }
-
-    \break
-
-    % D section
-    \repeat volta 2 {
-      d'8^"Bm" b8 b8^"G" g8 g8^"Em" e8 |
-      cs'8^"A" a8 a8^"D" fs8 fs8^"Bm" d8 |
-      b'8^"G" g8 g8^"Em" e8 fs8^"D" d8 |
-      e4^"Em6" fs4^"F#7" b,4^"Bm" |
-    }
-  }
+  >>
 }
 
 \markup \smaller \wordwrap {

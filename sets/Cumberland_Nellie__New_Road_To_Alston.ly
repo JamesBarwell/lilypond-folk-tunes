@@ -52,41 +52,37 @@
 
 \score {
   \header {
-    arranger = "Stewart Hardy"
-    composer = "W. Miller"
-    meter = "Rant"
-    origin = "England"
-    title = "Dunstanburgh Castle"
+    arranger = "South Riding Tunebook I: Paul Davenport, 1996 (orig. Frank Kidson MSS)"
+    composer = "Traditional"
+    meter = "Reel"
+    origin = "Cumbria, Northumberland, England"
+    title = "The New Road to Alston"
   }
 
-  \relative c' {
+  \relative c'' {
     \time 4/4
-    \key a \major
+    \key a \minor
 
-    % A section
     \repeat volta 2 {
-      \partial 4 e8 fs8 |
-      a4 a8 e8 a8 cs8 b8 a8 |
-      fs4 e4 e4 a8 b8 |
-      cs4 cs8 a8 cs8 e8 cs8 a8 |
-      cs4 b4 b4 e,8 fs8 |
-      a4 a8 e8 a8 cs8 b8 a8 |
-      d cs d e fs gs a fs |
-      e8 cs fs e d b e d |
-      \partial 2 . cs4 a4 a4 |
+      a4 b c c |
+      a4 b c c |
+      e8 d c b a4 a |
+      e'8 d c b a4 a |
+      a4 b c c |
+      a4 b c c |
+      e4 f e8 d c b |
+      a4 a a2 |
     }
-
-    % B section
+    
     \repeat volta 2 {
-      \partial 4 cs8 d8 |
-      e8 d cs d e a e d |
-      cs4 e4 e4 cs8 b8 |
-      a8 b cs d e4 cs4 |
-      b2. cs8 b8 |
-      a8 b cs d e4 fs8 gs |
-      a8 gs a fs e4 fs8 gs |
-      a8 gs a fs e fs e d |
-      \partial 2. cs4 a a |
+      e'4 e c c |
+      a4 a e'2 |
+      e8 d c b a4 a |
+      e'8 d c b a4 a |
+      e'4 e c c |
+      a4 a e'2 |
+      e4 f e8 d c b |
+      a4 a a2 |
     }
   }
 }
@@ -99,8 +95,8 @@
 
 \markup \vspace #1
 
-\markup \bold { Dunstanburgh Castle }
+\markup \bold { The New Road to Alston }
 \markup \wordwrap {
-  Composed by Willy Miller, a founding member of the group the Cheviot Ranters (1953-1996), based in Alnwick, Northumberland. The group used the tune for the dance Corn Rigs. Dunstanburgh castle lies on the Northumbrian coast between the villages of Craster and Low Newton-by-the-Sea. 
+  Victorian-era musicologist Frank Kidson noted that Alston, at the time of his writing, was a "wild and remote district of Cumberland," although it had a significant lead-mining industry in the 19th century. The inventor of modern road-building, John Macadam, made a road to Alston from Penrith in the early 1800s. Kidson found the melody is from a Northumbrian piper's MS of about 1816. Knowles thinks the tune has "more of a French feel to it." Malcolm Douglas identifies it as a relative of "Davy Davy Knick Knack." 
 }
-\markup \smaller \wordwrap { Source: https://www.stewarthardy.co.uk/the-tune-vault }
+\markup \smaller \wordwrap { Source: https://tunearch.org/wiki/New_Road_to_Alston_(The) }
