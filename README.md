@@ -36,13 +36,12 @@ See the `examples` directory for handy Lilypond code snippets.
 
 ## Todo
 
-- Books as standalone files, containing arbitary lists of scores. These could be pulled together by rules such as tag keywords and other metadata, e.g. styles, new tunes
-- Contents page for books
-- Minimal book output suitable for tablets (paper sizing, remove verbose text)
-- Better use of analysis brackets to add contextual information, e.g. repeated transposed segments
-- Automatic colouring to aid readability, e.g. intervals, scotch-snaps
-- How to best add variations
-  * tried using tags, but breaks sets because doesn't seem possible to specify exports
-  * try putting all variations at end, and find a way to link to the variation point, either text or something proper (bar number?). Still need to filter out though.
-  * tried ossias. They work, but default to below. You'd have to name the main staff to then put them above. Also probably can't filter out of sets.
-- Improve the book generation script
+- Build multiple subset tunebooks based on metadata, e.g. book of Scottish tunes.
+- Build tunebooks with page formatting and removal of text suitable for devices, e.g. tablets.
+- Use of labels, analysis brackets, automated colouring etc to add contextual information, e.g. repeated sequences, scotch-snaps.
+- A way to concisely show variations. Ideas:
+  * tags: these previously broke sets because it doesn't seem possible to specify exports
+  * all variations at end, with some kind of anchor link or label to refer to its place in the tune, e.g. bar number.
+  * ossias: these work, but show below the line and take up a lot of vertical space.
+- Book contents page is ugly and not well spaced.
+- MIDI/mp3/ogg output
