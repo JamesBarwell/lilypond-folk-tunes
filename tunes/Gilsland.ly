@@ -39,7 +39,7 @@
       fs4 fs fs e8 fs |
       g4 g g fs8 g |
       a4 a8 b a fs d e |
-      fs8 e e d e e d e |
+      fs4 e e d8 e | 
       fs4 a8 fs g fs e d |
       b8 cs d b b a fs a |
       a4 a8 fs a b d e |

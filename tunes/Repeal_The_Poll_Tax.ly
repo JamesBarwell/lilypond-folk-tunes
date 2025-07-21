@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -24,14 +23,7 @@
       cs8 e e cs d cs b cs |
       a8 fs e fs a4 fs8 a |
       b4 b8 a cs e fs e |
-    }
-    \alternative {
-      {
-        a8 fs e cs b4 a8 b |
-      }
-      {
-        a'8 fs e cs b4 a4 |
-      }
+      \partial 2. a8 fs e cs a4 |
     }
 
     \repeat volta 2 {
@@ -39,14 +31,7 @@
       fs4 fs8 e fs a a fs |
       fs8 e e fs cs4 e8 cs |
       b4 b8 a cs e fs e |
-    }
-    \alternative {
-      {
-        a8 fs e cs b4 cs8 e |
-      }
-      {
-        \partial 2. a8 fs e cs a4 |
-      }
+      \partial 2. a8 fs e cs a4 |
     }
   }
 }

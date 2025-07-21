@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -55,7 +54,7 @@
       g'16 fs e d c b a g |
       b16 c d b a b c a |
       g'16 fs e d c b a g |
-      b16 c d b a8 r |
+      b16 c d b g8 r |
     }
     
     \break

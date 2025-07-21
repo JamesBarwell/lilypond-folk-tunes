@@ -23,7 +23,7 @@
       b4 d8 b a g a b |
       g8 a b c d4 e8 fs |
       g8 fs g e d b g b |
-      e4 d d g,8 a |
+      e4 a, a g8 a |
       b4 d8 b a g a b |
       g8 a b c d4 e8 fs |
       g8 fs g e d b g a |
@@ -34,7 +34,7 @@
       \partial 4 b8 d |
       e8 d e fs g fs g e |
       d8 b g b d4 b8 d |
-      e8 fs e fs g fs g e |
+      e8 d e fs g fs g e |
       d8 b g b a4 g8 a |
       b4 d8 b a g a b |
       g8 a b c d4 e8 fs |
@@ -64,7 +64,7 @@
       g8 fs e d cs b a g |
       fs8 a d4 d e8 d |
       cs8 d e fs g4 a8 g |
-      fs8 e d fs e fs g e |
+      fs8 a d, fs e fs g e |
       \partial 2. fs4 d d |
     }
     
@@ -76,7 +76,7 @@
       e8 d cs b a4 a8 g |
       fs8 a d4 d e8 d |
       cs8 d e fs g4 a8 g |
-      fs8 e d fs e fs g e |
+      fs8 a d, fs e fs g e |
       \partial 2. fs4 d d |
     }
   }

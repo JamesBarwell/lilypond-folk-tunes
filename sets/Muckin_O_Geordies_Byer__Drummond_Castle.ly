@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -19,14 +18,14 @@
     \time 6/8
     \key d \major
 
+    \partial 8 b8 |
     \repeat volta 2 {
-      \partial 8 b8 |
-      a4 a8 a g a |
-      d4 e8 fs4 g8 |
+      a4 a8 a fs a |
+      d4 e8 fs4 a8 |
       g4 e8 fs4 d8 |
       e4 d8 b cs d |
-      a4 a8 a g a |
-      d4 e8 fs4 g8 |
+      a4 a8 a fs a |
+      d4 e8 fs4 a8 |
       a8 fs d e fs e |
 
     }
@@ -44,8 +43,8 @@
       fs4. fs8 a fs |
       e4 e8 e d e |
       fs8 e d b4 d8 |
-      a4 a8 a g a |
-      d4 e8 fs4 g8 |
+      a4 a8 a fs a |
+      d4 e8 fs4 a8 |
       a8 fs d e fs e |
     }
     \alternative {
@@ -69,28 +68,28 @@
 
   \relative c'' {
     \time 6/8
-    \key a \major
+    \key a \minor
 
+    \partial 8 b8 |
     \repeat volta 2 {
-      \partial 8 b8 |
       a8. b16 a8 a'4. |
-      gs8 fs e gs4. |
-      a,4. e'8 d cs |
-      b8 d gs d b gs |
+      a8 g e g4. |
+      a,4. e'8 d c |
+      b8 d g d b g |
       a8. b16 a8 a'4. |
-      gs8 fs e gs4. |
-      e8. gs16 e8 d e fs |
+      a8 g e g4. |
+      e8. g16 e8 d e g |
       \partial 2. e8 d b a4 b8 |
     }
 
     \repeat volta 2 {
-      cs4 cs8 cs e cs |
-      d4 d8 d e d |
-      cs4 cs8 cs e cs |
-      b8 d gs d b gs |
-      cs4 cs8 cs e cs |
-      d8 e gs a4 gs8 |
-      e8 gs e d e gs |
+      c4 c8 c e c |
+      d4( d8 d) e d |
+      c4. e8 d c |
+      b8 d g d b g |
+      c4 c8 c e c |
+      d8 e g a4 g8 |
+      e8 g e d e g |
       e8 d b a4. |
     }
   }
