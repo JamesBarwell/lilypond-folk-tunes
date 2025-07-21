@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -23,24 +22,24 @@
       \partial 4 e4 |
       a4 c8 a b c d b |
       e4 g8 e d b g b |
-      d4 f8 d c4 e8 c |
-      b4 d8 b gs4 f8 e |
+      c4 e8 c b4 d8 b |
+      a4 c8 a gs4 f8 e |
       a4 c8 a b c d b |
       e4 g8 e d b g b |
-      c8 b c a e b' gs c |
-      \partial 2. g4 g g |
+      c8 b c a e a gs b |
+      \partial 2. a4 a a |
     }
     
     \repeat volta 2 {
       \partial 4 e'4 |
       a8 gs a b a4 e |
-      a8 gs a b a4 e |
+      a8 gs a b a4 e8 f |
       g8 f g f g b a g |
       f4 d d e8 d |
-      c4 a8 c b4 e8 d |
-      c4 a8 c b4 e8 d |
-      c8 b c a e b' gs c |
-      \partial 2. g4 g g |
+      c4 a8 c b4 g8 b |
+      c4 a8 c b4 g8 b |
+      c8 b c a e a gs b |
+      \partial 2. a4 a a |
     }
   }
 }
@@ -61,7 +60,7 @@
       \partial 4 d4 |
       g4 g fs8 g a fs |
       g8 a b c d4 b |
-      e4 c8 e d4 g, |
+      e4 c8 e d4 b |
       a8 b a g e4 d |
       g4 g fs8 g a fs |
       g8 a b c d4 b |
@@ -72,8 +71,8 @@
     \repeat volta 2 {
        \partial 4 fs'4 | 
        g4 e8 g fs4 d |
-       g4 e8 g fs4 b, |
-       g'4 e8 g fs4 g, |
+       e4 c8 e d4 b |
+       e4 c8 e d4 b |
        a8 b a g e4 d |
        g4 g fs8 g a fs |
       g8 a b c d4 b |

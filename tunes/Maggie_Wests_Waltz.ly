@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -34,7 +33,7 @@
         \partial 4. a4. |
       }
       {
-        a4. b8 a8. g16 |
+        a4. b8 g8. fs16 |
         \partial 4. g4. |
       }
     }
@@ -43,7 +42,7 @@
       \partial 4. d'8 \times 2/3 { b a g } |
       a8 g4 d'8 \times 2/3 { b a g } |
       a8 g4 d'8 \times 2/3 { b a g } |
-      a8. b16 d8. fs16 \times 2/3 { g8 a b } |
+      a8. b16 d8. g16 \times 2/3 { g8 a b } |
       a2 g8. a16 |
       g8 e( e4) g8. e16 |
       d4. b8 a8. g16 |
@@ -54,7 +53,7 @@
         \partial 4. a4. |
       }
       {
-        a4. b8 a8. g16 |
+        a4. b8 g8. fs16 |
         \partial 4. g4. |
       }
     }

@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     arranger = "Middleton’s Selection of Strathspeys, Reels &c. for the Violin (1870, p. 42)"
@@ -29,7 +27,7 @@
       cs4 a a a8 g |
       fs8 g a fs d4 d' |
       cs8 d e cs a4 fs' |
-      g8 fs e d cs d cs e |
+      g8 fs e d b d cs e |
       \partial 2. d4 d d |
     }
     

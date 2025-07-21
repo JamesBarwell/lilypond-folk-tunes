@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     composer = "Traditional"
@@ -70,7 +68,7 @@
     \repeat volta 2 {
       b4 b8 c d4 d |
       e8 fs g e d4 g |
-      fs4 e8 d cs4 a |
+      fs4 e8 d e4 cs |
     }
     \alternative {
       {
@@ -85,8 +83,8 @@
       e4 c c8 d e c |
       d4 b b8 c d b |
       c4 a a8 b c e |
-      d8 c b a g4 b |
-      c8 b a g fs4 a |
+      d8 c b a g4 c |
+      b4 a8 g a4 fs4 |
     }
     \alternative {
       {

@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -22,17 +21,17 @@
     \mark \markup \normalsize { Ador }
 
     \repeat volta 2 {
-      c8. d16 e8 c a a c a a |
-      c8. d16 e8 c a a b4 g8 |
-      c8. d16 e8 c a a c a a |
-      b8. c16 d8 d g d b4 g8 |
+      c8 d8 e8 c a a c a a |
+      c8 d8 e8 c a a b4 g8 |
+      c8 d8 e8 c a a c a a |
+      b8 c8 d8 d g d b4 g8 |
     }
 
     \repeat volta 2 {
-      c8. d16 e8 g e e g e e |
-      c8. d16 e8 g e e g4 d8 |
-      c8. d16 e8 g e e g e e |
-      b8. c16 d8 d g d b4 g8 |
+      c8 d8 e8 g e e g e e |
+      c8 d8 e8 g e e fs4 d8 |
+      c8 d8 e8 g e e g e e |
+      b8 c8 d8 d g d b4 g8 |
     }
   }
 }

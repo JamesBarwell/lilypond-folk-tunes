@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -20,11 +19,11 @@
     \key d \minor
 
     \repeat volta 2 {
-      d4 e f e2 d4 |
+      d4 e2 f4 e d |
       d'2 e4 f2 g4 |
       a4 g f e d c |
-      a4 f' d c a f |
-      d4 e f e2 d4 |
+      a4 c a g e c |
+      d4 e2 f4 e d |
       d'2 e4 f2 g4 |
       a4 g f e d cs |
       d2. d |
@@ -37,7 +36,7 @@
       e4 f g g f e |
       f4 g a2 g4 f |
       e4 f g2 f4 e |
-      d4 e f e2 d4 |
+      d4 e f e d cs |
       d2. d |
     }
   }
