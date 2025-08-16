@@ -27,9 +27,9 @@
     cs4 cs8 e d cs b a |
     cs16 e8. e8. fs16 e4 cs8 a |
     d8. e16 fs8 e16 d cs16 e8. d8 b |
-    \partial 2. a4 a4 b8 a8 |
+    a4 a4 b16 a8. fs'8 gs |
 
-    \partial 4 fs'8 gs |
+    % B section
     a4 e8 a fs e cs a |
     cs16 e8. e8. fs16 e4 fs8 gs |
     a4 e8 a fs e cs a |
@@ -39,7 +39,7 @@
     cs4 cs8 e d cs b a |
     cs16 e8. e8. fs16 e4 cs8 a |
     d8. e16 fs8 e16 d cs16 e8. d8 b |
-    \partial 2. a4 a4 b8 a8 |
+    \partial 2. a4 a4 b16 a8. |
   }
 }
 
