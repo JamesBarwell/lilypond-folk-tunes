@@ -99,7 +99,7 @@
     d8 e g d e4 d8 b |
     a8 e' e d e a, a fs' |
     g8 e d b g a b g |
-    \partial 1*7/8 e8 fs g a b g g |
+    \partial 1*7/8 d8 e g a b g g |
   }
 }
 
