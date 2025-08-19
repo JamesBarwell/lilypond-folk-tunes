@@ -14,6 +14,7 @@ cat <<EOT >> ${TEMP_PATH}
   bottom-margin = 5
   left-margin = 8
   right-margin = 8
+  tagline = " "
 }
 
 \markuplist \table-of-contents
