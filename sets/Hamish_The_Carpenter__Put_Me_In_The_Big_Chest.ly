@@ -21,7 +21,7 @@
     % A section
     \partial 8 b8 |
     a4 g8 e g a b d |
-    e4 d8 b d e a b, |
+    e4 d8 b d e g b, |
     a4 g8 e g a b d |
     e8 g d b a16 a a8 a b |
     a4 g8 e g a b d |
