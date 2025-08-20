@@ -83,7 +83,7 @@
     \partial 8 a8 |
     b8 e e e4 fs8 |
     g4. g4 e8 |
-    fs4 d8 a' g fs |
+    fs4 b,8 a' g fs |
     e4. e4 d8 |
     a8 d d d4 e8 |
     fs4. fs4 g8 |
