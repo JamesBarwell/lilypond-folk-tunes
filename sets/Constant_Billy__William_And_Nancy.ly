@@ -23,7 +23,7 @@
       g4 d'8 b g b |
       c4 a8 fs4 a8 |
       b8 a g e4 e8 |
-      \partial 1*5/8 d8 e fs g4 |
+      \partial 1*5/8 d8[ e fs] g4 |
     }
 
     \partial 8 a8 |
