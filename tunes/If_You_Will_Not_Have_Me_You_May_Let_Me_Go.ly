@@ -17,34 +17,39 @@
 
   <<
     \relative c' {
-      \time 6/8
+      \time 3/2
       \key b \minor
+
+      % Fix auto-beaming to group notes in pairs
+      \set Timing.beamExceptions = #'()
+      \set Timing.baseMoment = #(ly:make-moment 1/4)
+      \set Timing.beatStructure = 1,1,1,1,1,1
 
       % A section
       \repeat volta 2 {
-        fs8 b8 b8 d8 cs8 b8 |
+        fs8 b8 b8 d8 cs8 b8
         a8 cs8 cs8 e8 d8 cs8 |
-        d8 fs8 fs8 e8 d8 cs8 |
-        e16[ d16 cs16 b16] a16[ b16 cs16 a16] b4 |
+        d8 fs8 fs8 e8 d8 cs8
+        e16 d16 cs16 b16 a16 b16 cs16 a16 b4 |
       }
 
       \break
 
       % B section
       \repeat volta 2 {
-        fs'8 b,8 b8 g'8 fs8 b,8 |
-        b'16[ a16 g16 fs16] e16[ d16 cs16 b16] a4 |
-        g8 b8 a16[ b16 cs16 a16] e'16 d16 cs16 b16 |
-        fs8 b8 a16[ b16 cs16 a16] b4 |
+        fs'8 b,8 b8 g'8 fs8 b,8
+        b'16 a16 g16 fs16 e16 d16 cs16 b16 a4  |
+        g8 b8 a16 b16 cs16 a16 e'16 d16 cs16 b16
+        fs8 b8 a16 b16 cs16 a16 b4 |
       }
 
       \break
 
       % C section
       \repeat volta 2 {
-        b,8 d8 d8 fs8 fs8 d8 |
+        b,8 d8 d8 fs8 fs8 d8
         e8 g8 g8 cs8 cs8 a8 |
-        b8 d8 d8 fs,8 fs8 d8 |
+        b8 d8 d8 fs,8 fs8 d8
         e4 fs4 b,4 |
       }
 
@@ -52,36 +57,36 @@
 
       % D section
       \repeat volta 2 {
-        d'8 b8 b8 g8 g8 e8 |
+        d'8 b8 b8 g8 g8 e8
         cs'8 a8 a8 fs8 fs8 d8 |
-        b'8 g8 g8 e8 fs8 d8 |
+        b'8 g8 g8 e8 fs8 d8
         e4 fs4 b,4 |
       }
     }
 
     \chords {
       % A section
-      b2.:m |
+      b2.:m
       a |
-      b:m |
+      b:m
       a2 b4:m |
 
       % B section
-      b2.:m |
+      b2.:m
       b2:m a4 |
-      e4:m a as |
+      e4:m a as
       b4:m a b:m |
 
       % C section
-      b2.:m |
+      b2.:m
       e2:m6 a4 |
-      b2:m d4 |
+      b2:m d4
       e4:m6/cs fs:7 b:m |
 
       % D section
-      b4:m g e:m |
+      b4:m g e:m
       a4 d b:m |
-      g4 e:m d |
+      g4 e:m d
       e4:m6 fs:7 b:m |
     }
   >>
