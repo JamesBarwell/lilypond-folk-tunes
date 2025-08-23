@@ -21,7 +21,7 @@ cat <<EOT >> ${TEMP_PATH}
 EOT
 
 for FILEPATH in ./sets/*.ly; do
-  TITLE=$(grep -E "(\s)title = .*" ${FILEPATH} | sed "s/title = //" | sed 's/"//g' | awk '{$1=$1};1' | sed ':a;N;$!ba;s/\n/ \/ /g')
+  TITLE=$(grep -E "(\s)title = .*" ${FILEPATH} | sed "s/title = //" | sed 's/"//g' | awk '{$1=$1};1' | sed ':a;N;$!ba;s/\n/  \/  /g')
 
 cat <<EOT >> ${TEMP_PATH}
 \bookpart {
@@ -32,7 +32,7 @@ EOT
 done
 
 for FILEPATH in ./tunes/*.ly; do
-  TITLE=$(grep -E "(\s)title = .*" ${FILEPATH} | sed "s/title = //" | sed 's/"//g' | awk '{$1=$1};1')
+  TITLE=$(grep -E "(\s)title = .*" ${FILEPATH} | sed "s/title = //" | sed 's/"//g' | awk '{$1=$1};1' | sed ':a;N;$!ba;s/\n/  \/  /g')
 cat <<EOT >> ${TEMP_PATH}
 \bookpart {
   \tocItem \markup "${TITLE}"
