@@ -67,7 +67,7 @@
     composer = "Jennifer Wrigley"
     meter = "Air"
     origin = "Orkney"
-    title = "James & Emilie Kirkness (detailed)"
+    title = "James & Emilie Kirkness (bowing)"
   }
 
   \relative c' {
