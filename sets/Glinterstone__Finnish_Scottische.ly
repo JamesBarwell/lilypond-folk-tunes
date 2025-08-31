@@ -41,12 +41,12 @@
       }
       \alternative {
         {
-          \once \override Score.VoltaBracket.text = \markup { "1. 2..." }
+          \once \override Score.VoltaBracket.text = \markup \bold { "1. 2..." }
           a4 a8 bf a g f e |
           \partial 2. d2. |
         }
         {
-          \once \override Score.VoltaBracket.text = \markup \text \small \bold { "Last time" }
+          \once \override Score.VoltaBracket.text = \markup \bold { "Last time" }
           a'4 a8 bf a d f, e |
           \partial 2. d2. |
         }
