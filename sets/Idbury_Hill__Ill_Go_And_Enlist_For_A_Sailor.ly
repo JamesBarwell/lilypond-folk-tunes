@@ -55,22 +55,22 @@
 
     \repeat volta 2 {
       e4 e8 fs g4 a |
-      b4 e b4. cs8 |
+      b4 e b4 b8 cs |
       d4 d d fs,8 g |
-      a8 b a fs d4 fs |
+      a8 b a fs d4 d |
       e4 e8 fs g4 a |
-      b4 e b4. cs8 |
+      b4 e b4 b8 cs |
       d4 fs, a g8 fs |
       e2 e |
     }
 
     \repeat volta 2 {
-      e'4 e e fs8 e |
-      d4 b b cs |
+      e'4 e e fs8. e16 |
+      d4 b b b8 cs |
       d4 d d fs,8 g |
-      a8 b a fs d4 fs |
+      a8 b a fs d4 d |
       e4 e8 fs g4 a |
-      b4 e b4. cs8 |
+      b4 e b4 b8 cs |
       d4 fs, a g8 fs |
       e2 e |
     }
