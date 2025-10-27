@@ -21,20 +21,20 @@
 
     \repeat volta 2 {
       \partial 8 e8 |
-      a8 b c b e, a a c |
-      b8 a g d' b g g b |
-      a8 b c b e, a a e' |
-      \partial 1*7/8 d8 b g b c a a |
+      a8. b16 c8 a e a a c |
+      b8. a16 g8 d' b g g b |
+      a8. b16 c8 a e a a e' |
+      \partial 1*7/8 d4 b16 g b8 c a a |
     }
 
     \repeat volta 2 {
       \partial 8 e'8 |
-      a8 g e a g e a4 |
-      g8 e d e b g d' b |
-      a'8 g e a g e a4 |
+      a8. g16 e8 a8 g e a4 |
+      g8 e d g b, g' g, g' |
+      a8. g16 e8 a g e a4 |
       g8 e g b, a4 a8 e' |
-      a8 g e a g e a4 |
-      g8 e d e b g d' b ||
+      a8. g16 e8 a g e a4 |
+      g8 e d g b, g d' b ||
       a8 c b d c e d a' |
       \partial 1*7/8 g e g b, a4 a8 |
     }
@@ -56,7 +56,7 @@
 
     \repeat volta 2 {
       e8 a, a c b g b4 |
-      e8 a, a fs' g fs e d |
+      e8 a, a fs' g8. fs16 e8 d |
       e8 a, a c b g b4 |
       g4 g8 b d e d b |
     }
