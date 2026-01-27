@@ -16,3 +16,6 @@ $(PDF_DIR)/book.pdf : $(SETS_DIR)/*.ly $(TUNES_DIR)/*.ly
 
 clean:
 	rm -f $(PDF_DIR)/* $(SETS_DIR)/*.pdf $(TUNES_DIR)/*.pdf
+
+tune-list-keys:
+	./bin/tune-list-keys.sh
