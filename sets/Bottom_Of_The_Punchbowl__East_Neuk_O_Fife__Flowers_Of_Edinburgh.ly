@@ -9,7 +9,7 @@
 
 \score {
   \header {
-    composer = "James Oswald"
+    composer = "Traditional"
     meter = "Reel"
     origin = "Scotland"
     title = "Bottom of the Punchbowl"
@@ -47,7 +47,7 @@
 
 \score {
   \header {
-    composer = "James Oswald"
+    composer = "Traditional"
     meter = "Reel"
     origin = "Scotland"
     title = "East Neuk O' Fife"
@@ -86,7 +86,7 @@
 
 \score {
   \header {
-    composer = "James Oswald"
+    composer = "Traditional"
     meter = "Reel"
     origin = "Scotland"
     title = "Flowers of Edinburgh"
@@ -123,7 +123,7 @@
 }
 
 \markup \wordwrap {
-  These tunes all composed by cellist James Oswald, born Dunfermline, Scotland, c. 1711, died in Knebworth, England, 1769. The Bottom of the Punch Bowl and Flowers of Edinburgh are both Scottish country dances. The East Neuk of Fife is the part of Fife that juts into the North Sea and contains the town of St. Andrews.
+  The Bottom of the Punch Bowl and Flowers of Edinburgh are both Scottish country dances. Flowers of Edinburgh was included in John Walsh's Caledonian Country Dances in about 1737. The 'East Noock of Fife' was in manuscript in 1709. Its title refers to the part of Fife that juts into the North Sea and contains the town of St. Andrews.
 }
 \markup \smaller \wordwrap {
   Sources: https://tunearch.org/wiki/Bottom_of_the_Punch_Bowl_(1)_(The), https://tunearch.org/wiki/East_Neuk_of_Fife, https://tunearch.org/wiki/Flowers_of_Edinburgh_(1)

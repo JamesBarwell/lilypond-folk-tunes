@@ -20,7 +20,7 @@
       \partial 4 d4
       g8 a8 b8 a8 g4 d4 |
       e4 g4 d2 |
-      e4 g4 e4 g4 |
+      e4 g4 d4 g4 |
       b4 a4 a4 b8 a8 |
       g8 a8 b8 a8 g4 d4 |
       e4 g4 d2 |
