@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     composer = "Judi Morningstar"
@@ -50,8 +48,8 @@
     c4 d a c |
     fs,4 a d, d'8 d |
     b4 d g, b |
-    d,4 g b, d'8 d |
-    e,4. fs8 g4 e |
+    d,4 g b, a'4 |
+    e4. fs8 g4 e |
     d4 g b d |
     c8 b a g fs4 a |
     g1 |

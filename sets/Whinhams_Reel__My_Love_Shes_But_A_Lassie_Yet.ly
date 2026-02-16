@@ -76,7 +76,7 @@
       a4 fs g e |
       fs4 d e cs |
       d8 cs b a b cs d e |
-      \partial 2. e4 d d |
+      \partial 2. fs4 d d |
     }
   }
   

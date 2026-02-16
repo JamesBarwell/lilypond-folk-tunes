@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     arranger = "Joshua Jackson MS, 1798"
@@ -35,9 +33,9 @@
     }
 
     \repeat volta 2 {
-      e''8 c a c f c a c e c a c |
+      e''8 c a c f d b d e c a c |
       g4 b b e, g b |
-      e8 c a c f c a c e c a c |
+      e8 c a c f d b d e c a c |
       e,4 a a e c a |
     }
   }

@@ -1,0 +1,111 @@
+\version "2.20.0"
+\language "english"
+
+\paper {
+  print-all-headers = ##t
+}
+
+\score {
+  \header {
+    composer = "Traditional"
+    origin = "Scotland"
+    meter = "Polka"
+    title = "Island Dance"
+    subtitle = "Toland Dance"
+  }
+
+  \relative c'' {
+    \time 2/4
+    \key a \major
+
+    \repeat volta 2 {
+      fs16 fs fs fs a8 fs |
+      e8 d b4 |
+      e16 e e e fs8 e |
+      d8 b a4 |
+      fs'16 fs fs fs a8 fs |
+      e8 d b16 cs d e |
+      fs8 a fs8. e16 |
+      d4 d |
+    }
+    
+    \repeat volta 2 {
+      a4 a16 b8. |
+      a4 a16 b8. |
+      a8 d d cs |
+      b4 b8. cs16 |
+      b4 b8. cs16 |
+      b8 e e cs |
+      a4 a16 b8. |
+      a4 a16 b8. |
+      a8 d d e |
+      fs8 a fs e |
+      d4 d |
+    }
+  }
+}
+
+\score {
+  \header {
+    composer = "Adam Rennie and John Y. Cameron"
+    origin = "Scotland"
+    meter = "Polka"
+    title = "Caddam Woods"
+  }
+
+  \relative c'' {
+    \time 2/4
+    \key g \major
+    
+    \repeat volta 2 {
+      \partial 4 b8 c |
+      d16 d d d cs8 d |
+      e8 d b4 |
+      d,16 d d d g8 b |
+      e8 d c4 |
+      c16 c c c b8 c |
+      fs8 e c4 |
+    }
+    \alternative {
+      {
+        fs8 e c a |
+        \partial 4 e'8 d |
+      }
+      {
+        fs16 e d c b8 a |
+        g4 g |
+      }
+    }
+
+    d'16 d d d b8 b |
+    d16 d d d b8 b |
+    d4 e8. d16 |
+    d8 cs c4 |
+    c16 d c b a8 a |
+    c16 d c b a8 a |
+    fs'4 fs |
+    e8 d e d |
+    d8 d d16 e d c |
+    b8 b b4 |
+    d4 e8. d16 |
+    d8 cs c4 |
+    c16 d c b a8 a |
+    c16 d c b a8 a |
+    d16 d d d e8 fs |
+    g4 g |
+  }
+}
+
+\markup \bold { Island Dance }
+\markup \wordwrap {
+  Popular melody with many variations and names. Found on the Cheviot Ranters 'Cheviot Barn Dance' album.
+}
+\markup \smaller \wordwrap { Source: https://www.nigelgatherer.com }
+
+\markup \vspace #1
+
+\markup \bold { Caddam Woods }
+\markup \wordwrap {
+  Rennie (1897-1960), from the county of Angus in Scotland, served in World War I where he lost a leg. Undaunted, he became one of the finest Scottish dance fiddlers of his generation. Charlie Todd remarked: 'Adam was a stickler for tempo… ...and if he felt it needed adjustment after the opening chord he would stamp his 'wooden leg' on the stage until the band modified the speed to his liking.' For his contributions to Scottish music, Rennie was awarded renowned fiddler-composer Niel Gow's fiddle at the 1932 Perth Music Festival.
+}
+\markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Caddam_Woods_(2) }
