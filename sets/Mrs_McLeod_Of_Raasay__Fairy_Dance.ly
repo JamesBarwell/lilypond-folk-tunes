@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     composer = "Sir Alexander MacDonald"
@@ -32,11 +30,11 @@
     }
 
     \repeat volta 2 {
-      a8 b cs d e cs b a |
+      a8 b cs d e a, cs a |
       cs4 cs8 b cs4 cs8 b |
       a8 b cs d e cs b a |
       b4 b8 a b d cs b |
-      a8 b cs d e cs b a |
+      a8 b cs d e a, cs a |
       cs4 cs8 b cs4 e |
       fs4 fs8 gs fs e fs gs |
       a8 fs e cs b d cs b |

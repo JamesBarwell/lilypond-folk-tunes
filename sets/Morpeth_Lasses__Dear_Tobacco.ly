@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     composer = "Traditional"

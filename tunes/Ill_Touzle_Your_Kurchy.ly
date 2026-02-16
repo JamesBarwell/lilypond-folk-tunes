@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     arranger = "Book: Aird – Selection of Scotch, English, Irish and Foreign Airs, vol. 1 (No. 4, p. 2)"

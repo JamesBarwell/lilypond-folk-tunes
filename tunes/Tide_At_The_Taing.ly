@@ -5,8 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
-
 \score {
   \header {
     composer = "Jennifer Wrigley"
@@ -24,7 +22,7 @@
       % A section
       \partial 4 bf4 |
       ef4. ef8 ef4 |
-      f4 g bf |
+      ef4 g bf |
       c4. c8 c4 |
       c4 bf g |
       c4. c8 c4 |
@@ -32,7 +30,7 @@
       f4. g8 bf4 |
       g2 bf,4 |
       ef4. ef8 ef4 |
-      f4 g bf |
+      ef4 g bf |
       c4. c8 c4 |
       c4 bf g |
       c4. d8 ef4 |
@@ -50,7 +48,7 @@
       ef4 d c |
       bf4 g f |
       ef4. ef8 ef4 |
-      f4 g bf |
+      ef4 g bf |
       c4. c8 c4 |
       c4 bf g |
       c4. d8 ef4 |
