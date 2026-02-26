@@ -19,3 +19,6 @@ clean:
 
 tune-list-keys:
 	./bin/tune-list-keys.sh
+
+audit-mode-labels:
+	./bin/audit-mode-labels.sh
