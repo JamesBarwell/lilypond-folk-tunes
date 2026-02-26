@@ -16,6 +16,7 @@
   \relative c' {
     \time 4/4
     \key a \dorian
+    \mark \markup \normalsize { Ador }
 
     \repeat volta 2 {
       \partial 8 e8 |
@@ -51,6 +52,7 @@
   \relative c'' {
     \time 4/4
     \key a \dorian
+    \mark \markup \normalsize { Ador }
 
     \repeat volta 2 {
       e8 a, a c b g b4 |

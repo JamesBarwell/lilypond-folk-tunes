@@ -17,6 +17,7 @@
   \relative c'' {
     \time 6/8
     \key a \dorian
+    \mark \markup \normalsize { Ador }
 
     \repeat volta 2 {
       c8 a a c a a |
