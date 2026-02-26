@@ -17,6 +17,7 @@
   \relative c'' {
     \time 6/8
     \key a \mixolydian
+    \mark \markup \normalsize { Amix }
 
     \partial 8 b16 d |
     \repeat volta 2 {
