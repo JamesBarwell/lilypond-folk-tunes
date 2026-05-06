@@ -33,7 +33,7 @@
 
     \repeat volta 2 {
       \partial 4 f8 g |
-      a4 e e a |
+      a4 f f a |
       g4 e e g |
       f4 d d8 e f d |
       e4 a,2 f'8 g |
