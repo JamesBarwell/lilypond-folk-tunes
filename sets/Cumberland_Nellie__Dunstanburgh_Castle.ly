@@ -144,16 +144,15 @@
   >>
 }
 
-\markup \bold { Cumberland Nellie }
+
 \markup \wordwrap {
-  Here’s a very old English tune dating back to at least the latter half of the seventeenth century. It was attached to a number of ballads, perhaps most notably The North Country Lovers which begins, 'There was a lass of Cumberland.'
+  \bold { Cumberland Nellie } Here’s a very old English tune dating back to at least the latter half of the seventeenth century. It was attached to a number of ballads, perhaps most notably The North Country Lovers which begins, 'There was a lass of Cumberland.'
 }
 \markup \smaller \wordwrap { Source: https://www.stewarthardy.co.uk/the-tune-vault }
 
 \markup \vspace #1
 
-\markup \bold { Dunstanburgh Castle }
 \markup \wordwrap {
-  Composed by Willy Miller, a founding member of the group the Cheviot Ranters (1953-1996), based in Alnwick, Northumberland. The group used the tune for the dance Corn Rigs. Dunstanburgh castle lies on the Northumbrian coast between the villages of Craster and Low Newton-by-the-Sea.
+  \bold { Dunstanburgh Castle } Composed by Willy Miller, a founding member of the group the Cheviot Ranters (1953-1996), based in Alnwick, Northumberland. The group used the tune for the dance Corn Rigs. Dunstanburgh castle lies on the Northumbrian coast between the villages of Craster and Low Newton-by-the-Sea.
 }
 \markup \smaller \wordwrap { Source: https://www.stewarthardy.co.uk/the-tune-vault }

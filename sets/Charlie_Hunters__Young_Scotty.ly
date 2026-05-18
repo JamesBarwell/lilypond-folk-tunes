@@ -101,17 +101,17 @@
   }
 }
 
-\markup \bold { Charlie Hunter's Jig }
+
 \markup \wordwrap {
-  The composition is credited to piano accordion player Bobby MacLeod of Tobermory, Mull. The title probably refers to the late Charlie Hunter of Oban, a radio operator on the MacBrayne steamers which ply the west-coast routes of Scotland.
+  \bold { Charlie Hunter's Jig }The composition is credited to piano accordion player Bobby MacLeod of Tobermory, Mull. The title probably refers to the late Charlie Hunter of Oban, a radio operator on the MacBrayne steamers which ply the west-coast routes of Scotland.
 }
 \markup \smaller \wordwrap {
-  Source: https://tunearch.org/wiki/Charlie_Hunter%27s_Jig }
+  Source: https://tunearch.org/wiki/Charlie_Hunter%27s_Jig
+}
 
-  \markup \vspace #1
+\markup \vspace #1
 
-  \markup \bold { Young Scotty }
-  \markup \wordwrap {
-    Composed in 1984 by Aberdeen accordion player Charles Fraser "Charlie" Sherrit. Sherrit was a former policeman and member of the Aberdeen Accordion and Fiddle Club, and published four volumes of his own compositions.
-  }
-  \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Young_Scotty }
+\markup \wordwrap {
+  \bold { Young Scotty } Composed in 1984 by Aberdeen accordion player Charles Fraser "Charlie" Sherrit. Sherrit was a former policeman and member of the Aberdeen Accordion and Fiddle Club, and published four volumes of his own compositions.
+}
+\markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Young_Scotty }

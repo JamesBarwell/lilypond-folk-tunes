@@ -80,14 +80,16 @@
   }
 }
 
-\markup \bold { Knockdu Reel, The }
+
 \markup \smaller \wordwrap {
-  KNOCKDHU (REEL). Scottish, Reel (cut time). A Minor. Standard tuning (fiddle). AABB. Composed by Scottish fiddler Ian Hardie (1952-2012), inspired by "a deserted homestead in the remotest area of the Dava Moor."
+  \bold { Knockdu Reel, The } Composed by Scottish fiddler Ian Hardie (1952-2012), inspired by "a deserted homestead in the remotest area of the Dava Moor."
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Knockdhu }
 \markup \smaller \wordwrap { Source: http://www.ian-hardie.co.uk/scores.php }
 
 \markup \vspace #1
 
-\markup \bold { Tongadale Reel, The }
+\markup \smaller \wordwrap {
+  \bold { Tongadale Reel, The } todo
+}
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Tongadale_Reel }

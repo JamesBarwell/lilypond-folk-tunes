@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Traditional"
@@ -71,16 +72,14 @@
 }
 
 
-\markup \bold { Morpeth Lasses }
 \markup \smaller \wordwrap {
-  The town of Morpeth is in Northumberland, a market center on the River Wansbeck serving the surrounding rural areas and the villages of the Northumbrian coalfield (Graham Dixon). It evolved around a Norman fortress called Morpeth Castle, one of several guarding the east coast routes to Scotland. The tune is said to have been published by Playford, although it does not appear in the long-running Dancing Master series under the "Morpeth" title. Barnes (2005) suggests it as a vehicle for the dance "Maine Chance" (by Marty Fager), and it is the staple tune for Yorkshire's "Ampleforth Longsword Dance." See also the closely related "George Carnegie's Strathspey," "Inverara Rant," "Lady Warkworth's Reel (1)," "I Wish You Wou'd Marry Me Now," "Marry Me Now," and "Proposal (2) (The)."
+  \bold { Morpeth Lasses } The town of Morpeth is in Northumberland, a market center on the River Wansbeck serving the surrounding rural areas and the villages of the Northumbrian coalfield (Graham Dixon). It evolved around a Norman fortress called Morpeth Castle, one of several guarding the east coast routes to Scotland. The tune is said to have been published by Playford, although it does not appear in the long-running Dancing Master series under the "Morpeth" title. Barnes (2005) suggests it as a vehicle for the dance "Maine Chance" (by Marty Fager), and it is the staple tune for Yorkshire's "Ampleforth Longsword Dance." See also the closely related "George Carnegie's Strathspey," "Inverara Rant," "Lady Warkworth's Reel (1)," "I Wish You Wou'd Marry Me Now," "Marry Me Now," and "Proposal (2) (The)."
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Morpeth_Lasses }
 
 \markup \vspace #1
 
-\markup \bold { Dear Tobacco }
 \markup \smaller \wordwrap {
-  'Dear Tobacco' in the sense of expensive or hard-to-obtain tobacco. The melody also appears in the music manuscript book of John Buttery, a Lincolnshire fifer with the British army around the turn of the 19th century. Buttery makes references to Scotland and the sea (e.g. battles in the Caribbean and the Mediterranean) in his manuscript, which he decorated with drawings. Other manuscript versions appear in the John Hall ms. (1833), and the Matthew Bethem ms. (1815, Towcett, Cumbria). John Offord (2018) speculates that dear, or expensive, tobacco may have been the result of the British trade embargo of the former colonies during and after the American Revolution.
+  \bold { Dear Tobacco } 'Dear' in the sense of expensive. The melody also appears in the music manuscript book of John Buttery, a Lincolnshire fifer with the British army around the turn of the 19th century. Buttery makes references to Scotland and the sea (e.g. battles in the Caribbean and the Mediterranean) in his manuscript, which he decorated with drawings. Other manuscript versions appear in the John Hall ms. (1833), and the Matthew Bethem ms. (1815, Towcett, Cumbria). John Offord (2018) speculates that dear, or expensive, tobacco may have been the result of the British trade embargo of the former colonies during and after the American Revolution.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Dear_Tobacco }

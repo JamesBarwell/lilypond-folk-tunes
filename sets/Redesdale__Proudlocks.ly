@@ -5,8 +5,8 @@
   print-all-headers = ##t
 }
 
-\score {
 
+\score {
   \header {
     composer = "James Hill"
     meter = "Hornpipe"
@@ -116,18 +116,20 @@
   }
 }
 
-\markup \bold { Redesdale Hornpipe }
+
 \markup \smaller \wordwrap {
-  AKA and see “Underhand Hornpipe (The).” English, Hornpipe. G Major. Standard tuning (fiddle). AABB. Composed by James Hill, originally born in Dundee, Scotland, but who lived much of his life in Gateshead, County Durham (near Newcastle). The tune is attributed to him in Kohler’s Violin Repository (Edinburgh, 1881-1885) under the title "Underhand", and was, like several of Hill’s other compositions, named for a famous race horse.
+  \bold { Redesdale Hornpipe } AKA and see “Underhand Hornpipe (The).” English, Hornpipe. G Major. Standard tuning (fiddle). AABB. Composed by James Hill, originally born in Dundee, Scotland, but who lived much of his life in Gateshead, County Durham (near Newcastle). The tune is attributed to him in Kohler’s Violin Repository (Edinburgh, 1881-1885) under the title "Underhand", and was, like several of Hill’s other compositions, named for a famous race horse.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Redesdale_Hornpipe }
 
-\markup \bold { Proudlock's Hornpipe }
+\markup \vspace #1
+
 \markup \smaller \wordwrap {
-  AKA – “Lewis Proudlock's.” AKA and see “Belle Isle's March," "General Monk's Goosestep," "General Monk's March," "Monck's March.” English, Hornpipe. England, Northumberland. G Major. Standard tuning (fiddle). AABB. This version is apparently derived from smallpipe playing. The tune is a variant of “Monk's March.” According to Peter Kennedy who recorded Northumbrian smallpiper Jack Armstong (1904–1978) in 1954, Lewis "Lewie" Proudlock was a peripatetic fiddler and fisherman from Northumberland, whose granddaughter played with Armstrong. More recently a fuller picture of a Lewis Proudlock (1838-1914) has taken shape, who is probably our man, though he was neither peripatetic nor a fisherman. The name is not uncommon in the family and there remains the possibility that another, older, person is involved, but as the other, "Proudlock's Fancy", tune can be no earlier than mid-nineteenth century that seems unlikely.
+  \bold { Proudlock's Hornpipe } AKA – “Lewis Proudlock's.” AKA and see “Belle Isle's March," "General Monk's Goosestep," "General Monk's March," "Monck's March.” English, Hornpipe. England, Northumberland. G Major. Standard tuning (fiddle). AABB. This version is apparently derived from smallpipe playing. The tune is a variant of “Monk's March.” According to Peter Kennedy who recorded Northumbrian smallpiper Jack Armstong (1904–1978) in 1954, Lewis "Lewie" Proudlock was a peripatetic fiddler and fisherman from Northumberland, whose granddaughter played with Armstrong. More recently a fuller picture of a Lewis Proudlock (1838-1914) has taken shape, who is probably our man, though he was neither peripatetic nor a fisherman. The name is not uncommon in the family and there remains the possibility that another, older, person is involved, but as the other, "Proudlock's Fancy", tune can be no earlier than mid-nineteenth century that seems unlikely.
 
   The hornpipe is sometimes erroneously attributed to James Hill (1811-1853), the renowned Tyneside composer of hornpipes, among them "Proudlock's Fancy." The similarity in titles is the cause of the confusion.
 }
 
 \markup \smaller \wordwrap {
-  Source: https://tunearch.org/wiki/Proudlock%27s_Hornpipe }
+  Source: https://tunearch.org/wiki/Proudlock%27s_Hornpipe
+}

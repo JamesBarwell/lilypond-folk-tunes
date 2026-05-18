@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     title = "O'Connor's"
@@ -143,9 +144,9 @@
   }
 }
 
-\markup \bold { O'Connor's }
+
 \markup \smaller \wordwrap {
-  O'CONNOR'S (POLKA). AKA and see "Hayden Fancy," "Johnny Box," "Mary Ann." Irish, Polka. D Major. Standard tuning (fiddle). AABB.
+  \bold { O'Connor's } AKA and see "Hayden Fancy," "Johnny Box," "Mary Ann." Irish, Polka. D Major. Standard tuning (fiddle). AABB.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/O%27Connor%27s_Polka
@@ -153,9 +154,8 @@
 
 \markup \vspace #1
 
-\markup \bold { Tralee Gaol }
 \markup \smaller \wordwrap {
-  AKA – “Tralee Jane.” AKA and see "Barrack Hill (1)," "Green Cockade (3) (The)," "Haughs of Cromdale (The)," "O'Neill's March (2)," "Tralee Jane," “O'Neill's March (2).” Irish, Polka (2/4 time). A Dorian. Standard tuning (fiddle). AABB. A version of the Scottish “Haughs of Cromdale (The)” tune family.
+  \bold { Tralee Gaol } AKA – “Tralee Jane.” AKA and see "Barrack Hill (1)," "Green Cockade (3) (The)," "Haughs of Cromdale (The)," "O'Neill's March (2)," "Tralee Jane," “O'Neill's March (2).” Irish, Polka (2/4 time). A Dorian. Standard tuning (fiddle). AABB. A version of the Scottish “Haughs of Cromdale (The)” tune family.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Tralee_Gaol
@@ -163,9 +163,8 @@
 
 \markup \vspace #1
 
-\markup \bold { Maggie In The Woods }
 \markup \smaller \wordwrap {
-  AKA - "If I Had Maggie in the Woods," "Maggie in the Corner." AKA and see "bhFaca tú mo shéamaisín (An) (Did You See My Seámaisín?)," "Mussels in the Corner," "Nancy Wants Her Own Share," "Well I know what Kitty wants." Irish, Polka. Ireland, West Kerry. G Major. Standard tuning (fiddle). AB (Taylor): AABB (Mac Amhlaoibh & Durham, Morrison, O'Brien, Sweet): AABB' (Sullivan): AA'BB' (Tubridy). The melody appears earliest in print under the title "Nancy Wants Her Own Share" as a march in Arthur Darley and Francis McCall's Feis Ceoil Collection of Irish Airs (1914). The polka version of tune, first printed in O'Brien's Accordion Instructor (1949) was popularized in the mid-1950's by banjo player Margaret Barry and fiddler Michael Gorman, and again in the 1970's by the Chieftains. However, the earliest sound recording of the tune under the "Maggie in the Woods" title was by flute player Tom Morrison, who recorded it in 1925 (2nd tune of the medley "Maggie in the Woods"). Morrison re-recorded the set for Columbia records a few years later, in 1928.
+  \bold { Maggie In The Woods } AKA - "If I Had Maggie in the Woods," "Maggie in the Corner." AKA and see "bhFaca tú mo shéamaisín (An) (Did You See My Seámaisín?)," "Mussels in the Corner," "Nancy Wants Her Own Share," "Well I know what Kitty wants." Irish, Polka. Ireland, West Kerry. G Major. Standard tuning (fiddle). AB (Taylor): AABB (Mac Amhlaoibh & Durham, Morrison, O'Brien, Sweet): AABB' (Sullivan): AA'BB' (Tubridy). The melody appears earliest in print under the title "Nancy Wants Her Own Share" as a march in Arthur Darley and Francis McCall's Feis Ceoil Collection of Irish Airs (1914). The polka version of tune, first printed in O'Brien's Accordion Instructor (1949) was popularized in the mid-1950's by banjo player Margaret Barry and fiddler Michael Gorman, and again in the 1970's by the Chieftains. However, the earliest sound recording of the tune under the "Maggie in the Woods" title was by flute player Tom Morrison, who recorded it in 1925 (2nd tune of the medley "Maggie in the Woods"). Morrison re-recorded the set for Columbia records a few years later, in 1928.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Maggie_in_the_Woods

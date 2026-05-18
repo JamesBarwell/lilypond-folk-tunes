@@ -29,7 +29,7 @@
       c8 b c a e a gs b |
       \partial 2. a4 a a |
     }
-    
+
     \repeat volta 2 {
       \partial 4 e'4 |
       a8 gs a b a4 e |
@@ -67,9 +67,9 @@
       e4 c8 e d8 b g b |
       \partial 2. a4 fs g |
     }
-    
+
     \repeat volta 2 {
-       \partial 4 fs'4 | 
+       \partial 4 fs'4 |
        g4 e8 g fs4 d |
        e4 c8 e d4 b |
        e4 c8 e d4 b |
@@ -82,16 +82,14 @@
   }
 }
 
-\markup \bold { XYZ }
 \markup \wordwrap {
-  A G-minor mode setting of the "Butchers of Bristol" is to be found under the curious title "XYZ" in the 1831 music manuscript book of William Thomas Green (1825-1898), piper to the Duchess of Northumberland, as was his father, William Green of Morpeth (1774-1860). Researcher and Northumbrian piper Matt Seattle explains that 'XYZ' was the name of a famed racehorse, winner of the Gold Cup for four consecutive hears from 1811-1814. "XYZ" is sometimes attributed to Tyneside fidder-composer and sometime publican James Hill (c. 1810-1856). However, at this time it cannot be verified that Hill was the composer. This A-minor setting, now commonly played, is in the Rook book.
+  \bold { XYZ } A G-minor mode setting of the "Butchers of Bristol" is to be found under the curious title "XYZ" in the 1831 music manuscript book of William Thomas Green (1825-1898), piper to the Duchess of Northumberland, as was his father, William Green of Morpeth (1774-1860). Researcher and Northumbrian piper Matt Seattle explains that 'XYZ' was the name of a famed racehorse, winner of the Gold Cup for four consecutive hears from 1811-1814. "XYZ" is sometimes attributed to Tyneside fidder-composer and sometime publican James Hill (c. 1810-1856). However, at this time it cannot be verified that Hill was the composer. This A-minor setting, now commonly played, is in the Rook book.
 }
 \markup \smaller \wordwrap { Source: https://www.stewarthardy.co.uk/the-tune-vault }
 
 \markup \vspace #1
 
-\markup \bold { The Great North Run }
 \markup \wordwrap {
-  
+  \bold { The Great North Run }
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Great_North_Run_(The) }

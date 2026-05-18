@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Traditional"
@@ -84,16 +85,14 @@
 }
 
 
-\markup \bold { Laridé }
 \markup \smaller \wordwrap {
-  Also known as La Ridée, Ridée. Origin: Brittany. A laridé is a type of Breton dance.
+  \bold { Laridé } Also known as La Ridée, Ridée. Origin: Brittany. A laridé is a type of Breton dance.
 }
 \markup \smaller \wordwrap { Source: Harrogate tune book (sent to me by Roy). }
 
 \markup \vspace #1
 
-\markup \bold { Theme Vannitas }
 \markup \smaller \wordwrap {
-  Also known as An Dro Vannetais, Bwrlwm, En Dro Vannetais, Theme Vannetais, Twiglet, Twiglets. Jean Choucun, of Tri Yann, confirms that he wrote this tune along with other members of the band. It was the theme music for Picou Fils de Son Père, a Breton 70s soap opera. Performed by and credited to the Breton Folk Rock band Tri Yann, 1975, who just called it An Dros, after the Breton Dance form. The dance Twiglet, which is generally associated with it was written by the Border Moris side Planet Morris of Sheffield.
+  \bold { Theme Vannitas } Also known as An Dro Vannetais, Bwrlwm, En Dro Vannetais, Theme Vannetais, Twiglet, Twiglets. Jean Choucun, of Tri Yann, confirms that he wrote this tune along with other members of the band. It was the theme music for Picou Fils de Son Père, a Breton 70s soap opera. Performed by and credited to the Breton Folk Rock band Tri Yann, 1975, who just called it An Dros, after the Breton Dance form. The dance Twiglet, which is generally associated with it was written by the Border Moris side Planet Morris of Sheffield.
 }
 \markup \smaller \wordwrap { Source: learned at The Maltings }

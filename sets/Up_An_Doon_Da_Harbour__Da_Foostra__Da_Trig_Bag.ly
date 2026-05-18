@@ -103,21 +103,21 @@
   }
 }
 
-\markup \bold { Up an' Doon da Harbour }
+\markup \wordwrap {
+  \bold { Up an' Doon da Harbour } todo
+}
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Up_and_Doon_da_Harbour }
 
 \markup \vspace #1
 
-\markup \bold { Da Foostra }
 \markup \wordwrap {
-  Played by Shetland fiddler James Smith in the 19th century. His son wrote it down and named it 'Da Foostra' after a sunken rock off the island of Unst. 'Fuster' is apparently an old Shetland word meaning 'foaming sea'.
+  \bold { Da Foostra } Played by Shetland fiddler James Smith in the 19th century. His son wrote it down and named it 'Da Foostra' after a sunken rock off the island of Unst. 'Fuster' is apparently an old Shetland word meaning 'foaming sea'.
 }
 \markup \smaller \wordwrap { Source: https://thesession.org/tunes/17176 }
 
 \markup \vspace #1
 
-\markup \bold { Da Trig Bag }
 \markup \wordwrap {
-  A Shetland reel from the island of Whalsay. Tom Anderson (1978) says the title refers to a small bag carried on shore by sailors.
+  \bold { Da Trig Bag } A Shetland reel from the island of Whalsay. Tom Anderson (1978) says the title refers to a small bag carried on shore by sailors.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Trig_Bag_(Da) }

@@ -99,20 +99,20 @@
   }
 }
 
+
 \markup \smaller \wordwrap { This set as played by Kristen Harvey, https://www.youtube.com/watch?v=XA_WWN39Wg4 }
 
 \markup \vspace #1
 
-\markup \bold { Flett From Flotta}
+
 \markup \smaller \wordwrap {
-  Composed by Pipe Major Donald MacLeod. Flotta is a small island in Orkney, lying in Scapa Flow. The title references George (Dode) Flett (or William A. Flett), who was a Highland Piper in the Seaforth Highlanders, along with the tune's composer, Donald MacLeod. A couple of stories are attached to the tune. One has it that Flett had a peculiar walking gait, and MacLeod's tune is in imitation of it. Another story goes that MacLeod and another piper had guard duty on a train, protecting the regimental silver as it was being transported for some function in London. To pass the time, they brought out their chanters and began to play, when MacLeod suggested they compose a tune together. They came up with this march, and cast about for a title. MacLeod inquired of the other piper's name, and applied it to the march.
+  \bold { Flett From Flotta} Composed by Pipe Major Donald MacLeod. Flotta is a small island in Orkney, lying in Scapa Flow. The title references George (Dode) Flett (or William A. Flett), who was a Highland Piper in the Seaforth Highlanders, along with the tune's composer, Donald MacLeod. A couple of stories are attached to the tune. One has it that Flett had a peculiar walking gait, and MacLeod's tune is in imitation of it. Another story goes that MacLeod and another piper had guard duty on a train, protecting the regimental silver as it was being transported for some function in London. To pass the time, they brought out their chanters and began to play, when MacLeod suggested they compose a tune together. They came up with this march, and cast about for a title. MacLeod inquired of the other piper's name, and applied it to the march.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Flett_from_Flotta }
 
 \markup \vspace #1
 
-\markup \bold { Gairsay }
 \markup \smaller \wordwrap {
-  A tune from the Orkney. It takes its name from Gairsay, a island in the Stronsay Firth.
+  \bold { Gairsay } A tune from the Orkney. It takes its name from Gairsay, a island in the Stronsay Firth.
 }
 \markup \smaller \wordwrap { Source: https://thesession.org/tunes/14774 }

@@ -29,10 +29,10 @@
         b4. b8 a b cs b a |
       }
       {
-       b4. b8 a b cs e fs | 
+       b4. b8 a b cs e fs |
       }
     }
-    
+
     \repeat volta 2 {
       a4. fs8 e cs fs e cs |
       b4. b8 a b cs e fs |
@@ -74,7 +74,7 @@
         \tuplet 3/2 { b8 cs d } b8 a g fs e4. |
       }
     }
-    
+
     g'4 e8 g4 e8 e d b |
     fs'4 d8 d cs d fs e d |
     g4 e8 g4 e8 e d b |
@@ -86,16 +86,15 @@
   }
 }
 
-\markup \bold { Farewell to Whalley Range }
+
 \markup \smaller \wordwrap {
-  Composed by Mike McGoldrick when he moved from Whalley Range, an area of Manchester he used to live in. Recorded on Michael McGoldrick and John McSherry's album "At First Light".
+  \bold { Farewell to Whalley Range } Composed by Mike McGoldrick when he moved from Whalley Range, an area of Manchester he used to live in. Recorded on Michael McGoldrick and John McSherry's album "At First Light".
 }
 \markup \smaller \wordwrap { Source: https://oxfordslowsession.com }
 
 \markup \vspace #1
 
-\markup \bold { A Fig For A Kiss }
 \markup \smaller \wordwrap {
-  The melody was printed in the Petrie Collection of Ancient Irish Music of Ireland (Dublin, 1855) under the title "Glugur an Mheadair," translated as "Gurgling/Splashing of the Churn." The "Fig for a Kiss" title was first used in print by O'Neill. Related Cape Breton versions can be found under the title "Old Dutch Churn (The)," the title by which the tune appears in Ryan's Mammoth Collection (1883).
+  \bold { A Fig For A Kiss } The melody was printed in the Petrie Collection of Ancient Irish Music of Ireland (Dublin, 1855) under the title "Glugur an Mheadair," translated as "Gurgling/Splashing of the Churn." The "Fig for a Kiss" title was first used in print by O'Neill. Related Cape Breton versions can be found under the title "Old Dutch Churn (The)," the title by which the tune appears in Ryan's Mammoth Collection (1883).
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Fig_for_a_Kiss_(1)_(A) }

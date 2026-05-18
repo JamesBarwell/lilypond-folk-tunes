@@ -99,16 +99,15 @@
 }
 
 
-\markup \bold { Road To The Isles }
+
 \markup \smaller \wordwrap {
-  Composed in 1891 by 16-year-old John McLellan (1875–1949), D.C.M., a poet and painter from Dunoon, Scotland, who became Pipe-Major of the 8th Battalion, Argyl and Sutherland Highlanders during World War I. McLellan named it "The Bens of Jura." Cape Breton piper Barry Shears insists it was composed in honor of McLellan's mother who was originally from Jura. The title "Road to the Isles," is the name of a poem set to McLellan's tune by Kenneth Macleod. 
+  \bold { Road To The Isles } Composed in 1891 by 16-year-old John McLellan (1875–1949), D.C.M., a poet and painter from Dunoon, Scotland, who became Pipe-Major of the 8th Battalion, Argyl and Sutherland Highlanders during World War I. McLellan named it "The Bens of Jura." Cape Breton piper Barry Shears insists it was composed in honor of McLellan's mother who was originally from Jura. The title "Road to the Isles," is the name of a poem set to McLellan's tune by Kenneth Macleod.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Road_to_the_Isles }
 
 \markup \vspace #1
 
-\markup \bold { Memories Of Father Angus MacDonnell }
 \markup \smaller \wordwrap {
-  Canada, Cape Breton. Composed by the late Northside fiddler Mike MacDougall (1928-1982, Ingonish, Cape Breton) in honor of dancer and teacher Fr. Angus MacDonnell.
+  \bold { Memories Of Father Angus MacDonnell } Canada, Cape Breton. Composed by the late Northside fiddler Mike MacDougall (1928-1982, Ingonish, Cape Breton) in honor of dancer and teacher Fr. Angus MacDonnell.
 }
 \markup \smaller \wordwrap { Source: https://thesession.org/tunes/1796 }

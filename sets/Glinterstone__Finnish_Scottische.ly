@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Kim Bibby-Wilson (2020)"
@@ -126,16 +127,14 @@
 }
 
 
-\markup \bold { The Glinter Stone }
 \markup \smaller \wordwrap {
-  Recorded on 'Songs and tunes from North East England and beyond' by John Bibby & Kim Bibby-Wilson. The Glinter Stone is a lucky pebble that was hung behind the door of a fisherman's cottage in Newbiggin-by-the-Sea, Northumberland. It is now housed in the Pitt Rivers Museum, Oxford and is described as a 'Beach pebble of black limestone bored by pholas [a type of bivalve mollusc], hung behind a door in the cottage of William Twizel, fisherman, as a “lucky stone”.’ Apparently several of these stones hung by various doors of the cottage.' The use of holed stones as charms or amulets has a long history, dating back to ancient times.
+  \bold { The Glinter Stone } Recorded on 'Songs and tunes from North East England and beyond' by John Bibby & Kim Bibby-Wilson. The Glinter Stone is a lucky pebble that was hung behind the door of a fisherman's cottage in Newbiggin-by-the-Sea, Northumberland. It is now housed in the Pitt Rivers Museum, Oxford and is described as a 'Beach pebble of black limestone bored by pholas [a type of bivalve mollusc], hung behind a door in the cottage of William Twizel, fisherman, as a “lucky stone”.’ Apparently several of these stones hung by various doors of the cottage.' The use of holed stones as charms or amulets has a long history, dating back to ancient times.
 }
 \markup \smaller \wordwrap { Source: Meg's sheet music }
 
 \markup \vspace #1
 
-\markup \bold { Finnish Scottische }
 \markup \wordwrap {
-  Also known as 'Jack in the Green'. Recorded on Blowzabella's album 'Wall of Sound' as 'Finnish Scottish'. The sleeve notes say: 'Ian Luff heard this on the radio, played by a Finnish fiddle orchestra'.
+  \bold { Finnish Scottische } Also known as 'Jack in the Green'. Recorded on Blowzabella's album 'Wall of Sound' as 'Finnish Scottish'. The sleeve notes say: 'Ian Luff heard this on the radio, played by a Finnish fiddle orchestra'.
 }
 \markup \smaller \wordwrap { Source: Encyclopedia Blowsabellica }

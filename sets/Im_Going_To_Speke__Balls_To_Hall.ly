@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Joe Scurfield"
@@ -89,12 +90,11 @@
       }
     }
   }
-
 }
 
-\markup \bold { I'm Going To Speke }
+
 \markup \smaller \wordwrap {
-  Pun on Speke, a suburb of Liverpool.
+  \bold { I'm Going To Speke } Pun on Speke, a suburb of Liverpool.
 }
 \markup \smaller \wordwrap {
   Source: https://thesession.org/tunes/17429
@@ -102,9 +102,8 @@
 
 \markup \vspace #1
 
-\markup \bold { Balls To Hall }
 \markup \smaller \wordwrap {
-  Named in reference to Sir John Hall and his chairmanship of Newcasle Football Club.
+  \bold { Balls To Hall } Named in reference to Sir John Hall and his chairmanship of Newcasle Football Club.
 }
 \markup \smaller \wordwrap {
   Source: https://thesession.org/tunes/6279

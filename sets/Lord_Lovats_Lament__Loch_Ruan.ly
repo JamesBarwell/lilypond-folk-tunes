@@ -83,16 +83,14 @@
 }
 
 
-\markup \bold { Lord Lovat's Lament }
 \markup \smaller \wordwrap {
-  A well-known bagpipe march which entered fiddle repertory, perhaps through fife and drum sources. The piece is said to have been composed by either Ewen MacGregor or his pupil David Fraser, both pipers to Simon Lord Lovat. The tune would be in mixolydian mode for the bagpipes. Lovat was famous for his role in the unsuccessful Jacobite rebellion of 1745.
+  \bold { Lord Lovat's Lament } A well-known bagpipe march which entered fiddle repertory, perhaps through fife and drum sources. The piece is said to have been composed by either Ewen MacGregor or his pupil David Fraser, both pipers to Simon Lord Lovat. The tune would be in mixolydian mode for the bagpipes. Lovat was famous for his role in the unsuccessful Jacobite rebellion of 1745.
 }
 \markup \smaller \wordwrap { Source: https://thesession.org/tunes/3872 }
 
 \markup \vspace #1
 
-\markup \bold { Loch Ruan }
 \markup \smaller \wordwrap {
-  Composed by Highland piper George Maceachran MacIntyre (1918–1997) of Campbeltown, who served with the 8th Argylls and was taken prisoner at St. Valery in 1940. MacIntyre lived for many years in Corby, England, but later returned to Campbelton. He was for a time piper to Colonel Gayre of Nigg at Minard Castle, Loch Fyne (his collection of original pipe compositions is named after Minard Castle).
+  \bold { Loch Ruan } Composed by Highland piper George Maceachran MacIntyre (1918–1997) of Campbeltown, who served with the 8th Argylls and was taken prisoner at St. Valery in 1940. MacIntyre lived for many years in Corby, England, but later returned to Campbelton. He was for a time piper to Colonel Gayre of Nigg at Minard Castle, Loch Fyne (his collection of original pipe compositions is named after Minard Castle).
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Loch_Ruan }

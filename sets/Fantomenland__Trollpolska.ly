@@ -6,7 +6,6 @@
 }
 
 
-
 \score {
   \header {
     composer = "Daniel Carlsson"
@@ -182,17 +181,15 @@ The composer's interlude recorded here for posterity.
 }
 
 
-\markup \bold { Fantomenland }
 \markup \smaller \wordwrap {
-  The name comes from 1930s American superhero The Phantom, which was popular in Scandinavia. Fantomenland probably refers to a Phantom-themed zone of a theme park/zoo in Sweden. The composer Daniel Carlsson is Swedish and was a modern-day writer of the comic book. It's technically a jazz walts but sounds like a Polska.
+  \bold { Fantomenland } The name comes from 1930s American superhero The Phantom, which was popular in Scandinavia. Fantomenland probably refers to a Phantom-themed zone of a theme park/zoo in Sweden. The composer Daniel Carlsson is Swedish and was a modern-day writer of the comic book. It's technically a jazz walts but sounds like a Polska.
 }
 \markup \smaller \wordwrap { Source: originally from Meg, who got this from Emma Reid (Daniel's wife) at the Folkworks Summer School workshop. }
 
 \markup \vspace #1
 
-\markup \bold { Trollpolska }
 \markup \smaller \wordwrap {
-  Apparently from Dalarna, Sweden. The tune is mostly played and danced like a polska, a Swedish couple-dance in slower 3/4. Not a waltz - the tune seems to be an "Uneven polska (ojämn polska)", with a down/heavy emphasis on the 1st and 3rd beats.
+  \bold { Trollpolska } Apparently from Dalarna, Sweden. The tune is mostly played and danced like a polska, a Swedish couple-dance in slower 3/4. Not a waltz - the tune seems to be an "Uneven polska (ojämn polska)", with a down/heavy emphasis on the 1st and 3rd beats.
 }
 \markup \smaller \wordwrap {
   Source: https://thesession.org/tunes/7964 X4, then modified a little based on the Smörgåsklickarna recording, see: https://www.youtube.com/watch?v=DyzopylT-Yg

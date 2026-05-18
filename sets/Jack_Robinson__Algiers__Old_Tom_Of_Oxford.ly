@@ -122,26 +122,22 @@
   }
 }
 
-\markup \bold { Jack Robinson}
+
 \markup \wordwrap {
-  The melody is found in the repertoire of fiddler William Tilbury (who lived at Pitch Place, midway between Churt and Thursley in Surrey).
+  \bold { Jack Robinson} The melody is found in the repertoire of fiddler William Tilbury (who lived at Pitch Place, midway between Churt and Thursley in Surrey).
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Jack_Robinson }
 
 \markup \vspace #1
 
-\markup \bold { Algiers }
 \markup \wordwrap {
-  The tune dates at least to 1651, when it was first published in John Playford's first edition of his English Dancing Master, with the alternative title "The Wedding Night". Williamson (1976) identifies the melody as a morris dance tune from southern England, and suggests that the title might have been a garbled version of the North African territory of 'Algiers'. This may be true: Shakespeare and Dryden both refer to Algerian pirates by the term ‘Argiers’.
+  \bold { Algiers } The tune dates at least to 1651, when it was first published in John Playford's first edition of his English Dancing Master, with the alternative title "The Wedding Night". Williamson (1976) identifies the melody as a morris dance tune from southern England, and suggests that the title might have been a garbled version of the North African territory of 'Algiers'. This may be true: Shakespeare and Dryden both refer to Algerian pirates by the term ‘Argiers’.
 }
 \markup \smaller \wordwrap { Source: https://dartingtonmorris.uk }
 
 \markup \vspace #1
 
-\markup \bold { Old Tom Of Oxford }
 \markup \wordwrap {
-  Collected from the village of Bampton, Oxfordshire, in England's Cotswolds. 'Old Tom' is the name of a famous bell in Christ Church College, Oxford, which hangs in Tom Tower (designed by Christopher Wren).
+  \bold { Old Tom Of Oxford } Collected from the village of Bampton, Oxfordshire, in England's Cotswolds. 'Old Tom' is the name of a famous bell in Christ Church College, Oxford, which hangs in Tom Tower (designed by Christopher Wren).
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Old_Tom_of_Oxford }
-
-\markup \vspace #1

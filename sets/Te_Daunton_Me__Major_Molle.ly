@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     arranger = "Natalie MacMaster / Mari Black"
@@ -77,17 +78,16 @@
   }
 }
 
-\markup \bold { Te Daunton Me }
+
 \markup \smaller \wordwrap {
-  AKA and see "Blood Red Rose (The)," "Moran's Return," "This Wife of Mine, What will I do with this thing of mine". Scottish, Country Dance Tune (4/4 time) or Highland Schottische. F Major (McGibbon): G Major (Aird): D Mixolydian (Howe, Kerr, O’Farrell); E Minor (Oswald). Standard tuning (fiddle). AAB (Kerr): AABB (Howe, McGibbon, O’Farrell): AABBCCDD (Aird). John Glen (Early Scots Melodies, 1900) finds the tune in the Atkinson manuscript of 1694, albeit under the title “This Wife of Mine.” Northumbrian musician Henry Atkinson entered the tune as "This Wife of Mine" in his 1694 music manuscript collection.
+  \bold { Te Daunton Me } AKA and see "Blood Red Rose (The)," "Moran's Return," "This Wife of Mine, What will I do with this thing of mine". Scottish, Country Dance Tune (4/4 time) or Highland Schottische. F Major (McGibbon): G Major (Aird): D Mixolydian (Howe, Kerr, O’Farrell); E Minor (Oswald). Standard tuning (fiddle). AAB (Kerr): AABB (Howe, McGibbon, O’Farrell): AABBCCDD (Aird). John Glen (Early Scots Melodies, 1900) finds the tune in the Atkinson manuscript of 1694, albeit under the title “This Wife of Mine.” Northumbrian musician Henry Atkinson entered the tune as "This Wife of Mine" in his 1694 music manuscript collection.
 }
 \markup \smaller \wordwrap { Source: From Mari Black's handwritten notes, based on Natalie MacMaster's recording. See: https://www.youtube.com/watch?v=_-IzXGZrFGY }
 
 \markup \vspace #1
 
-\markup \bold { Major Molle }
 \markup \smaller \wordwrap {
-  AKA - "Major Malley's Reel," "Major Malley's March," "Major Molle's Birthday," "Major Moll's Reel," "Major Mole." Scottish (originally), Canadian, English; Strathspey ('Slow' indicated in Gow's version) or Highland Schottische, Reel. England, Dorset. Canada, Cape Breton. B Minor (Gow, Hardy): A Mixolydian (Athole, Balmoral, Cranford, Honeyman, Kerr, Lowe). Standard tuning (fiddle). AAB (Athole, Balmoral, Gow, Hardy, Lowe): AABB (Honeyman, Kerr): AABB' (Cranford). Composed by Andrew Gow (1760-1803), second son of the famous Scottish fiddler Niel Gow, and (according to Emmerson, 1971), "possibly superior to any written by other members of (his) family." It was first published as a strathspey in Niel Gow's 5th Collection (1809) as "Major Molle's of the 9th Regiment of Foot Reel." The 9th Regiment of Foot was formed in 1685 by James II and fought in the battles of the Boyne and Aughrim and at the seiges of Limerick and Athlone during 1689-91. Thomas Hardy mentions the tune in Far From the Madding Crowd (1874).
+  \bold { Major Molle } AKA - "Major Malley's Reel," "Major Malley's March," "Major Molle's Birthday," "Major Moll's Reel," "Major Mole." Scottish (originally), Canadian, English; Strathspey ('Slow' indicated in Gow's version) or Highland Schottische, Reel. England, Dorset. Canada, Cape Breton. B Minor (Gow, Hardy): A Mixolydian (Athole, Balmoral, Cranford, Honeyman, Kerr, Lowe). Standard tuning (fiddle). AAB (Athole, Balmoral, Gow, Hardy, Lowe): AABB (Honeyman, Kerr): AABB' (Cranford). Composed by Andrew Gow (1760-1803), second son of the famous Scottish fiddler Niel Gow, and (according to Emmerson, 1971), "possibly superior to any written by other members of (his) family." It was first published as a strathspey in Niel Gow's 5th Collection (1809) as "Major Molle's of the 9th Regiment of Foot Reel." The 9th Regiment of Foot was formed in 1685 by James II and fought in the battles of the Boyne and Aughrim and at the seiges of Limerick and Athlone during 1689-91. Thomas Hardy mentions the tune in Far From the Madding Crowd (1874).
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Major_Molle
