@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     arranger = "AK/Fiddler’s Companion"
@@ -133,17 +134,15 @@
 }
 
 
-\markup \bold { Portsmouth }
 \markup \smaller \wordwrap {
-  The air, probably a ballad tune according to Chappell, appears with country dance directions in Henry Playford's Dancing Master (11th edition of 1701 and all later editions). Ralph Vaughn Williams used the melody as one of three for the basis of his 'Sea Songs' (1923) of his 'English Folk Song Suite'.
+  \bold { Portsmouth } The air, probably a ballad tune according to Chappell, appears with country dance directions in Henry Playford's Dancing Master (11th edition of 1701 and all later editions). Ralph Vaughn Williams used the melody as one of three for the basis of his 'Sea Songs' (1923) of his 'English Folk Song Suite'.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Portsmouth_(1) }
 
 \markup \vspace #1
 
-\markup \bold { The Parson's Farewell }
 \markup \smaller \wordwrap {
-  The tune and country dance directions were first published under this title by John Playford in the first edition of his The English Dancing Master (1651). An earlier version of the melody appears in the Skene Manuscript (c. 1615, No. 14) under the title 'Ostend.' Early versions also appear in Adriaen Valerius Nederlandtsche Gedenck-Clanck (1626, as 'La Boree'), the Starter’s Friesche Lust-Hof (1621), and the Thysius Lute book (c. 1600). It has been sourced to France where it appears in a lute collection by Nicolas Vallet entitled Secret des Muses (1615), as 'Bouree d'avignon.'
+  \bold { The Parson's Farewell } The tune and country dance directions were first published under this title by John Playford in the first edition of his The English Dancing Master (1651). An earlier version of the melody appears in the Skene Manuscript (c. 1615, No. 14) under the title 'Ostend.' Early versions also appear in Adriaen Valerius Nederlandtsche Gedenck-Clanck (1626, as 'La Boree'), the Starter’s Friesche Lust-Hof (1621), and the Thysius Lute book (c. 1600). It has been sourced to France where it appears in a lute collection by Nicolas Vallet entitled Secret des Muses (1615), as 'Bouree d'avignon.'
 }
 \markup \smaller \wordwrap {
   Source: http://playforddances.com/dances/parsons-farewell/
@@ -151,8 +150,7 @@
 
 \markup \vspace #1
 
-\markup \bold Newcastle
 \markup \smaller \wordwrap {
-  Simpson feels that the surviving tune is not the one which had some currency in Elizabethan days. It is quite possible that this dance was inspired by William, Duke of Newcastle, a royalist who remained in London and bent his interests towards the theatre during the interregnum.
+  \bold Newcastle Simpson feels that the surviving tune is not the one which had some currency in Elizabethan days. It is quite possible that this dance was inspired by William, Duke of Newcastle, a royalist who remained in London and bent his interests towards the theatre during the interregnum.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Newcastle_(1) }

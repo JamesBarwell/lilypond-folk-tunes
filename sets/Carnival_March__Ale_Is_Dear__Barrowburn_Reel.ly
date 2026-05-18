@@ -118,20 +118,22 @@
   }
 }
 
-\markup \bold { Carnival March }
+
 \markup \smaller \wordwrap {
-  Shetland fiddler-composer Gideon Stove (1874-1954), long time leader of the first Lerwick orchestra, and fiddle teacher.
+  \bold { Carnival March } Shetland fiddler-composer Gideon Stove (1874-1954), long time leader of the first Lerwick orchestra, and fiddle teacher.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Carnival_March }
 
-\markup \bold { The Ale is Dear }
+\markup \vspace #1
+
 \markup \wordwrap {
-  Especially popular as a pipe reel. In this case "dear" in the title means 'expensive'.
+  \bold { The Ale is Dear } Especially popular as a pipe reel. In this case "dear" in the title means 'expensive'.
 }
 \markup \smaller \wordwrap { Source: https://www.nigelgatherer.com/tunes/tunes/A/AlesD.html }
 
-\markup \bold { The Barrowburn Reel }
+\markup \vspace #1
+
 \markup \smaller \wordwrap {
-  Modern tune by fiddler, bandleader and composer Addie Harper of Wick, Scotland. 'Burn' is a Scots word for stream.
+  \bold { The Barrowburn Reel } Modern tune by fiddler, bandleader and composer Addie Harper of Wick, Scotland. 'Burn' is a Scots word for stream.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Barrowburn_Reel_(The) }

@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     meter = "Hornpipe"
@@ -79,12 +80,11 @@
       \partial 2.  g4    g,4    g4 |
     }
   }
-
 }
 
-\markup \bold { Miss Thompson's }
+
 \markup \smaller \wordwrap {
-  AKA – “Miss Thompson’s Reel.” AKA and see "Derrol's." English, Hornpipe; American, Reel. England, Northumberland. D Major. Standard tuning (fiddle). AABB. The tune is very similar to "Fisher's Hornpipe" in the second part. New England contra dance musician’s play the tune as a reel.
+  \bold { Miss Thompson's } AKA – “Miss Thompson’s Reel.” AKA and see "Derrol's." English, Hornpipe; American, Reel. England, Northumberland. D Major. Standard tuning (fiddle). AABB. The tune is very similar to "Fisher's Hornpipe" in the second part. New England contra dance musician’s play the tune as a reel.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Miss_Thompson%E2%80%99s_Hornpipe
@@ -92,9 +92,8 @@
 
 \markup \vspace #1
 
-\markup \bold { Navvie on the Line }
 \markup \smaller \wordwrap {
-  AKA - "Navvie (The)." AKA and see "Clog Hornpipe (1)," "Evans," "London Hornpipe (1)," "New London Reel (1)." English, Scottish; Clog or Hornpipe. G Major (Kennedy, Kerr): A Major (Honeyman, Martin). Standard tuning (fiddle). AAB (Kerr): AABB (Kennedy, Honeyman, Martin). The first part is similar to the first parts of "New London," "London Hornpipe (1)" and "Blue Eyes Polka." The title probably refers to a 19th century laborer on a railway or canal excavation. The melody is attributed Tyneside fiddler and composer James Hill, in Köhler's Violin Repository (Edinburgh, 1881-1885). Scottish publisher James S. Kerr printed the tune as "Evans," and versions (cognate in the first strain) can be found in Canadian repertory as "Reel de Montréal (1)" and "Reel de Vaudreuil."
+  \bold { Navvie on the Line } AKA - "Navvie (The)." AKA and see "Clog Hornpipe (1)," "Evans," "London Hornpipe (1)," "New London Reel (1)." English, Scottish; Clog or Hornpipe. G Major (Kennedy, Kerr): A Major (Honeyman, Martin). Standard tuning (fiddle). AAB (Kerr): AABB (Kennedy, Honeyman, Martin). The first part is similar to the first parts of "New London," "London Hornpipe (1)" and "Blue Eyes Polka." The title probably refers to a 19th century laborer on a railway or canal excavation. The melody is attributed Tyneside fiddler and composer James Hill, in Köhler's Violin Repository (Edinburgh, 1881-1885). Scottish publisher James S. Kerr printed the tune as "Evans," and versions (cognate in the first strain) can be found in Canadian repertory as "Reel de Montréal (1)" and "Reel de Vaudreuil."
 
   See also the related American tune "Old Blind Sow She Stole the Middlins." See "Navvy on the Line" for the unrelated Irish reel as recorded by the Bothy Band, although the title was a mistake for "Navvy on the Shore (1)."
 }

@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Traditional"
@@ -28,7 +29,7 @@
       fs8 a fs8. e16 |
       d4 d |
     }
-    
+
     \repeat volta 2 {
       a4 a16 b8. |
       a4 a16 b8. |
@@ -56,7 +57,7 @@
   \relative c'' {
     \time 2/4
     \key g \major
-    
+
     \repeat volta 2 {
       \partial 4 b8 c |
       d16 d d d cs8 d |
@@ -96,16 +97,15 @@
   }
 }
 
-\markup \bold { Island Dance }
+
 \markup \wordwrap {
-  Popular melody with many variations and names. Found on the Cheviot Ranters 'Cheviot Barn Dance' album.
+  \bold { Island Dance } Popular melody with many variations and names. Found on the Cheviot Ranters 'Cheviot Barn Dance' album.
 }
 \markup \smaller \wordwrap { Source: https://www.nigelgatherer.com }
 
 \markup \vspace #1
 
-\markup \bold { Caddam Woods }
 \markup \wordwrap {
-  Rennie (1897-1960), from the county of Angus in Scotland, served in World War I where he lost a leg. Undaunted, he became one of the finest Scottish dance fiddlers of his generation. Charlie Todd remarked: 'Adam was a stickler for tempo… ...and if he felt it needed adjustment after the opening chord he would stamp his 'wooden leg' on the stage until the band modified the speed to his liking.' For his contributions to Scottish music, Rennie was awarded renowned fiddler-composer Niel Gow's fiddle at the 1932 Perth Music Festival.
+  \bold { Caddam Woods } Rennie (1897-1960), from the county of Angus in Scotland, served in World War I where he lost a leg. Undaunted, he became one of the finest Scottish dance fiddlers of his generation. Charlie Todd remarked: 'Adam was a stickler for tempo… ...and if he felt it needed adjustment after the opening chord he would stamp his 'wooden leg' on the stage until the band modified the speed to his liking.' For his contributions to Scottish music, Rennie was awarded renowned fiddler-composer Niel Gow's fiddle at the 1932 Perth Music Festival.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Caddam_Woods_(2) }

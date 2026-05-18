@@ -66,22 +66,21 @@
   }
 }
 
+
 \markup \wordwrap {
   This set from Canny Fettle's "Trip To Harrogate", from Joshua Jackson of Yorkshire's MS of 1798.
 }
 
 \markup \vspace #1
 
-\markup \bold { Welcome Here Again }
 \markup \wordwrap {
-  The tune dates to before 1734 when it appeared in Edinburgh writing master and musician David Young's Drummond Castle manuscript collection, and was published (as "You be Welcome Here Again") in 1744 by London publisher John Johnson.
+  \bold { Welcome Here Again } The tune dates to before 1734 when it appeared in Edinburgh writing master and musician David Young's Drummond Castle manuscript collection, and was published (as "You be Welcome Here Again") in 1744 by London publisher John Johnson.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Welcome_Here_Again }
 
 \markup \vspace #1
 
-\markup \bold { The Oyster Wife's Rant }
 \markup \wordwrap {
-  John Glen (Collection of Scottish Dance Music, 1891) finds the earliest appearance of the tune in print in Robert Bremner's 1757 collection. The title appears in Henry Robson's list of popular Northumbrian song and dance tunes ("The Northern Minstrel's Budget"), which he published c. 1800, and is one of the "missing tunes" from William Vickers' 1770 Northumbrian dance tune manuscript.
+  \bold { The Oyster Wife's Rant } John Glen (Collection of Scottish Dance Music, 1891) finds the earliest appearance of the tune in print in Robert Bremner's 1757 collection. The title appears in Henry Robson's list of popular Northumbrian song and dance tunes ("The Northern Minstrel's Budget"), which he published c. 1800, and is one of the "missing tunes" from William Vickers' 1770 Northumbrian dance tune manuscript.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Oyster_Wives_Rant_(The) }

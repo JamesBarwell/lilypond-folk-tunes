@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Traditional"
@@ -78,17 +79,17 @@
 }
 
 
-\markup \bold { Idbury Hill }
+
 \markup \wordwrap {
-  Idbury Hill is a side-step handkerchief dance collected with the melody in the Bledington, Gloucestershire, area of England's Cotswolds. Idbury is a village not far from Bledington. The tune is also used for the dance "Three Musketeers," and a similar tune was collected in Bampton without the "slows".
+  \bold { Idbury Hill } Idbury Hill is a side-step handkerchief dance collected with the melody in the Bledington, Gloucestershire, area of England's Cotswolds. Idbury is a village not far from Bledington. The tune is also used for the dance "Three Musketeers," and a similar tune was collected in Bampton without the "slows".
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Idbury_Hill }
 
 \markup \vspace #1
 
-\markup \bold { I'll Go and Enlist for a Sailor }
 \markup \wordwrap {
-  The tune is employed for morris dancing in the village of Sherborne, Gloucestershire, in England's Cotswolds, where it is the vehicle for a single jig – a 'solo' step-dance dance, although it is sometimes performed simultaneously by two dancers.
+  \bold { I'll Go and Enlist for a Sailor } The tune is employed for morris dancing in the village of Sherborne, Gloucestershire, in England's Cotswolds, where it is the vehicle for a single jig – a 'solo' step-dance dance, although it is sometimes performed simultaneously by two dancers.
 }
 \markup \smaller \wordwrap {
-  Source: https://tunearch.org/wiki/Go_and_%27List_for_a_Sailor }
+  Source: https://tunearch.org/wiki/Go_and_%27List_for_a_Sailor
+}

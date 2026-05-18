@@ -82,9 +82,9 @@
   }
 }
 
-\markup \bold { The Turnpike Side}
+
 \markup \smaller \wordwrap {
-  English, Jig (6/8 time). England, Northumberland. D Major. Standard tuning (fiddle). AABB. "Turnpike Side" is sourced to the c. 1812 music manuscript collection of John Bell, entitled "Collection of local tunes as played in Northumberland." Someone has scribbled "Petticoat Loose" and "Not Northumbrian" on the page, however, the tune is not any of the "Petticoat Loose" tunes in this index, and its source, if "not Northumbrian," is unknown.
+  \bold { The Turnpike Side} English, Jig (6/8 time). England, Northumberland. D Major. Standard tuning (fiddle). AABB. "Turnpike Side" is sourced to the c. 1812 music manuscript collection of John Bell, entitled "Collection of local tunes as played in Northumberland." Someone has scribbled "Petticoat Loose" and "Not Northumbrian" on the page, however, the tune is not any of the "Petticoat Loose" tunes in this index, and its source, if "not Northumbrian," is unknown.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Turnpike_Side
@@ -92,9 +92,8 @@
 
 \markup \vspace #1
 
-\markup \bold { The Fiery Clockface }
 \markup \smaller \wordwrap {
-  AKA and see "Pin Reel (The)." English, Jig. England, Northumberland. D Major. Standard tuning (fiddle). AABB. Composed by Robert "Bobby" Nunn (1808-1853), according to Peter Kennedy. Nunn was a tradesman-a roofer who worked on slate roofs-who lost his sight following a fall from a roof he was working on. Like many a blind individual, he turned to music to eke out a living, and played fiddle and sang. He composed a number of songs and was a regular at pubs and other venues around the Tyneside area. His songs could be rather risqué, full of (pre-)music-hall innuendo, and include "The Pitman and the Blackin'," "The Newcastle Lad," "Druncken Bella Roy O!;" quite popular even with mixed audiences of his era. His best known song is "The Fiery Clock Feyce", about the drink-caused illusion of a man passing by St. Nicholas Cathedral, surprised at the glowing clock face which had been newly illuminated by gas. It was originally set in the key of 'G' major, although 'D' is a more popular key nowadays, to accommodate melodeon players.
+  \bold { The Fiery Clockface } AKA and see "Pin Reel (The)." English, Jig. England, Northumberland. D Major. Standard tuning (fiddle). AABB. Composed by Robert "Bobby" Nunn (1808-1853), according to Peter Kennedy. Nunn was a tradesman-a roofer who worked on slate roofs-who lost his sight following a fall from a roof he was working on. Like many a blind individual, he turned to music to eke out a living, and played fiddle and sang. He composed a number of songs and was a regular at pubs and other venues around the Tyneside area. His songs could be rather risqué, full of (pre-)music-hall innuendo, and include "The Pitman and the Blackin'," "The Newcastle Lad," "Druncken Bella Roy O!;" quite popular even with mixed audiences of his era. His best known song is "The Fiery Clock Feyce", about the drink-caused illusion of a man passing by St. Nicholas Cathedral, surprised at the glowing clock face which had been newly illuminated by gas. It was originally set in the key of 'G' major, although 'D' is a more popular key nowadays, to accommodate melodeon players.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Fiery_Clockface

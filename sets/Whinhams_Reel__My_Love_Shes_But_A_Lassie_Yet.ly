@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Robert Whinham"
@@ -54,7 +55,7 @@
   \relative c'' {
     \time 4/4
     \key d \major
-    
+
     \repeat volta 2 {
       \partial 4 d8 cs |
       d4 d, fs a |
@@ -66,7 +67,7 @@
       d8 cs b a b cs d e |
       \partial 2. fs4 d d |
     }
-    
+
     \repeat volta 2 {
       \partial 4 fs8 g |
       a4 fs g e |
@@ -79,20 +80,18 @@
       \partial 2. fs4 d d |
     }
   }
-  
+
 }
 
 
-\markup \bold { Whinham's Reel }
 \markup \smaller \wordwrap {
-  AKA and see “Mrs. Thompson of Gofton's Strathspey,” “Pibroch! (The)” English, Reel. Composed by Robert Whinham, an itinerant Northumbrian musician, fiddle and dancing master, teacher and composer, who lived between 1814 and 1893. Whinham ended his days in a workhouse in Morpeth where he was registered as a “teacher of music in Morpeth (Northumberland).” Callaghan (2007) notes the tune is popular throughout England, although usually only the first two parts are played.
+  \bold { Whinham's Reel } AKA and see “Mrs. Thompson of Gofton's Strathspey,” “Pibroch! (The)” English, Reel. Composed by Robert Whinham, an itinerant Northumbrian musician, fiddle and dancing master, teacher and composer, who lived between 1814 and 1893. Whinham ended his days in a workhouse in Morpeth where he was registered as a “teacher of music in Morpeth (Northumberland).” Callaghan (2007) notes the tune is popular throughout England, although usually only the first two parts are played.
 }
 \markup \smaller \wordwrap { Source: https://thesession.org/tunes/3514 }
 
 \markup \vspace #1
 
-\markup \bold { My Love She's But A Lassie Yet }
 \markup \wordwrap {
-  Published in Bremner's Reels (1757) as Miss Farquharson's Reel, but it's more usually named for the song which Burns wrote to that tune, My Love She's But a Lassie Yet.
+  \bold { My Love She's But A Lassie Yet } Published in Bremner's Reels (1757) as Miss Farquharson's Reel, but it's more usually named for the song which Burns wrote to that tune, My Love She's But a Lassie Yet.
 }
 \markup \smaller \wordwrap { Source: https://nigelgatherer.com/tunes/tunes/M/MyLov.html }

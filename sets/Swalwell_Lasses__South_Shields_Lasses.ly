@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Traditional"
@@ -88,21 +89,18 @@
 }
 
 
-\markup \bold { Swalwell Lasses}
 \markup \smaller \wordwrap {
-  English, Hornpipe (4/4 time). G Major. Standard tuning (fiddle). AABB. England, Northumberland. The tune can be found in a notebook of the 19th century Northumbrian collector John Stokoe. Swalwell is a village in Gateshead, Tyne and Wear, Northumberland, northeast England.
+  \bold { Swalwell Lasses} English, Hornpipe (4/4 time). G Major. Standard tuning (fiddle). AABB. England, Northumberland. The tune can be found in a notebook of the 19th century Northumbrian collector John Stokoe. Swalwell is a village in Gateshead, Tyne and Wear, Northumberland, northeast England.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Annotation:Swalwell_Lasses }
 
 \markup \vspace #1
 
-\markup \bold { South Shields Lasses }
 \markup \smaller \wordwrap {
-  English, Hornpipe (cut time). England, Northumberland. G Major. Standard tuning (fiddle). AABB. There was an old song with the line, "South Shields Lasses are the dandy-o."
+  \bold { South Shields Lasses } English, Hornpipe (cut time). England, Northumberland. G Major. Standard tuning (fiddle). AABB. There was an old song with the line, "South Shields Lasses are the dandy-o."
 }
 \markup \smaller \wordwrap { https://tunearch.org/wiki/Annotation:South_Shields_Lasses }
 
 \markup \vspace #1
 
 \markup \smaller \wordwrap { This set from The High Level Ranter's - Four in a Bar, track 9. Both tunes amended to match their recording. }
-

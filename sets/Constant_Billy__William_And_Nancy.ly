@@ -72,16 +72,15 @@
   }
 }
 
-\markup \bold { Constant Billy }
+
 \markup \wordwrap {
-  Robin Williamson (1976) reports that the tune appears to be a close variant of a Scots tune called "Cia Mar Is Urra Sinn Fuirreach O'n Dram" (How Shall We Abstain from Whiskey?). That melody was written in the early 18th century by John MacMurdo of Kintail; it was published in Scotland. The tune was very popular throughout England and became a morris standard, being set to a variety of dances. Cotswold morris versions are numerous and come from the areas of Adderbury, Bampton, Bidford, Bucknell, Eynsham, Field Town (Leafield), Headington, Ilmington, Longborough, Oddington, Sherborne and Wheatley.
+  \bold { Constant Billy } Robin Williamson (1976) reports that the tune appears to be a close variant of a Scots tune called "Cia Mar Is Urra Sinn Fuirreach O'n Dram" (How Shall We Abstain from Whiskey?). That melody was written in the early 18th century by John MacMurdo of Kintail; it was published in Scotland. The tune was very popular throughout England and became a morris standard, being set to a variety of dances. Cotswold morris versions are numerous and come from the areas of Adderbury, Bampton, Bidford, Bucknell, Eynsham, Field Town (Leafield), Headington, Ilmington, Longborough, Oddington, Sherborne and Wheatley.
 }
 \markup \smaller \wordwrap { Source: https://thesession.org/tunes/14338 }
 
 \markup \vspace #1
 
-\markup \bold { William and Nancy }
 \markup \wordwrap {
-  The tune is the vehicle for a handkerchief dance from the Bledington area of England's Cotswolds, and comes from the player of fiddler Charles Benfield (1841-1929), who accompanied the Bledington Morris. He was visited by Cecil Sharp in 1909 when he was aged 68 and ‘now living in Bould’ near Bledington, just over the border in Oxfordshire. Sharp collected several tunes from him, and he was subsequently visited by several folklorists, including by George Butterworth, who about the year 1912 noted "Ladies of Pleasure," "Trunkles" and "William and Nancy" from Benfield's playing.
+  \bold { William and Nancy } The tune is the vehicle for a handkerchief dance from the Bledington area of England's Cotswolds, and comes from the player of fiddler Charles Benfield (1841-1929), who accompanied the Bledington Morris. He was visited by Cecil Sharp in 1909 when he was aged 68 and ‘now living in Bould’ near Bledington, just over the border in Oxfordshire. Sharp collected several tunes from him, and he was subsequently visited by several folklorists, including by George Butterworth, who about the year 1912 noted "Ladies of Pleasure," "Trunkles" and "William and Nancy" from Benfield's playing.
 }
 \markup \smaller \wordwrap { Source: https://tunearch.org/wiki/William_and_Nancy }

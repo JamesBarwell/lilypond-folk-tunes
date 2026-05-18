@@ -67,7 +67,7 @@
       fs8 a d, fs e fs g e |
       \partial 2. fs4 d d |
     }
-    
+
     \repeat volta 2 {
       \partial 4 d8 cs |
       b8 cs d e fs e d e |
@@ -82,12 +82,9 @@
   }
 }
 
-% https://thesession.org/tunes/3551
-% https://thesession.org/tunes/3360
 
-\markup \bold { Hesleyside }
 \markup \smaller \wordwrap {
-  Composed by Tommy Elliot of Gunnerton. Hesleyside Hall is in southern Northumberland near Bellingham, the ancestral home of the Charlton family (see Charlton Memorial Tunebook), on the banks of the North Tyne.
+  \bold { Hesleyside } Composed by Tommy Elliot of Gunnerton. Hesleyside Hall is in southern Northumberland near Bellingham, the ancestral home of the Charlton family (see Charlton Memorial Tunebook), on the banks of the North Tyne.
 }
 \markup \smaller \wordwrap {
   Source: https://thesession.org/tunes/3551
@@ -95,9 +92,8 @@
 
 \markup \vspace #1
 
-\markup \bold { Jock Wilson O' Fenton  }
 \markup \smaller \wordwrap {
-  Fenton is a village in North Northumberland, about 3 miles north of Wooler. The tune is a modern (1970's) composition by Bryce Anderson, late of the group The Cheviot Ranters in tribute to their drummer, Jock Wilson.
+  \bold { Jock Wilson O' Fenton  } Fenton is a village in North Northumberland, about 3 miles north of Wooler. The tune is a modern (1970's) composition by Bryce Anderson, late of the group The Cheviot Ranters in tribute to their drummer, Jock Wilson.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Jock_Wilson_of_Fenton

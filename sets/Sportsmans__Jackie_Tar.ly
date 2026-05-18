@@ -5,6 +5,7 @@
   print-all-headers = ##t
 }
 
+
 \score {
   \header {
     composer = "Traditional"
@@ -81,9 +82,9 @@
   }
 }
 
-\markup \bold { Sportsman's Hornpipe }
+
 \markup \smaller \wordwrap {
-  AKA and see “Oldham Sportsman (The).” English, Hornpipe. England, North‑West. A Dorian (Callaghan, Knowles): G Dorian (Kershaw, Offord). Standard tuning (fiddle). AABB. The tune is contained in the 19th century Joseph Kershaw manuscript, the source for all modern publications. Kershaw was a fiddle player who lived in the remote area of Slackcote, Saddleworth, North West England, who compiled his manuscript from 1820 onwards, although little more is known of him. His manuscript presently is kept at the Vaughan Williams Memorial Library at Cecil Sharp House, London. The tune is nowadays sometimes called “The Oldham Sportsman.”
+  \bold { Sportsman's Hornpipe } AKA and see “Oldham Sportsman (The).” English, Hornpipe. England, North‑West. A Dorian (Callaghan, Knowles): G Dorian (Kershaw, Offord). Standard tuning (fiddle). AABB. The tune is contained in the 19th century Joseph Kershaw manuscript, the source for all modern publications. Kershaw was a fiddle player who lived in the remote area of Slackcote, Saddleworth, North West England, who compiled his manuscript from 1820 onwards, although little more is known of him. His manuscript presently is kept at the Vaughan Williams Memorial Library at Cecil Sharp House, London. The tune is nowadays sometimes called “The Oldham Sportsman.”
 }
 \markup \smaller \wordwrap {
   Source: from dad
@@ -91,9 +92,8 @@
 
 \markup \vspace #1
 
-\markup \bold { Jackie Tar }
 \markup \smaller \wordwrap {
-  AKA and see "Alawon Fy Ngwlad," "Come Ashore," "Come Ashore Jolly Tar with Your Trousers On," "Come Ashore Jolly Tar with Your Trowsers On," "Cuckoo's Nest (4) (The)," "Cuckoo (The)," "Good Ax Elve," "Jack a' Tar," "Jack o Tar," "McGibbney's Fancy," "Mower (The)," "Reaper (The)," "Spealadóir (An)," "Trousers On (The)," "Yellow Heifer (The)." Scottish, English; Hornpipe. E Minor. Standard tuning (fiddle). AB (Manson, Wilson): AABB (most versons): AABBCC (Davie). The title refers to the generic sailor-man. The name 'Jack' has long been used with the implication 'typical (young) man', from nursery-rhyme characters to 'Jack Tar' for a sailor, and modern slang phrases like 'I'm all right, Jack' and 'Jack-the-lad'.
+  \bold { Jackie Tar } AKA and see "Alawon Fy Ngwlad," "Come Ashore," "Come Ashore Jolly Tar with Your Trousers On," "Come Ashore Jolly Tar with Your Trowsers On," "Cuckoo's Nest (4) (The)," "Cuckoo (The)," "Good Ax Elve," "Jack a' Tar," "Jack o Tar," "McGibbney's Fancy," "Mower (The)," "Reaper (The)," "Spealadóir (An)," "Trousers On (The)," "Yellow Heifer (The)." Scottish, English; Hornpipe. E Minor. Standard tuning (fiddle). AB (Manson, Wilson): AABB (most versons): AABBCC (Davie). The title refers to the generic sailor-man. The name 'Jack' has long been used with the implication 'typical (young) man', from nursery-rhyme characters to 'Jack Tar' for a sailor, and modern slang phrases like 'I'm all right, Jack' and 'Jack-the-lad'.
 }
 \markup \smaller \wordwrap {
   Source: https://thesession.org/tunes/2020

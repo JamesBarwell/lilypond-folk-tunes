@@ -73,9 +73,9 @@
   }
 }
 
-\markup \bold { Rusty Gulley }
+
 \markup \wordwrap {
-  Appears in Northumbrian musician William Vickers MS of 1770. The title, of which there are many variations, may derive from rostibolio, and Italian dance from the 16th century. However, a gulley is Borders and Geordie dialect for a large knife, and Matt Seattle suggests there may be an unsavory connection with one of the alternate titles. The tune is older however, and had been printed as "Chalk's Hornpipe" in London music publisher John Young's Second Volume of the Dancing Master, 3rd edition (1718).
+  \bold { Rusty Gulley } Appears in Northumbrian musician William Vickers MS of 1770. The title, of which there are many variations, may derive from rostibolio, and Italian dance from the 16th century. However, a gulley is Borders and Geordie dialect for a large knife, and Matt Seattle suggests there may be an unsavory connection with one of the alternate titles. The tune is older however, and had been printed as "Chalk's Hornpipe" in London music publisher John Young's Second Volume of the Dancing Master, 3rd edition (1718).
 }
 \markup \smaller \wordwrap {
   Source: https://www.stewarthardy.co.uk/the-tune-vault
@@ -83,9 +83,8 @@
 
 \markup \vspace #1
 
-\markup \bold { Old Lancashire Hornpipe }
 \markup \wordwrap {
-  The melody was printed by John Playford in 1669 ("A Jigg Divided 12 Ways") in the first edition of Apollo's Banquet, and by London publisher John Johnson in his edition of Wright's Compleat Collection of Celebrated Country Dances, vol. 2 (London, 1742, p. 12). The hornpipe was often printed with variation sets, as was the practice with such pieces which were essentially a ground for improvisations.  John M. Ward is of the opinion that Johnson's tune is not a true Lancashire hornpipe but is rather a country dance, noting that Johnson's tune is barred in 6/4 which is not a Lancashire hornpipe meter. "Moreover," he writes, "the tune begins with a half-bar anacrusis, something equally alien to the genre."
+  \bold { Old Lancashire Hornpipe } The melody was printed by John Playford in 1669 ("A Jigg Divided 12 Ways") in the first edition of Apollo's Banquet, and by London publisher John Johnson in his edition of Wright's Compleat Collection of Celebrated Country Dances, vol. 2 (London, 1742, p. 12). The hornpipe was often printed with variation sets, as was the practice with such pieces which were essentially a ground for improvisations.  John M. Ward is of the opinion that Johnson's tune is not a true Lancashire hornpipe but is rather a country dance, noting that Johnson's tune is barred in 6/4 which is not a Lancashire hornpipe meter. "Moreover," he writes, "the tune begins with a half-bar anacrusis, something equally alien to the genre."
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Old_Lancashire_Hornpipe_(1)
