@@ -1,10 +1,6 @@
 \version "2.20.0"
 \language "english"
 
-\paper {
-  print-all-headers = ##t
-}
-
 \score {
   \header {
     arranger = "Middleton’s Selection of Strathspeys, Reels &c. for the Violin (1870, p. 42)"

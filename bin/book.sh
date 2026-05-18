@@ -10,11 +10,27 @@ cat <<EOT >> ${TEMP_PATH}
 
 \paper {
   #(set-paper-size "a4")
-  top-margin = 8
-  bottom-margin = 5
-  left-margin = 8
-  right-margin = 8
-  tagline = " "
+  print-page-number = ##f
+  top-margin = 4\mm
+  bottom-margin = 4\mm %default
+
+  indent = 0\mm
+  line-width = 200\mm % A4 width - 10mm
+  top-markup-spacing.basic-distance = 0\mm % remove gap between top-margin and header
+  tagline = "" % remove Lilypond tagline
+
+  % Condense header into smaller vertical space
+  scoreTitleMarkup = \markup \column {
+    \fill-line {
+      \fontsize #3 \bold \fromproperty #'header:title
+    }
+    \fill-line {
+      \italic \fromproperty #'header:meter
+      \fromproperty #'header:composer
+    }
+  }
+
+  %annotate-spacing = ##t %remove comment to show spacing boxes
 }
 
 \markuplist \table-of-contents

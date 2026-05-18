@@ -1,10 +1,6 @@
 \version "2.20.0"
 \language "english"
 
-\paper {
-  print-all-headers = ##t
-}
-
 \score {
   \header {
     arranger = "Book: Aird – Selection of Scotch, English, Irish and Foreign Airs, vol. 1 (No. 4, p. 2)"
