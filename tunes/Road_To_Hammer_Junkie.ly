@@ -1,10 +1,6 @@
 \version "2.20.0"
 \language "english"
 
-\paper {
-  print-all-headers = ##t
-}
-
 \markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 

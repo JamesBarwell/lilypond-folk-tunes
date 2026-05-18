@@ -1,10 +1,6 @@
 \version "2.20.0"
 \language "english"
 
-\paper {
-  print-all-headers = ##t
-}
-
 \score {
   \header {
     arranger = "Joshua Jackson MS, 1798"
