@@ -19,6 +19,8 @@ cat <<EOT >> ${TEMP_PATH}
   top-markup-spacing.basic-distance = 0\mm % remove gap between top-margin and header
   tagline = "" % remove Lilypond tagline
 
+  page-breaking = #ly:minimal-breaking % fit as many systems on page as possible
+
   % Condense header into smaller vertical space
   scoreTitleMarkup = \markup \column {
     \fill-line {
