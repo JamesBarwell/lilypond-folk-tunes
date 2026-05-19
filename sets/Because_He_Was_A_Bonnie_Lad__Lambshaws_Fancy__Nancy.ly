@@ -135,14 +135,16 @@
 
 
 \markup \wordwrap {
-  \bold { Because He Was A Bonnie Lad } A popular country dance dating back to at least 1752 when fiddler and dancing master John McGill of Girvan wrote down the instructions for his pupils. It retained its popularity through that century and into the next, for the title appears in Henry Robson's list of popular Northumbrian song and dance tunes, which he wrote c. 1800, and is a core tune in Northumbrian piping repertory.
+  \bold { Because He Was A Bonnie Lad } A popular country dance dating back to at least 1752 when fiddler and dancing master John McGill of Girvan wrote down the instructions for his pupils. The title appears in Henry Robson's list of popular Northumbrian song and dance tunes, which he wrote c. 1800, and is a core tune in Northumbrian piping repertory.
 }
-\markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Because_He_was_a_Bonny_Lad }
+\markup \smaller \wordwrap {
+  Source: https://tunearch.org/wiki/Because_He_was_a_Bonny_Lad
+}
 
 \markup \vspace #1
 
 \markup \wordwrap {
-  \bold { Lambshaw's Fancy } There were two Lamshaws, both renowned Northumbrian pipers: 'Old' William Lamshaw (c. 1712-1798) and 'Young' William Lamshaw (1780–1806), who was the grandson. The elder Lamshaw was an innkeeper at Morpeth and one of the Town Waits (hired musicians on the municipal payroll). He became the Duchess of Northumberland's piper in 1775 and was musical tutor to the famous Northumbrian piper John Peacock. Lamshaw the younger was piper to the Duchess of Northumberland, appointed at an early age after the death of his grandfather.
+  \bold { Lambshaw's Fancy } There were two Lamshaws, both renowned Northumbrian pipers: 'Old' William Lamshaw (c. 1712-1798) and 'Young' William Lamshaw (1780–1806), who was the grandson. The elder Lamshaw was an innkeeper at Morpeth and one of the Town Waits. He became the Duchess of Northumberland's piper in 1775 and was musical tutor to the famous Northumbrian piper John Peacock. Lamshaw the younger was piper to the Duchess of Northumberland, appointed after the death of his grandfather.
 }
 \markup \smaller \wordwrap {
   Source: https://tunearch.org/wiki/Lamshaw%27s_Fancy
@@ -151,6 +153,8 @@
 \markup \vspace #1
 
 \markup \wordwrap {
-  \bold { Nancy } This version has an altered D part which I picked up from Meg. Composed by Borders musician Tom Clough (1881–1964) in the 1930's, who played the Northumbrian small pipes. Several stories are associated with the tune: the first has it that the music is supposed to depict Tom's first wife Nancy tripping up and down the stairs. A second is that a squeaky wheelbarrow was the inspiration for the melody, and finally it has been said to have been written for a favourite sheep. The tune is a variation of 'My Love is but a Lassie Yet'. Clough was a member of a Northumbrian family with a musical tradition that stretched back some 250 years. His playing has been described as crisp, staccato and highly rhythmic. He was active in the Northumbrian Pipers Society, and was one of the first Northumbrian pipers to be recorded.
+  \bold { Nancy } This version has an altered D part which I picked up from Meg. Composed by Borders musician Tom Clough (1881–1964) in the 1930's, who played the Northumbrian small pipes. Several stories are associated with the tune: the first that the music depicts Tom's first wife Nancy tripping up and down the stairs. A second that a squeaky wheelbarrow was inpired the melody, and finally that it was written for a favourite sheep. The tune is a variation of 'My Love is but a Lassie Yet'. Clough was a member of a Northumbrian family with a musical tradition that stretched back some 250 years. He was active in the Northumbrian Pipers Society, and was one of the first Northumbrian pipers to be recorded.
 }
-\markup \smaller \wordwrap { Source: https://tunearch.org/wiki/Nancy_(3) }
+\markup \smaller \wordwrap {
+  Source: https://tunearch.org/wiki/Nancy_(3)
+}
