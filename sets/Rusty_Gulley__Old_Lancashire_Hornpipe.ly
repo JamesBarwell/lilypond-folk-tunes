@@ -5,7 +5,6 @@
   print-all-headers = ##t
 }
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -58,9 +57,9 @@
     \repeat volta 2 {
       \partial 2. b'4 a g |
       fs4 a g b a d |
-      d4 e,2 b'4 a g |
-      fs4 a g b a cs |
-      \partial 2. e4 d,2 |
+      e4 e,2 b'4 a g |
+      fs4 a g b a b8 cs |
+      \partial 2. d4 d,2 |
     }
 
     \repeat volta 2 {
