@@ -1,7 +1,6 @@
 \version "2.20.0"
 \language "english"
 
-\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
