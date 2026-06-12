@@ -40,8 +40,8 @@
       g'4 g, b |
       g'4 g, g' |
       e8 d c b a g |
-      a'4 a, b |
-      a'4 a, b |
+      a'4 a, c |
+      a'4 a, c |
       a'4 a, a' |
       e2 d4 |
       g4 g, b |

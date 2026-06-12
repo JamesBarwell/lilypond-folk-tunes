@@ -18,11 +18,12 @@
 
     \repeat volta 2 {
       g4 g g8 a bf g |
-      a8 bf a g f4 ef |
+      a8 bf a g f4 d |
       d'4 d c8 d c bf |
       a8 g f g a bf c a |
       g4 g g8 a bf g |
-      a8 bf a g f4 ef |
+      a8 bf a g f4 d |
+      a8 bf a g f4 d |
       d'8 c bf a g bf a f |
       g4 g g2 |
     }
