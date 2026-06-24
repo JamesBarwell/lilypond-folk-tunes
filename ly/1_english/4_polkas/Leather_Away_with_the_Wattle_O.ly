@@ -5,7 +5,7 @@
 \score {
   \header {
     composer = "Traditional"
-    origin = "Ireland"
+    origin = "England, Ireland"
     meter = "Polka"
     title = "Leather Away with the Wattle O!"
   }
@@ -25,7 +25,7 @@
       g8 b a16 b a g |
       \partial 4. fs8 d d |
     }
-    
+
     \repeat volta 2 {
       \partial 8 e'8 |
       fs8. fs16 fs8 fs |
