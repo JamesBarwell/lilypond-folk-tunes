@@ -13,7 +13,8 @@ $(PDF_DIR)/book.pdf : $(LY_DIR)/**/*.ly
 	lilypond --loglevel=WARNING -o ./pdf /tmp/book.ly
 
 clean:
-	rm -f $(PDF_DIR)/* $(LY_DIR)/*.pdf
+	rm -f $(PDF_DIR)/*
+	find $(LY_DIR) -name "*.pdf" -type f -delete
 
 tune-list-keys:
 	./bin/tune-list-keys.sh
