@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Directories containing the .ly files
-SET_DIR="sets"
-TUNE_DIR="tunes"
+LY_DIR="ly"
 
 # Output file
 OUTPUT_FILE="tune-list-keys.txt"
@@ -70,13 +69,8 @@ extract_title_and_key() {
     fi
 }
 
-# Process .ly files in both directories
-for dir in "$SET_DIR" "$TUNE_DIR"; do
-    for ly_file in "$dir"/*.ly; do
-        if [[ -f "$ly_file" ]]; then
-            extract_title_and_key "$ly_file"
-        fi
-    done
+find $LY_DIR -type f -name '*.ly' -print0 | sort -z | while IFS= read -r -d '' ly_file; do
+    extract_title_and_key "$ly_file"
 done
 
 echo "Extraction complete. Results saved in $OUTPUT_FILE."

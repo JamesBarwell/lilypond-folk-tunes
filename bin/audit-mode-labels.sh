@@ -1,7 +1,6 @@
 #!/bin/bash
 
-SET_DIR="sets"
-TUNE_DIR="tunes"
+LY_DIR="ly"
 
 audit_key_labels() {
     local file="$1"
@@ -19,12 +18,8 @@ audit_key_labels() {
     done < "$file"
 }
 
-for dir in "$SET_DIR" "$TUNE_DIR"; do
-  for ly_file in "$dir"/*.ly; do
-    if [[ -f "$ly_file" ]]; then
-        audit_key_labels "$ly_file"
-    fi
-  done
+find $LY_DIR -type f -name '*.ly' -print0 | while IFS= read -r -d '' ly_file; do
+    audit_key_labels "$ly_file"
 done
 
 echo "Audit completed"
