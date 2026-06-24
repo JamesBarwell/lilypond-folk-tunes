@@ -1,14 +1,14 @@
 lilypond-folk-tunes
 ---
 
-My collection of traditional folk music, as I play it, in Lilypond format. Music from the British Isles, Ireland and Europe.
+My collection of traditional folk music, as I play it, in Lilypond format. Music from the British Isles, Ireland, and elsewhere.
 
 Download the [latest PDF tunebook](https://github.com/JamesBarwell/lilypond-folk-tunes/releases/latest/download/book.pdf).
 
 
 ## File organsation and build
 
-Tune sets are in `sets`. Individual tunes are in `tunes`.
+Lilypond markup files are in `ly`, roughly categorised by region and tune type.
 
 Run `make` to create individual pdf files of the sets, tunes and all combined as `book.pdf`.
 
