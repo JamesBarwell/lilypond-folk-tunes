@@ -1,0 +1,46 @@
+\version "2.20.0"
+\language "english"
+
+\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
+
+\score {
+  \header {
+    composer = "Traditional"
+    meter = "Reel"
+    origin = "Ireland"
+    title = "Porthole Of The Kelp"
+  }
+
+  \relative c' {
+    \time 4/4
+    \key d \dorian
+    \mark \markup \normalsize { Ddor }
+
+    \repeat volta 2 {
+      \partial 4 d8 e |
+      f4 d8 e f g a g8 |
+      f4. g8 e c c e |
+      f4 d8 e f g a g8 |
+      f8 d e c a d d e |
+      f4 d8 e f g a b |
+      c8 a g f e c c e |
+      d4 \tuplet 3/2 { e8 f g } a d d b |
+      c8 a g e e d d4 |
+    }
+
+    \repeat volta 2 {
+      d'4 a8 d d c a g |
+      f4. g8 e c c c' |
+      d4 a8 d d c a g |
+      a8 b c a d4. e8 |
+      f8 d e d d c a g |
+      e8 g c g e c c e |
+      d4 \tuplet 3/2 { e8 f g } a d d b |
+      c8 a g e e d d4 |
+    }
+  }
+}
+
+\markup \smaller \wordwrap {
+}
+\markup \smaller \wordwrap { Source: https://thesession.org/tunes/263 }
