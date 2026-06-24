@@ -29,7 +29,7 @@
 
     \partial 8 a8 |
     \repeat volta 2 {
-      b8 e e4\turn b8 e e cs |
+      b8 e e4\turn2 b8 e e cs |
       d8 b a fs d e fs a |
       fs'4.\turn e8 fs4.\turn e8 |
       d8 b a fs d e fs a |
