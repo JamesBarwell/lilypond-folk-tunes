@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build tunebook lilypond definition
-        run: ./bin/book.sh
+        run: ./bin/book.sh ./ly ./book.ly
       - name: Build tunebook PDF
         run: docker run --rm -v $(pwd):/app -w /app iskaron/lilypond lilypond ./book.ly
       - uses: ncipollo/release-action@v1

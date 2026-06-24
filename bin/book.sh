@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BOOK_ROOT=${1-"./ly"}
-TEMP_PATH=/tmp/book.ly
+TEMP_PATH=${2-"/tmp/book.ly"}
 
 rm -f "${TEMP_PATH}"
 
