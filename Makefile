@@ -1,5 +1,4 @@
-SETS_DIR := ./sets
-TUNES_DIR := ./tunes
+LY_DIR := ./ly
 PDF_DIR := ./pdf
 
 build: dirs book
@@ -9,13 +8,12 @@ dirs:
 
 book: $(PDF_DIR)/book.pdf
 
-$(PDF_DIR)/book.pdf : $(SETS_DIR)/*.ly $(TUNES_DIR)/*.ly
-	./bin/book.sh
-	lilypond --loglevel=WARNING -o ./pdf ./book.ly
-	rm -f ./book.ly
+$(PDF_DIR)/book.pdf : $(LY_DIR)/**/*.ly
+	./bin/book.sh $(LY_DIR)
+	lilypond --loglevel=WARNING -o ./pdf /tmp/book.ly
 
 clean:
-	rm -f $(PDF_DIR)/* $(SETS_DIR)/*.pdf $(TUNES_DIR)/*.pdf
+	rm -f $(PDF_DIR)/* $(LY_DIR)/*.pdf
 
 tune-list-keys:
 	./bin/tune-list-keys.sh
