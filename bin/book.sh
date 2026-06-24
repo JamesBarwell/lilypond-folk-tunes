@@ -1,6 +1,7 @@
 #!/bin/sh
 
 TEMP_PATH=./book.ly
+BOOK_ROOT=./book_root
 
 rm -f "${TEMP_PATH}"
 
@@ -36,25 +37,54 @@ cat <<EOT >> ${TEMP_PATH}
 }
 
 \markuplist \table-of-contents
+\pageBreak
+
 EOT
 
-for FILEPATH in ./sets/*.ly; do
-  TITLE=$(grep -E "(\s)title = .*" ${FILEPATH} | sed "s/title = //" | sed 's/"//g' | awk '{$1=$1};1' | sed ':a;N;$!ba;s/\n/  \/  /g')
-
-cat <<EOT >> ${TEMP_PATH}
-\bookpart {
-  \tocItem \markup "${TITLE}"
-  \include "${FILEPATH}"
+# Transform "1_english" to "English"
+function get_dir_display_name {
+    s=$1
+    out="${s#*_}"
+    out="${out^}"
+    echo "$out"
 }
-EOT
-done
 
-for FILEPATH in ./tunes/*.ly; do
-  TITLE=$(grep -E "(\s)title = .*" ${FILEPATH} | sed "s/title = //" | sed 's/"//g' | awk '{$1=$1};1' | sed ':a;N;$!ba;s/\n/  \/  /g')
-cat <<EOT >> ${TEMP_PATH}
-\bookpart {
-  \tocItem \markup "${TITLE}"
-  \include "${FILEPATH}"
-}
+find "$BOOK_ROOT" -print0 | while IFS= read -r -d '' path; do
+
+  # Compute relative path and depth
+  rel="${path#"$BOOK_ROOT"/}"
+
+  [[ "$rel" == "$path" ]] && continue  # safety; skip if not under start_dir
+
+  [[ -z "$rel" ]] && continue        # skip start_dir itself
+
+  depth=$(awk -F/ '{print NF-1}' <<< "$rel")
+  name="$(basename "$path")"
+
+  if [[ -d "$path" ]]; then
+
+    dir_display_name=$(get_dir_display_name "$name")
+
+    if (( depth == 0 )); then
+      cat <<EOT >> ${TEMP_PATH}
+\tocItem english \markup \bold \fontsize #4 \fill-line { "$dir_display_name" }
+
 EOT
+    else
+      cat <<EOT >> ${TEMP_PATH}
+\tocItem english.jigs \markup \bold \fontsize #3 { "$dir_display_name" }
+
+EOT
+    fi
+  elif [[ -f "$path" ]]; then
+      title=$(grep -E "(\s)title = .*" ${path} | sed "s/title = //" | sed 's/"//g' | awk '{$1=$1};1' | sed ':a;N;$!ba;s/\n/  \/  /g')
+
+      cat <<EOT >> ${TEMP_PATH}
+\bookpart {
+  \tocItem jigs.tune \markup "$title"
+  \include "$path"
+}
+
+EOT
+  fi
 done
