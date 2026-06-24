@@ -60,21 +60,21 @@
       \partial 4 a8 b |
       d4 a8 a'8 fs4 e8 d8 |
       e4 fs8 g b,4 e8 d8 |
-      cs4 b8 a a'4 e8 cs |
-      d4 e8 g8 a,4 a8 b |
+      cs4 b8 a g'4 e8 cs |
+      d4 e8 fs8 a,4 a8 b |
       d4 a8 a'8 fs4 e8 d8 |
       e4 fs8 g b,4 e8 d8 |
-      cs4 b8 a a'4 e8 cs |
+      cs4 b8 a g'4 e8 cs |
       \partial 2. d4 d8. d16 d4 |
     }
 
     \repeat volta 2 {
       \partial 4 fs8 g |
-      a4 fs8 d a a' fs g |
+      a4 fs8 d a a' fs d |
       e4 fs8 g b,4 e8 fs |
       g4 e8 cs a g' e cs |
       d4 e8 fs a,4 fs'8 g |
-      a4 fs8 d a a' fs g |
+      a4 fs8 d a a' fs d |
       e4 fs8 g b,4 e8 d |
       a4 b8 a a'4 e8 cs |
       \partial 2. d4 d8. d16 d4 |
