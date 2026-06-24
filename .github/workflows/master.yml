@@ -15,10 +15,10 @@ jobs:
       - name: Build tunebook lilypond definition
         run: ./bin/book.sh ./ly ./book.ly
       - name: Build tunebook PDF
-        run: docker run --rm -v $(pwd):/app -w /app iskaron/lilypond lilypond ./book.ly
+        run: docker run --rm -v $(pwd):/app -w /app iskaron/lilypond lilypond -o jbarwell-tunebook-$(date +"%FT%H%M%S") ./book.ly
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: "./book.pdf"
+          artifacts: "./*.pdf"
           artifactContentType: "application/pdf"
           commit: master
           tag: "v${{ github.run_number }}"
