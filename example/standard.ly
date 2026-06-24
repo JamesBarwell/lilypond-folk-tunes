@@ -31,6 +31,7 @@
   \absolute {
     \time 4/4
     \key d \major
+    \mark \markup \normalsize { Dmaj }
 
     \partial 4 \tuplet 3/2 {   a'8    b'8    cs''8  } |
 
