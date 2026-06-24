@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 BOOK_ROOT=${1-"./ly"}
 TEMP_PATH=/tmp/book.ly
