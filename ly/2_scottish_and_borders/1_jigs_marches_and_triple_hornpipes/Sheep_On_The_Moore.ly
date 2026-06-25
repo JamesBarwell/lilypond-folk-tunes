@@ -7,6 +7,7 @@
   \header {
     composer = "Traditional"
     meter = "Jig"
+    origin = "Northumberland"
     title = "Sheep On The Moore"
   }
 

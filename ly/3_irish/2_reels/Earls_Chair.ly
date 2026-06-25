@@ -14,6 +14,7 @@
   \relative c' {
     \time 4/4
     \key a \mixolydian
+    \mark \markup \normalsize { Amix }
 
     \repeat volta 2 {
       \partial 4 fs8 a |

@@ -10,7 +10,7 @@
   \header {
     composer = "Undine Hornby"
     meter = "Jig/Quadrille"
-    origin = "France, England"
+    origin = "England, France"
     title = "The Plane Tree"
   }
 

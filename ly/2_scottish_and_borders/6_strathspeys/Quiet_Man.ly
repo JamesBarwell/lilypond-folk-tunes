@@ -6,7 +6,7 @@
 \score {
   \header {
     composer = "Jim Sutherland"
-    origin = ""
+    origin = "Scotland"
     meter = "Strathspey"
     title = "The Quiet Man"
   }

@@ -7,6 +7,7 @@
   \header {
     composer = "P.M. George S. MacLennan"
     meter = "Pipe March"
+    origin = "Scotland"
     title = "The Braemar Gathering"
   }
 

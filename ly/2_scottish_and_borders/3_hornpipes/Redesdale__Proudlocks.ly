@@ -10,6 +10,7 @@
   \header {
     composer = "James Hill"
     meter = "Hornpipe"
+    origin = "Northumberland, England"
     tagline = "Lily was here 2.22.1 -- automatically converted from ABC"
     title = "Redesdale Hornpipe"
   }

@@ -7,7 +7,7 @@
   \header {
     arranger = "Bruce & Stokoe – Northumbrian Minstrelsy (1882)"
     composer = "Traditional"
-    origin = "Northumbria, England"
+    origin = "Northumberland"
     meter = "Air"
     title = "Sir John Fenwick's the Flower Amang Them"
   }

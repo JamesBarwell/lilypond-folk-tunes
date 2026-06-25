@@ -7,6 +7,7 @@
   \header {
     composer = "Joe Cooley"
     meter = "Reel"
+    origin = "Ireland"
     title = "Cooley's"
   }
 

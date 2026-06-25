@@ -7,6 +7,7 @@
   \header {
     composer = "Traditional"
     meter = "Reel"
+    origin = "Ireland"
     title = "Sergeant Early's Dream"
   }
 

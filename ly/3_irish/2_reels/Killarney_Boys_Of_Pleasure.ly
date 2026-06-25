@@ -7,6 +7,7 @@
   \header {
     composer = "Traditional"
     meter = "Reel"
+    origin = "Ireland"
     title = "The Killarney Boys Of Pleasure"
   }
 

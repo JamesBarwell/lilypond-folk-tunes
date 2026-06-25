@@ -5,6 +5,7 @@
 \score {
   \header {
     meter = "Slow air"
+    origin = "Scotland"
     title = "Archibald MacDonald Of Keppoch"
     composer = "Traditional"
     arranger = "The Airs and Melodies Peculiar to the Highlands of Scotland and the Isles, Simon Fraser (1816)"

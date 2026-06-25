@@ -10,7 +10,7 @@
 \score {
   \header {
     composer = "Robert Whinham"
-    meter = "Hornpipe"
+    meter = "Jig"
     origin = "Northumberland, England"
     title = "Me Mother's Jig"
     subtitle = "Whinham's Jig"

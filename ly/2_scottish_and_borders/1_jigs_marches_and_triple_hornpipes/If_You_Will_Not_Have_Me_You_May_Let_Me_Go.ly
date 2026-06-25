@@ -6,8 +6,8 @@
   \header {
     arranger = "William Vickers MS, 1770 (modern version in Bm)"
     composer = "Traditional"
-    keywords = "northumbrian"
-    meter = "Old Hornpipe"
+    origin = "Northumberland"
+    meter = "Triple Hornpipe"
     title = "If You Will Not Have Me, You May Let Me Go"
   }
 

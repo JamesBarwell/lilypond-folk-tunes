@@ -10,7 +10,7 @@
   \header {
     composer = "Traditional"
     meter = "Triple Hornpipe"
-    origin = "England"
+    origin = "Northumberland"
     title = "Rusty Gulley"
   }
 
@@ -38,7 +38,7 @@
   \header {
     composer = "Traditional"
     meter = "Triple Hornpipe"
-    origin = "England"
+    origin = "Northumberland"
     title = "Old Lancashire Hornpipe"
   }
 

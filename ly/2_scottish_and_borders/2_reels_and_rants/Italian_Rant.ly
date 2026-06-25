@@ -5,7 +5,7 @@
   \header {
     arranger = "John Playford, The English Dancing Master, 3rd Ed., 1657"
     composer = "Traditional"
-    origin = "England, Italy"
+    origin = "Northumberland, England, Italy"
     meter = "Rant"
     title = "An Italian Rant"
   }
@@ -20,7 +20,7 @@
       c4 c8 d bf4 bf8 c |
       a8 g a bf g4 g |
     }
-    
+
     \repeat volta 2 {
       g'4 g8 g f4 f8 f |
       e8 d e f d4 d |

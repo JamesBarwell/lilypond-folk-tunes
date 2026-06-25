@@ -6,7 +6,7 @@
     arranger = "William Vickers MS, 1770"
     composer = "Traditional"
     meter = "Reel"
-    origin = "England"
+    origin = "Northumberland, England"
     title = "Scant of Siller"
   }
 

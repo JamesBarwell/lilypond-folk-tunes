@@ -5,6 +5,7 @@
   \header {
     composer = "James Hill"
     meter = "Hornpipe"
+    origin = "Northumberland, England"
     title = "The Bee's Wing"
   }
 

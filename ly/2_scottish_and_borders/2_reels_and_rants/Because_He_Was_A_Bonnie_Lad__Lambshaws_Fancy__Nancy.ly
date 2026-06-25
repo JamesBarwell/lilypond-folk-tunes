@@ -10,7 +10,7 @@
     arranger = "Bruce & Stokoe - Northumbrian Minstrelsy (1882)"
     composer = "Traditional"
     meter = "Reel"
-    origin = "Northumbria, England"
+    origin = "Northumberland, England"
     title = "Because He Was A Bonnie Lad"
   }
 
@@ -40,7 +40,7 @@
   \header {
     composer = "Traditional"
     meter = "Reel"
-    origin = "Northumbria, England"
+    origin = "Northumberland, England"
     title = "Lambshaw's Fancy"
   }
 
@@ -72,7 +72,7 @@
     arranger = "The Northumbrian Pipers' Tune Book"
     composer = "Tom Clough"
     meter = "March"
-    origin = "Northumbria, England"
+    origin = "Northumberland, England"
     title = "Nancy"
     subtitle = "Nancy Clough's"
   }

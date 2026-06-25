@@ -5,6 +5,7 @@
 \score {
   \header {
     meter = "Waltz"
+    origin = "Northumberland"
     title = "Floating From Skerry"
     composer = "Lynn Tocker"
   }
@@ -35,7 +36,7 @@
     \repeat volta 2 {
       e4. fs8 g8 e8 |
       a4. g8 fs4 |
-      e4. fs8 g8 e8 |
+      e4. fs8 g8\grace { fs } e8 |
       fs4 d4 b4 |
       e4. fs8 g4 |
       a4. g8 fs4 |

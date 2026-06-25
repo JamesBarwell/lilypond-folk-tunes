@@ -10,7 +10,7 @@
   \header {
     composer = "Traditional"
     meter = "Hornpipe"
-    origin = "England"
+    origin = "Northumberland"
     arranger = "Northumbrian Pipers' Tunebook (Third Edition)"
     tagline = "Lily was here 2.22.1 -- automatically converted from ABC"
     title = "Swalwell Lasses"
@@ -51,7 +51,7 @@
   \header {
     composer = "Traditional"
     meter = "Hornpipe"
-    origin = "England"
+    origin = "Northumberland"
     arranger = "Darcie's TrTuneSbk Vo.2 (1998) p. 41"
     tagline = "Lily was here 2.22.1 -- automatically converted from ABC"
     title = "South Shields Lasses"

@@ -5,7 +5,8 @@
 \score {
   \header {
     composer = "Jerry Holland"
-    meter = "Watlz"
+    meter = "Waltz"
+    origin = "Cape Breton"
     title = "My Cape Breton Home"
   }
 

@@ -60,6 +60,7 @@
   \relative c'' {
     \time 9/8
     \key e \dorian
+    \mark \markup \normalsize { Edor }
 
     \repeat volta 2 {
       g4 b8 e,4 b'8 b a g |

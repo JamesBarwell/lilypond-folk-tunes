@@ -80,7 +80,7 @@
     arranger = "Stewart Hardy"
     composer = "W. Miller"
     meter = "Rant"
-    origin = "England"
+    origin = "Northumberland, England"
     title = "Dunstanburgh Castle"
   }
 

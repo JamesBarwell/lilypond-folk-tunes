@@ -10,6 +10,7 @@
   \header {
     composer = "Traditional"
     meter = "Rant"
+    origin = "Northumberland"
     title = "Old Morpeth Rant"
   }
 
@@ -47,6 +48,7 @@
   \header {
     composer = "Tradtional"
     meter = "Rant"
+    origin = "Northumberland"
     title = "Morpeth Rant (New)"
   }
 

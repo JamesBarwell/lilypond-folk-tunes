@@ -10,6 +10,7 @@
   \header {
     composer = "Ronnie Cooper"
     meter = "Waltz"
+    origin = "Shetland"
     arranger = "Jack Yorston, Orkney"
     tagline = "Lily was here 2.22.1 -- automatically converted from ABC"
     title = "Ronas Voe"

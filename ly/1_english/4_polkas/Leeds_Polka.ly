@@ -4,8 +4,9 @@
 \score {
   \header {
     transcription = "James Barwell"
-    composer = "Traditional"    
+    composer = "Traditional"
     meter = "Polka"
+    origin = "England"
     title = "Leeds Polka"
   }
 
@@ -45,7 +46,7 @@
         g,8 g8 g4 |
       }
     }
-    
+
     % C section
     \repeat volta 2 {
       d16 g16 b8 b8 b8 |
@@ -54,7 +55,7 @@
     }
     \alternative {
      {
-       
+
        g16 fs16 g16 b16 e8 d8 |
      }
      {

@@ -6,6 +6,7 @@
   \header {
     composer = "Dougie Pincock"
     meter = "Reel"
+    origin = "Northumberland"
     title = "Return To Kashmagiro"
   }
 

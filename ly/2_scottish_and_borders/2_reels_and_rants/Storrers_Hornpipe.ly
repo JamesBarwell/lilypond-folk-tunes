@@ -6,7 +6,7 @@
   \header {
     composer = "Traditional"
     meter = "Rant"
-    origin = "England, Lake District, Northumbrian"
+    origin = "England, Lake District, Northumberland"
     subtitle = "Bank's Hornpipe"
     title = "Storrer's Hornpipe"
   }
@@ -26,7 +26,7 @@
       a8 e cs e fs a e d |
       \partial 2. cs4 a a |
     }
-    
+
     \repeat volta 2 {
        \partial 4 cs8 e |
        fs8 e cs e a gs fs e |
@@ -42,6 +42,6 @@
 }
 
 \markup \wordwrap {
-  In the Scottish tradition it appears as both a reel and a hornpipe but it also appears in the manuscript of Lakeland fiddler, William Irwin (c. 1850, Cumberland), and the manuscript of John Hall (c. 1833, Northumberland) as Bank’s Hornpipe. 
+  In the Scottish tradition it appears as both a reel and a hornpipe but it also appears in the manuscript of Lakeland fiddler, William Irwin (c. 1850, Cumberland), and the manuscript of John Hall (c. 1833, Northumberland) as Bank’s Hornpipe.
 }
 \markup \smaller \wordwrap { Source: https://www.stewarthardy.co.uk/the-tune-vault }

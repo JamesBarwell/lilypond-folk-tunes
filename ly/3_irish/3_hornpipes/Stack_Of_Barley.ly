@@ -7,6 +7,7 @@
   \header {
     composer = "Traditional"
     meter = "Hornpipe"
+    origin = "Ireland"
     title = "The Stack Of Barley"
   }
 
@@ -36,7 +37,7 @@
       d8 b a g a c b a |
       g4 g8 a b d a c |
       \partial 2. b4 g g |
-      
+
     }
   }
 }

@@ -8,6 +8,7 @@
   \header {
     composer = "Jim Craigie (Rousay)"
     meter = "Strathspey"
+    origin = "Orkney"
     title = "The Road To Hammer Junkie"
   }
 

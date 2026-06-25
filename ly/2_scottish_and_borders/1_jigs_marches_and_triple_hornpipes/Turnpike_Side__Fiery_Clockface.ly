@@ -9,6 +9,7 @@
   \header {
     arranger = "The John Bell music manuscript collection (c. 1812, Northumberland)"
     meter = "Jig"
+    origin = "Northumberland"
     title = "Turnpike Side"
   }
 
@@ -47,6 +48,7 @@
     arranger = "Traditional Dance Music of Britain and Ireland: Jigs & Quicksteps Trips & Humours, 1997"
     composer = "Robert \"Bobby\" Nunn (1808-1853)"
     meter = "Jig"
+    origin = "Northumberland"
     title = "The Fiery Clockface"
   }
 

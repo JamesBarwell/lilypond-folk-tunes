@@ -6,6 +6,7 @@
   \header {
     composer = "Phil Cunningham"
     meter = "Waltz"
+    origin = "Scotland"
     title = "Flatwater Fran"
   }
 

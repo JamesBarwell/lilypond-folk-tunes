@@ -5,7 +5,7 @@
   \header {
     arranger = "The Lads Like Beer, 1987"
     composer = "James Hill"
-    origin = "Northumbria, England"
+    origin = "Northumberland, England"
     meter = "Hornpipe"
     title = "The Tide Comes In"
   }

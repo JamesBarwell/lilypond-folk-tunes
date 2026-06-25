@@ -10,6 +10,8 @@
   \header {
     title = "O'Connor's"
     composer = "Traditional"
+    meter = "Polka"
+    origin = "Ireland"
   }
 
   \relative {
@@ -47,6 +49,9 @@
 \score {
   \header {
     title = "Tralee Gaol"
+    composer = "Traditional"
+    meter = "Polka"
+    origin = "Ireland"
   }
 
   <<
@@ -110,6 +115,8 @@
   \header {
     title = "Maggie In The Woods"
     composer = "Traditional"
+    meter = "Polka"
+    origin = "Ireland"
   }
 
   \relative {

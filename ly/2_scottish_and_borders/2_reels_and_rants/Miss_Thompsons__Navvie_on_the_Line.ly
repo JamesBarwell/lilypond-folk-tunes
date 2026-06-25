@@ -9,6 +9,7 @@
 \score {
   \header {
     meter = "Hornpipe"
+    origin = "Northumberland"
     tagline = "Lily was here 2.22.1 -- automatically converted from ABC"
     title = "Miss Thompson's"
   }
@@ -47,6 +48,7 @@
   \header {
     composer = "James Hill"
     meter = "Hornpipe"
+    origin = "Northumberland"
     tagline = "Lily was here 2.22.1 -- automatically converted from ABC"
     title = "Navvie on the Line"
   }

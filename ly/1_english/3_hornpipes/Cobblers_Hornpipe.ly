@@ -5,7 +5,7 @@
   \header {
     arranger = "Playford, Dancing Master, 11th Ed., 1701"
     composer = "Traditional"
-    meter = "Old Hornpipe"
+    meter = "Triple Hornpipe"
     origin = "England;London"
     title = "Cobbler's Hornpipe"
     transcription = "Chris Partington"

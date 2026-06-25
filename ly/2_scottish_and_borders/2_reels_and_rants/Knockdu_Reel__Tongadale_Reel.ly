@@ -10,6 +10,7 @@
     composer = "Ian Hardie"
     keywords = "scottish"
     meter = "Reel"
+    origin = "Scotland"
     title = "Knockdhu Reel, The"
     transcription = "2014 John Chambers <jc:trillian.mit.edu>"
   }
@@ -47,6 +48,7 @@
     composer = "Farquhar McDonald (1995)"
     keywords = "scottish"
     meter = "Reel"
+    origin = "Scotland"
     title = "Tongadale Reel, The"
   }
 
