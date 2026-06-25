@@ -10,9 +10,11 @@ Download the [latest PDF tunebook](https://github.com/JamesBarwell/lilypond-folk
 
 Lilypond markup files are in `ly`, roughly categorised by region and tune type.
 
-Run `make` to create individual pdf files of the sets, tunes and all combined as `book.pdf`.
+Run `make` to create the tunebook as `book.pdf`.
 
 Run `make clean` to delete all pdfs.
+
+Other useful commands are available in the Makefile.
 
 
 ## Conventions and opinions
