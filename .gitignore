@@ -1,5 +1,4 @@
 abc/
 pdf/
-sets/*.pdf
-tunes/*.pdf
+ly/**/*.pdf
 tune-list-keys.txt
