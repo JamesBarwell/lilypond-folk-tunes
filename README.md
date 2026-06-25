@@ -43,5 +43,4 @@ See the `examples` directory for handy Lilypond code snippets.
   * tags: these previously broke sets because it doesn't seem possible to specify exports
   * all variations at end, with some kind of anchor link or label to refer to its place in the tune, e.g. bar number.
   * ossias: these work, but show below the line and take up a lot of vertical space.
-- Book contents page is ugly and not well spaced.
 - MIDI/mp3/ogg output
