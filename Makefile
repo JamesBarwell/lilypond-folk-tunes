@@ -21,3 +21,6 @@ tune-list-keys:
 
 audit-mode-labels:
 	./bin/audit-mode-labels.sh
+
+audit-metadata:
+	./bin/audit-metadata.sh
