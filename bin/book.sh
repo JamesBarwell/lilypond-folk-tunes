@@ -102,7 +102,7 @@ EOT
     fi
 
   # Output set/tune
-  elif [[ -f "$path" ]]; then
+  elif [[ -f "$path" ]] && [ "${path: -3}" == ".ly" ]; then
       title=$(grep -E "(\s)title = .*" ${path} | sed "s/title = //" | sed 's/"//g' | awk '{$1=$1};1' | sed ':a;N;$!ba;s/\n/  \/  /g')
 
       cat <<EOT >> ${TEMP_PATH}
