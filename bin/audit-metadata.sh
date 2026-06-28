@@ -8,7 +8,7 @@ check_region() {
 
     if [ "$region" = "english" ]; then
         patterns=("england" "yorkshire" "northumberland")
-    elif [ "$region" = "scottish_and_borders" ]; then
+    elif [ "$region" = "scottish__borders" ]; then
         patterns=("scotland" "northumberland" "orkney" "cape breton" "shetland")
     elif [ "$region" = "irish" ]; then
         patterns=("ireland")
@@ -31,23 +31,23 @@ check_type() {
     local file=$1
     local tune_type=$2
 
-    if [ $tune_type = "jigs_and_triple_hornpipes" ]; then
+    if [ $tune_type = "jigs__triple_hornpipes" ]; then
         patterns=("jig" "triple hornpipe" "country dance")
     elif [ $tune_type = "polkas" ]; then
         patterns=("polka")
     elif [ $tune_type = "hornpipes" ]; then
         patterns=("hornpipe")
-    elif [ $tune_type = "reels_and_country_dances" ]; then
+    elif [ $tune_type = "reels__country_dances" ]; then
         patterns=("reel" "country dance")
-    elif [ $tune_type = "jigs_marches_and_triple_hornpipes" ]; then
+    elif [ $tune_type = "jigs_marches__triple_hornpipes" ]; then
         patterns=("jig" "march" "pipe march" "triple hornpipe")
-    elif [ $tune_type = "waltzes_and_airs" ]; then
+    elif [ $tune_type = "waltzes__airs" ]; then
         patterns=("waltz" "air" "slow air")
-    elif [ $tune_type = "reels_and_rants" ]; then
+    elif [ $tune_type = "reels__rants" ]; then
         patterns=("reel" "slow reel" "rant")
     elif [ $tune_type = "strathspeys" ]; then
         patterns=("strathspey")
-    elif [ $tune_type = "jigs_and_slip-jigs" ]; then
+    elif [ $tune_type = "jigs__slip_jigs" ]; then
         patterns=("jig" "slip jig")
     elif [ $tune_type = "reels" ]; then
         patterns=("reel")
