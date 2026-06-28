@@ -9,7 +9,8 @@ cat <<EOT >> ${TEMP_PATH}
 \version "2.20.0"
 \language "english"
 
-title = #(strftime "James Barwell's tunebook: %d-%m-%Y" (localtime (current-time)))
+title = "James Barwell's Tunebook"
+date = #(strftime "%d-%m-%Y" (localtime (current-time)))
 
 \header{
   pdftitle = \title
@@ -57,22 +58,60 @@ tocRegion = #(define-music-function (parser location text) (markup?)
 tocType = #(define-music-function (parser location text) (markup?)
   (add-toc-item! 'tocTypeMarkup text))
 
+\markup \fill-line {
+  \center-column {
+    \huge \bold \title
+    \vspace #0.5
+    \italic \concat { "Last updated: " \date }
+    \small "https://github.com/JamesBarwell/lilypond-folk-tunes"
+    \small \concat { "Processed with LilyPond version: " #(lilypond-version) }
+  }
+}
+
+\markup \vspace #1
+
 \markuplist \table-of-contents
 \pageBreak
 
 EOT
 
-function get_dir_display_name {
-    s=$1
+get_dir_display_name() {
+  local in="${1:-}"
 
-    out="${s#*_}" # strip number and underscore
+  # Strip the leading "<number>_" prefix if present
+  in="${in#*_}"
 
-    out="${out//_/ }" # underscores to spaces
-    # set title-case
-    out="$(printf '%s' "$out" \
-      | awk '{ for (i=1;i<=NF;i++) $i=toupper(substr($i,1,1)) substr($i,2); print }')"
+  # Transform double-underscores into special characters for splitting
+  in="${in//__/@}"
 
-    echo $out
+  # Transform single-underscores into spaces
+  in="${in//_/ }"
+
+  # Split string into array by underscore
+  IFS='@' read -ra items <<< "$in"
+
+  # Capitalize first letter of each word
+  local i
+  for ((i=0; i<${#items[@]}; i++)); do
+    s=( ${items[i]} )
+    items[i]="${s[@]^}"
+  done
+
+  # Join items into comma-separated and finally "and" output list
+  local n="${#items[@]}"
+  if (( n == 0 )); then
+    echo ""
+  elif (( n == 1 )); then
+    echo "${items[0]}"
+  elif (( n == 2 )); then
+    echo "${items[0]} and ${items[1]}"
+  else
+    local prefix="${items[0]}"
+    for ((i=1; i<n-1; i++)); do
+      prefix+=", ${items[i]}"
+    done
+    echo "$prefix and ${items[n-1]}"
+  fi
 }
 
 find "$BOOK_ROOT" -print0 | sort -z | while IFS= read -r -d '' path; do
