@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.25.22"
 \language "english"
 
 \markup \rotate #30 \large \bold \with-color "red" "DRAFT"
@@ -15,21 +15,26 @@
     \time 3/4
     \key g \minor
 
+    % Disable beaming for time signature and set auto-beaming to group 1/8 notes in pairs
+    \set Timing.beamExceptions = #'()
+    \set Timing.beatBase = #1/8
+    \set Timing.beatStructure = 2, 2
+
     \repeat volta 2 {
       d8 ef d c a bf |
-      g4 g8 g a bf |
+      g4( g8) g a bf |
       c8 ef ef ef d c |
-      d4 d8 d d c |
+      d4( d8) d d c |
       d8 ef d c a bf |
-      g4 g8 g a bf |
+      g4( g8) g a bf |
       ef,8 g bf ef, g bf |
       a4 a8 a bf a |
       g8 ef c ef g ef |
       f4 f8 d bf d |
       g8 ef bf ef g ef |
       f4 f g8 a |
-      bf4 bf8 c c d |
-      d4 d8 c bf c |
+      bf4 bf8 c( c) d |
+      d4( d8) c bf c |
       c8 c c bf g f |
       g4 g2 |
     }
@@ -37,17 +42,17 @@
     \repeat volta 2 {
       g4 g8 d g a |
       bf4 bf8 a bf d |
-      c4 c8 d d c |
+      c4 c8 d( d) c |
       f,2 f4 |
       g4 g8 d g a |
       bf4 bf8 a bf d |
-      c4 c8 d d c |
+      c4 c8 d( d) c |
       f,8 g bf a d c |
       g'8 ef c g ef c |
       f'8 d bf f d bf |
       ef'8 bf g ef bf g |
       a8 c f a c a |
-      bf4 bf8 c c d |
+      bf4 bf8 c( c) d |
       d4 d8 c bf a |
       c8 c c bf g f |
       g4 g2 |

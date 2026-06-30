@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.25.22"
 \language "english"
 
 
@@ -16,10 +16,10 @@
       \time 3/2
       \key b \minor
 
-      % Fix auto-beaming to group notes in pairs
+      % Disable beaming for time signature and set auto-beaming to group 1/8 notes in pairs
       \set Timing.beamExceptions = #'()
-      \set Timing.baseMoment = #(ly:make-moment 1/4)
-      \set Timing.beatStructure = 1,1,1,1,1,1
+      \set Timing.beatBase = #1/8
+      \set Timing.beatStructure = 2, 2
 
       % A section
       \repeat volta 2 {
