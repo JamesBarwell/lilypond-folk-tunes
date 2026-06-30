@@ -86,8 +86,62 @@
     }
   >>
 }
+
+\score {
+  \header {
+    composer = "Aly Bain"
+    origin = "England"
+    meter = "Waltz"
+    title = "Margaret's Waltz (A)"
+  }
+
+  \relative c'' {
+    \time 3/4
+    \key a \major
+
+    \repeat volta 2 {
+      \partial 4 a8 fs |
+      e4. fs8 a b |
+      cs2 a8 cs |
+      b8 a fs4 a8 cs |
+      b2 a8 fs |
+      e4. fs8 a b |
+      cs8 e4. a,8 b |
+      cs4 cs b |
+      \partial 2 a2 |
+    }
+
+    \partial 4 cs8 d |
+    e4 fs gs |
+    a4 gs a |
+    fs8 e d4 fs |
+    e2 cs8 b |
+    a4. b8 cs d |
+    e4 cs e |
+    fs8 e d4 cs |
+    b2 cs8 d |
+    e4 fs gs |
+    a4 gs fs |
+    e4 d cs |
+    b2 a8 fs |
+    e4. fs8 a b |
+    cs8 e4. a,8 b |
+    cs4 cs b |
+    \partial 2. a2. |
+  }
+}
+
 \markup \wordwrap {
-  Composed in 1959 by English collector Pat Shuldham-Shaw (1917-1977), and dedicated to Margaret Grant, representative in Devon of the English Folk Dance and Song Society on the occasion of her retirement. It was popular in USA. Jay Ungar taught it to Aly Bain, who played it to Pat Shaw as a new tune he'd picked up!
+  \bold { Margaret's Waltz } Composed in 1959 by English collector Pat Shuldham-Shaw (1917-1977), and dedicated to Margaret Grant, representative in Devon of the English Folk Dance and Song Society on the occasion of her retirement. It was popular in USA. Jay Ungar taught it to Aly Bain, who played it to Pat Shaw as a new tune he'd picked up!
 }
 
 \markup \smaller \wordwrap { Source: Hugh }
+
+\markup \vspace #1
+
+\markup \smaller \wordwrap {
+  \bold { Margaret's Waltz (A) } This A major version is based on Aly Bain's Scottishified version.
+}
+\markup \smaller \wordwrap {
+  Source: https://thesession.org/tunes/1678
+}

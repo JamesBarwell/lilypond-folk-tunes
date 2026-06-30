@@ -1,10 +1,7 @@
 \version "2.24.4"
 \language "english"
 
-\paper {
-  print-all-headers = ##t
-}
-
+\markup \rotate #30 \large \bold \with-color "red" "DRAFT"
 
 \score {
   \header {
@@ -83,7 +80,7 @@
       b8 g g a16 b c8 a d b |
       e8 c c e fs4 d8 fs |
       g8. a16 g8 e d e16 fs g8 b, |
-      \partial 2. b16 c d8 c b a4 |
+      c16 d e8 d c b g g4 |
     }
   }
 }

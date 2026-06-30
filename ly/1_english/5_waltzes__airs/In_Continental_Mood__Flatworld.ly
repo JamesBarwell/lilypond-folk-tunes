@@ -119,8 +119,8 @@
       \repeat volta 2 {
         \partial 4. b8 a b |
         g8 b fs b e, g |
-        \grace { e16 g } c2. |
-        \grace { e,16 a } c4. b8 a g |
+        \grace { e8 } c'2. |
+        \grace { e,8 } c'4. b8 a g |
         fs4. b8 a b |
         g8 b fs b e, g |
         c4. b8 a g |

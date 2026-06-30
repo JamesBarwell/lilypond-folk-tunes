@@ -24,7 +24,7 @@
         e8 g b g e4 g8 b |
         d8 d cs b fs2 |
         a8 g fs e d e fs g |
-        e4 d'2. |
+        e4 b'2. |
       }
 
       \repeat volta 2 {
@@ -41,7 +41,7 @@
           b2( b8) a fs g |
         }
         {
-          e2 ds |
+          b1 |
         }
       }
     }

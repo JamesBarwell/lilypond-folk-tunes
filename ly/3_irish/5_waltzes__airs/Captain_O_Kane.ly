@@ -12,39 +12,39 @@
   }
 
   <<
-    \relative c' {
+    \relative c'' {
       \time 3/4
-      \key g \major
+      \key g \minor
 
       \repeat volta 2 {
-        \partial 4 e8 d |
-        b4 e fs |
-        g2 fs8 e |
-        fs8 g a g fs e |
-        d4 e fs |
-        g4 b g |
-        b8 a g fs e d |
-        b4 e \acciaccatura fs8 e4 |
-        \partial 2 \acciaccatura fs8 e2 |
+        \partial 4 g8 f |
+        d4 g a |
+        bf2 a8 g |
+        a8 bf c bf a g |
+        f4 g a |
+        bf4 d bf |
+        d8 c bf a g f |
+        d4 g \acciaccatura f8 g4 |
+        \partial 2 \acciaccatura f8 g2 |
       }
 
-      \partial 4 e8 fs |
-      g8 a( a4) b |
-      b2 a8 g |
-      fs8 g( g4) a |
-      a2 g8 fs |
-      e4 e' ds |
-      e4 fs g |
-      b,4 e ds |
-      e2 e8 fs |
-      a4. fs8 e4 |
-      d4. c8 b4 |
-      a4 fs d' |
-      d,4 e fs |
-      g4 b g |
-      b8 a g fs e d |
-      b4 e \acciaccatura fs8 e4 |
-      \partial 2 \acciaccatura fs8 e2 |
+      \partial 4 g8 a |
+      bf8 c( c4) d |
+      d2 c8 bf |
+      a8 bf( bf4) c |
+      c2 bf8 a |
+      g4 g' fs |
+      g4 a bf |
+      d,4 g fs |
+      g2 g8 a |
+      b4. a8 g4 |
+      f4. ef8 d4 |
+      c4 bf f' |
+      f,4 g a |
+      bf4 d bf |
+      d8 c bf a g f |
+      d4 g \acciaccatura f8 g4 |
+      \partial 2 \acciaccatura f8 g2 |
     }
 
     \chords {
@@ -52,33 +52,33 @@
 
       % A section
       r4 |
-      e2.:min |
-      e:min |
-      d |
-      b:min |
-      g |
-      d/fs |
-      e:min |
-      e2:min |
+      g2.:min |
+      g:min |
+      fs |
+      d:min |
+      b |
+      fs/a |
+      g:min |
+      g2:min |
       
       % B section
       r4 |
-      g2. |
-      g |
-      d |
-      b:7/ds |
-      e:min |
-      a:min |
-      e4.:min/b b |
-      e2.:min |
-      c |
-      g/b |
-      d |
-      b:min |
-      g |
-      d/fs |
-      e:min |
-      e2:min |
+      b2. |
+      b |
+      fs |
+      d:7/fss |
+      g:min |
+      c:min |
+      g4.:min/d d |
+      g2.:min |
+      e |
+      b/d |
+      fs |
+      d:min |
+      b |
+      fs/a |
+      g:min |
+      g2:min |
     }
   >>
 }

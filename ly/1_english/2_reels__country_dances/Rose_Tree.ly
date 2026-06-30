@@ -24,7 +24,7 @@
       d4 b a fs |
       a8 b a fs a4 a8 b |
       d4 cs8 d e4 d8 e |
-      fs4 e fs8 g fs e |
+      fs4 e e8 g fs e |
       d4 b a fs |
       a8 b a fs a4 a8 b |
       d4 cs8 d e4 d8 e |

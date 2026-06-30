@@ -76,14 +76,14 @@
       d4 d8 fs e d |
       cs8 e a e cs a |
       b4 b8 e fs g |
-      \partial 1*5/8 a,8 e' cs d4 |
+      \partial 1*5/8 b,8 e cs d4 |
     }
 
     \repeat volta 2 {
       \partial 8 d,8 |
       d8 fs a fs a d |
       a8 d fs d fs a |
-      a8 g a g e g |
+      a8 fs a g e g |
       fs8 d fs e cs a |
       d,8 fs a fs a d |
       a8 d fs d fs a |
